@@ -1,0 +1,536 @@
+{
+  "adapter": {
+    "ru": "переходник",
+    "es": "adaptador",
+    "de": "Adapter",
+    "fr": "adaptateur"
+  },
+  "adapter to %s, limit about %.1f MHz": {
+    "ru": "переходник в %s, предел около %.1f МГц",
+    "es": "adaptador a %s, límite de unos %.1f MHz",
+    "de": "Adapter auf %s, Grenze etwa %.1f MHz",
+    "fr": "adaptateur vers %s, limite d'environ %.1f MHz"
+  },
+  "adapter, DPCD registers": {
+    "ru": "переходник, регистры DPCD",
+    "es": "adaptador, registros DPCD",
+    "de": "Adapter, DPCD-Register",
+    "fr": "adaptateur, registres DPCD"
+  },
+  "adapter, saved DPCD registers": {
+    "ru": "переходник, сохранённые регистры DPCD",
+    "es": "adaptador, registros DPCD guardados",
+    "de": "Adapter, gespeicherte DPCD-Register",
+    "fr": "adaptateur, registres DPCD enregistrés"
+  },
+  "add the best modes for standard resolutions": {
+    "ru": "добавить лучшие режимы для стандартных разрешений",
+    "es": "añadir los mejores modos para las resoluciones estándar",
+    "de": "die besten Modi für Standardauflösungen hinzufügen",
+    "fr": "ajouter les meilleurs modes pour les résolutions standard"
+  },
+  "allow a software replug (the monitor blinks)": {
+    "ru": "разрешить программное переподключение (монитор моргнёт)",
+    "es": "permitir una reconexión por software (el monitor parpadea)",
+    "de": "Software-Umstecken erlauben (der Monitor blinkt)",
+    "fr": "autoriser un rebranchement logiciel (le moniteur clignote)"
+  },
+  "allow modes outside the limits": {
+    "ru": "разрешить режимы вне пределов",
+    "es": "permitir modos fuera de los límites",
+    "de": "Modi außerhalb der Grenzen erlauben",
+    "fr": "autoriser les modes hors limites"
+  },
+  "also show widescreen resolutions": {
+    "ru": "показать и широкоформатные разрешения",
+    "es": "mostrar también resoluciones panorámicas",
+    "de": "auch Breitbildauflösungen anzeigen",
+    "fr": "afficher aussi les résolutions larges"
+  },
+  "amdgpu re-detection (trigger_hotplug=1)": {
+    "ru": "повторное определение amdgpu (trigger_hotplug=1)",
+    "es": "nueva detección de amdgpu (trigger_hotplug=1)",
+    "de": "erneute Erkennung durch amdgpu (trigger_hotplug=1)",
+    "fr": "nouvelle détection amdgpu (trigger_hotplug=1)"
+  },
+  "analog input": {
+    "ru": "аналоговый вход",
+    "es": "entrada analógica",
+    "de": "analoger Eingang",
+    "fr": "entrée analogique"
+  },
+  "apply at every boot": {
+    "ru": "применять при каждой загрузке",
+    "es": "aplicar en cada arranque",
+    "de": "bei jedem Start anwenden",
+    "fr": "appliquer à chaque démarrage"
+  },
+  "bad checksum in extension block 0x%02x": {
+    "ru": "неверная контрольная сумма блока расширения 0x%02x",
+    "es": "suma de comprobación incorrecta en el bloque de extensión 0x%02x",
+    "de": "falsche Prüfsumme im Erweiterungsblock 0x%02x",
+    "fr": "somme de contrôle incorrecte dans le bloc d'extension 0x%02x"
+  },
+  "bad checksum in the base block": {
+    "ru": "неверная контрольная сумма базового блока",
+    "es": "suma de comprobación incorrecta en el bloque base",
+    "de": "falsche Prüfsumme im Basisblock",
+    "fr": "somme de contrôle incorrecte dans le bloc de base"
+  },
+  "below 60 Hz: visible flicker": {
+    "ru": "ниже 60 Гц: заметное мерцание",
+    "es": "por debajo de 60 Hz: parpadeo visible",
+    "de": "unter 60 Hz: sichtbares Flimmern",
+    "fr": "sous 60 Hz : scintillement visible"
+  },
+  "block %d is corrupted (checksum or header)": {
+    "ru": "блок %d повреждён (контрольная сумма или заголовок)",
+    "es": "el bloque %d está dañado (suma de comprobación o cabecera)",
+    "de": "Block %d ist beschädigt (Prüfsumme oder Kopf)",
+    "fr": "le bloc %d est corrompu (somme de contrôle ou en-tête)"
+  },
+  "build an EDID with the best modes": {
+    "ru": "собрать EDID с лучшими режимами",
+    "es": "crear un EDID con los mejores modos",
+    "de": "ein EDID mit den besten Modi erstellen",
+    "fr": "créer un EDID avec les meilleurs modes"
+  },
+  "built-in profile %s: %w": {
+    "ru": "встроенный профиль %s: %w",
+    "es": "perfil integrado %s: %w",
+    "de": "eingebautes Profil %s: %w",
+    "fr": "profil intégré %s : %w"
+  },
+  "check the modes the kernel offers right now": {
+    "ru": "проверить режимы, которые ядро предлагает сейчас",
+    "es": "revisar los modos que ofrece el kernel ahora mismo",
+    "de": "die Modi prüfen, die der Kernel gerade anbietet",
+    "fr": "vérifier les modes proposés par le noyau en ce moment"
+  },
+  "chip %s %s": {
+    "ru": "чип %s %s",
+    "es": "chip %s %s",
+    "de": "Chip %s %s",
+    "fr": "puce %s %s"
+  },
+  "chosen with --profile": {
+    "ru": "выбран через --profile",
+    "es": "elegido con --profile",
+    "de": "mit --profile gewählt",
+    "fr": "choisi avec --profile"
+  },
+  "command-line flag": {
+    "ru": "флаг командной строки",
+    "es": "opción de la línea de órdenes",
+    "de": "Kommandozeilenoption",
+    "fr": "option de ligne de commande"
+  },
+  "compute mode timings (DMT/CVT/GTF) and check them against the limits": {
+    "ru": "рассчитать тайминги режима (DMT/CVT/GTF) и проверить их по пределам",
+    "es": "calcular los tiempos de un modo (DMT/CVT/GTF) y comprobarlos con los límites",
+    "de": "Timings eines Modus berechnen (DMT/CVT/GTF) und gegen die Grenzen prüfen",
+    "fr": "calculer les timings d'un mode (DMT/CVT/GTF) et les vérifier par rapport aux limites"
+  },
+  "connected": {
+    "ru": "подключён",
+    "es": "conectado",
+    "de": "verbunden",
+    "fr": "branché"
+  },
+  "connected, on": {
+    "ru": "подключён, включён",
+    "es": "conectado, encendido",
+    "de": "verbunden, aktiv",
+    "fr": "branché, actif"
+  },
+  "connector %q exists on several cards; use the full name, e.g. card1-%s": {
+    "ru": "коннектор %q есть на нескольких картах; укажи полное имя, например card1-%s",
+    "es": "el conector %q existe en varias tarjetas; usa el nombre completo, p. ej. card1-%s",
+    "de": "Anschluss %q gibt es auf mehreren Karten; nutze den vollen Namen, z. B. card1-%s",
+    "fr": "le connecteur %q existe sur plusieurs cartes ; utilisez le nom complet, par ex. card1-%s"
+  },
+  "connector %q not found (available: %s)": {
+    "ru": "коннектор %q не найден (есть: %s)",
+    "es": "no se encontró el conector %q (disponibles: %s)",
+    "de": "Anschluss %q nicht gefunden (vorhanden: %s)",
+    "fr": "connecteur %q introuvable (disponibles : %s)"
+  },
+  "copy the monitor identity from this EDID file": {
+    "ru": "взять идентификацию монитора из этого файла EDID",
+    "es": "copiar la identidad del monitor de este archivo EDID",
+    "de": "die Monitoridentität aus dieser EDID-Datei übernehmen",
+    "fr": "copier l'identité du moniteur depuis ce fichier EDID"
+  },
+  "could not clear the debugfs EDID: %v": {
+    "ru": "не удалось убрать EDID из debugfs: %v",
+    "es": "no se pudo borrar el EDID de debugfs: %v",
+    "de": "das debugfs-EDID konnte nicht entfernt werden: %v",
+    "fr": "impossible d'effacer l'EDID de debugfs : %v"
+  },
+  "could not find the configuration directory": {
+    "ru": "не удалось найти каталог настроек",
+    "es": "no se encontró el directorio de configuración",
+    "de": "das Konfigurationsverzeichnis wurde nicht gefunden",
+    "fr": "dossier de configuration introuvable"
+  },
+  "could not read EDID from /dev/i2c-%d: %w": {
+    "ru": "не удалось прочитать EDID с /dev/i2c-%d: %w",
+    "es": "no se pudo leer el EDID de /dev/i2c-%d: %w",
+    "de": "EDID von /dev/i2c-%d konnte nicht gelesen werden: %w",
+    "fr": "impossible de lire l'EDID depuis /dev/i2c-%d : %w"
+  },
+  "could not read the modes from the kernel (KMS)": {
+    "ru": "не удалось прочитать режимы у ядра (KMS)",
+    "es": "no se pudieron leer los modos del kernel (KMS)",
+    "de": "die Modi konnten nicht vom Kernel gelesen werden (KMS)",
+    "fr": "impossible de lire les modes depuis le noyau (KMS)"
+  },
+  "create a profile template with this id": {
+    "ru": "создать шаблон профиля с этим id",
+    "es": "crear una plantilla de perfil con este id",
+    "de": "eine Profilvorlage mit dieser id erstellen",
+    "fr": "créer un modèle de profil avec cet id"
+  },
+  "create an EDID with the modes you want": {
+    "ru": "собрать EDID с нужными режимами",
+    "es": "crear un EDID con los modos que quieras",
+    "de": "ein EDID mit den gewünschten Modi erstellen",
+    "fr": "créer un EDID avec les modes voulus"
+  },
+  "crtctl %s — CRT monitor setup for Linux": {
+    "ru": "crtctl %s — настройка CRT-мониторов в Linux",
+    "es": "crtctl %s — configuración de monitores CRT en Linux",
+    "de": "crtctl %s – Einrichtung von CRT-Monitoren unter Linux",
+    "fr": "crtctl %s — configuration des moniteurs CRT sous Linux"
+  },
+  "crtctl has not installed an EDID for %s": {
+    "ru": "crtctl не устанавливал EDID для %s",
+    "es": "crtctl no ha instalado ningún EDID para %s",
+    "de": "crtctl hat für %s kein EDID installiert",
+    "fr": "crtctl n'a pas installé d'EDID pour %s"
+  },
+  "crtctl has nothing installed for %s.": {
+    "ru": "Для %s crtctl ничего не устанавливал.",
+    "es": "crtctl no tiene nada instalado para %s.",
+    "de": "crtctl hat für %s nichts installiert.",
+    "fr": "crtctl n'a rien installé pour %s."
+  },
+  "custom": {
+    "ru": "свой",
+    "es": "propio",
+    "de": "eigen",
+    "fr": "propre"
+  },
+  "custom modes in KDE Plasma: list, add, best, remove, set": {
+    "ru": "кастомные режимы KDE Plasma: list, add, best, remove, set",
+    "es": "modos personalizados en KDE Plasma: list, add, best, remove, set",
+    "de": "eigene Modi in KDE Plasma: list, add, best, remove, set",
+    "fr": "modes personnalisés dans KDE Plasma : list, add, best, remove, set"
+  },
+  "debugfs is not mounted, so apply --test, reprobe and link will not work:": {
+    "ru": "debugfs не смонтирован, поэтому apply --test, reprobe и link работать не будут:",
+    "es": "debugfs no está montado, así que apply --test, reprobe y link no funcionarán:",
+    "de": "debugfs ist nicht eingehängt, daher funktionieren apply --test, reprobe und link nicht:",
+    "fr": "debugfs n'est pas monté : apply --test, reprobe et link ne fonctionneront pas :"
+  },
+  "declared": {
+    "ru": "заявлен",
+    "es": "declarado",
+    "de": "angegeben",
+    "fr": "déclaré"
+  },
+  "declared by the monitor itself in its EDID": {
+    "ru": "заявлен самим монитором в его EDID",
+    "es": "declarado por el propio monitor en su EDID",
+    "de": "vom Monitor selbst in seinem EDID angegeben",
+    "fr": "déclaré par le moniteur lui-même dans son EDID"
+  },
+  "decode an EDID file, or the EDID the kernel uses for a connector": {
+    "ru": "разобрать EDID из файла или тот, что ядро использует для коннектора",
+    "es": "decodificar un archivo EDID o el EDID que usa el kernel para un conector",
+    "de": "eine EDID-Datei dekodieren oder das EDID, das der Kernel für einen Anschluss nutzt",
+    "fr": "décoder un fichier EDID, ou l'EDID utilisé par le noyau pour un connecteur"
+  },
+  "default: %s": {
+    "ru": "по умолчанию: %s",
+    "es": "por defecto: %s",
+    "de": "Standard: %s",
+    "fr": "par défaut : %s"
+  },
+  "digital input": {
+    "ru": "цифровой вход",
+    "es": "entrada digital",
+    "de": "digitaler Eingang",
+    "fr": "entrée numérique"
+  },
+  "digital input: CRT scan limits do not apply": {
+    "ru": "цифровой вход: пределы развёртки CRT не применяются",
+    "es": "entrada digital: no se aplican los límites de barrido CRT",
+    "de": "digitaler Eingang: CRT-Ablenkgrenzen gelten nicht",
+    "fr": "entrée numérique : les limites de balayage CRT ne s'appliquent pas"
+  },
+  "do not reject modes outside the limits": {
+    "ru": "не отклонять режимы вне пределов",
+    "es": "no rechazar modos fuera de los límites",
+    "de": "Modi außerhalb der Grenzen nicht ablehnen",
+    "fr": "ne pas refuser les modes hors limites"
+  },
+  "do not store the frequency ranges": {
+    "ru": "не записывать диапазоны частот",
+    "es": "no guardar los rangos de frecuencia",
+    "de": "die Frequenzbereiche nicht speichern",
+    "fr": "ne pas enregistrer les plages de fréquence"
+  },
+  "do not wait for confirmation (set)": {
+    "ru": "не ждать подтверждения (set)",
+    "es": "no esperar confirmación (set)",
+    "de": "nicht auf Bestätigung warten (set)",
+    "fr": "ne pas attendre de confirmation (set)"
+  },
+  "does not fit at any refresh rate": {
+    "ru": "не проходит ни на одной частоте",
+    "es": "no cabe con ninguna frecuencia",
+    "de": "passt bei keiner Bildwiederholrate",
+    "fr": "ne passe à aucune fréquence"
+  },
+  "downspread": {
+    "ru": "с downspread",
+    "es": "con downspread",
+    "de": "mit Downspread",
+    "fr": "avec downspread"
+  },
+  "error:": {
+    "ru": "ошибка:",
+    "es": "error:",
+    "de": "Fehler:",
+    "fr": "erreur :"
+  },
+  "estimated from the modes the monitor declares": {
+    "ru": "оценка по режимам, которые заявляет монитор",
+    "es": "estimado a partir de los modos que declara el monitor",
+    "de": "geschätzt aus den Modi, die der Monitor angibt",
+    "fr": "estimé d'après les modes déclarés par le moniteur"
+  },
+  "expected WxH[@Hz], got %q": {
+    "ru": "ожидается ШxВ[@Гц], получено %q",
+    "es": "se esperaba AnchoxAlto[@Hz], se recibió %q",
+    "de": "erwartet BxH[@Hz], erhalten %q",
+    "fr": "attendu LxH[@Hz], reçu %q"
+  },
+  "extension block %d: %w": {
+    "ru": "блок расширения %d: %w",
+    "es": "bloque de extensión %d: %w",
+    "de": "Erweiterungsblock %d: %w",
+    "fr": "bloc d'extension %d : %w"
+  },
+  "find problems and suggest the exact command that fixes each one": {
+    "ru": "найти проблемы и подсказать точную команду для исправления каждой",
+    "es": "encontrar problemas y sugerir el comando exacto que corrige cada uno",
+    "de": "Probleme finden und für jedes den genauen Befehl zur Behebung vorschlagen",
+    "fr": "trouver les problèmes et proposer la commande exacte qui corrige chacun"
+  },
+  "forced EDID probe (status=on, then detect)": {
+    "ru": "принудительный опрос EDID (status=on, затем detect)",
+    "es": "sondeo forzado del EDID (status=on y luego detect)",
+    "de": "erzwungene EDID-Abfrage (status=on, dann detect)",
+    "fr": "lecture forcée de l'EDID (status=on, puis detect)"
+  },
+  "forced to «%s» (service %s)": {
+    "ru": "зафиксирован на «%s» (сервис %s)",
+    "es": "forzado a «%s» (servicio %s)",
+    "de": "festgelegt auf „%s“ (Dienst %s)",
+    "fr": "forcé à « %s » (service %s)"
+  },
+  "from the installed EDID (the monitor has no DDC, so it cannot be verified)": {
+    "ru": "из установленного EDID (у монитора нет DDC, проверить нельзя)",
+    "es": "del EDID instalado (el monitor no tiene DDC, así que no se puede verificar)",
+    "de": "aus dem installierten EDID (der Monitor hat kein DDC, daher nicht überprüfbar)",
+    "fr": "d'après l'EDID installé (le moniteur n'a pas de DDC, impossible de vérifier)"
+  },
+  "give a connector": {
+    "ru": "укажи коннектор",
+    "es": "indica un conector",
+    "de": "gib einen Anschluss an",
+    "fr": "indiquez un connecteur"
+  },
+  "give a connector and an EDID file (build one with: crtctl edid build CONNECTOR --best)": {
+    "ru": "укажи коннектор и файл EDID (собрать: crtctl edid build КОННЕКТОР --best)",
+    "es": "indica un conector y un archivo EDID (créalo con: crtctl edid build CONECTOR --best)",
+    "de": "gib einen Anschluss und eine EDID-Datei an (erstellen mit: crtctl edid build ANSCHLUSS --best)",
+    "fr": "indiquez un connecteur et un fichier EDID (créez-le avec : crtctl edid build CONNECTEUR --best)"
+  },
+  "give a file or a connector": {
+    "ru": "укажи файл или коннектор",
+    "es": "indica un archivo o un conector",
+    "de": "gib eine Datei oder einen Anschluss an",
+    "fr": "indiquez un fichier ou un connecteur"
+  },
+  "give one mode: WxH@Hz or its number from crtctl kde list": {
+    "ru": "укажи один режим: ШxВ@Гц или его номер из crtctl kde list",
+    "es": "indica un modo: AnchoxAlto@Hz o su número de crtctl kde list",
+    "de": "gib einen Modus an: BxH@Hz oder seine Nummer aus crtctl kde list",
+    "fr": "indiquez un mode : LxH@Hz ou son numéro dans crtctl kde list"
+  },
+  "give the custom mode numbers (see crtctl kde list %s) or all": {
+    "ru": "укажи номера кастомных режимов (см. crtctl kde list %s) или all",
+    "es": "indica los números de los modos personalizados (ver crtctl kde list %s) o all",
+    "de": "gib die Nummern der eigenen Modi an (siehe crtctl kde list %s) oder all",
+    "fr": "indiquez les numéros des modes personnalisés (voir crtctl kde list %s) ou all"
+  },
+  "height in %q: %w": {
+    "ru": "высота в %q: %w",
+    "es": "alto en %q: %w",
+    "de": "Höhe in %q: %w",
+    "fr": "hauteur dans %q : %w"
+  },
+  "highest horizontal frequency, kHz": {
+    "ru": "максимальная строчная частота, кГц",
+    "es": "frecuencia horizontal máxima, kHz",
+    "de": "höchste Horizontalfrequenz, kHz",
+    "fr": "fréquence horizontale maximale, kHz"
+  },
+  "highest safe refresh rate for every resolution on this monitor and adapter": {
+    "ru": "максимальная безопасная частота для каждого разрешения на этом мониторе и переходнике",
+    "es": "frecuencia segura más alta para cada resolución con este monitor y adaptador",
+    "de": "höchste sichere Bildwiederholrate für jede Auflösung mit diesem Monitor und Adapter",
+    "fr": "fréquence sûre la plus élevée pour chaque résolution avec ce moniteur et cet adaptateur"
+  },
+  "highest vertical refresh, Hz": {
+    "ru": "максимальная кадровая частота, Гц",
+    "es": "frecuencia vertical máxima, Hz",
+    "de": "höchste Vertikalfrequenz, Hz",
+    "fr": "fréquence verticale maximale, Hz"
+  },
+  "horizontal": {
+    "ru": "строчная",
+    "es": "horizontal",
+    "de": "horizontal",
+    "fr": "horizontale"
+  },
+  "horizontal %.2f kHz is above the monitor limit of %.2f kHz (%s)": {
+    "ru": "строчная %.2f кГц выше предела монитора %.2f кГц (%s)",
+    "es": "la horizontal de %.2f kHz supera el límite del monitor de %.2f kHz (%s)",
+    "de": "Horizontalfrequenz %.2f kHz liegt über der Monitorgrenze von %.2f kHz (%s)",
+    "fr": "l'horizontale de %.2f kHz dépasse la limite du moniteur de %.2f kHz (%s)"
+  },
+  "horizontal %.2f kHz is below the monitor limit of %.2f kHz (%s)": {
+    "ru": "строчная %.2f кГц ниже предела монитора %.2f кГц (%s)",
+    "es": "la horizontal de %.2f kHz está por debajo del límite del monitor de %.2f kHz (%s)",
+    "de": "Horizontalfrequenz %.2f kHz liegt unter der Monitorgrenze von %.2f kHz (%s)",
+    "fr": "l'horizontale de %.2f kHz est sous la limite du moniteur de %.2f kHz (%s)"
+  },
+  "horizontal %d–%d kHz, vertical %d–%d Hz, up to %d MHz": {
+    "ru": "строчная %d–%d кГц, кадровая %d–%d Гц, до %d МГц",
+    "es": "horizontal %d–%d kHz, vertical %d–%d Hz, hasta %d MHz",
+    "de": "horizontal %d–%d kHz, vertikal %d–%d Hz, bis %d MHz",
+    "fr": "horizontale %d–%d kHz, verticale %d–%d Hz, jusqu'à %d MHz"
+  },
+  "horizontal %s–%s kHz, vertical %s–%s Hz": {
+    "ru": "строчная %s–%s кГц, кадровая %s–%s Гц",
+    "es": "horizontal %s–%s kHz, vertical %s–%s Hz",
+    "de": "horizontal %s–%s kHz, vertikal %s–%s Hz",
+    "fr": "horizontale %s–%s kHz, verticale %s–%s Hz"
+  },
+  "horizontal: active %d, front porch %d, sync %d, back porch %d (%s)   vertical: active %d, front porch %d, sync %d, back porch %d (%s)": {
+    "ru": "гор.: активно %d, передняя площадка %d, синхро %d, задняя площадка %d (%s)   верт.: активно %d, передняя площадка %d, синхро %d, задняя площадка %d (%s)",
+    "es": "horiz.: activo %d, pórtico delantero %d, sinc. %d, pórtico trasero %d (%s)   vert.: activo %d, pórtico delantero %d, sinc. %d, pórtico trasero %d (%s)",
+    "de": "horiz.: aktiv %d, vordere Schwarzschulter %d, Sync %d, hintere Schwarzschulter %d (%s)   vert.: aktiv %d, vordere Schwarzschulter %d, Sync %d, hintere Schwarzschulter %d (%s)",
+    "fr": "horiz. : actif %d, palier avant %d, synchro %d, palier arrière %d (%s)   vert. : actif %d, palier avant %d, synchro %d, palier arrière %d (%s)"
+  },
+  "install an EDID: right now and permanently": {
+    "ru": "установить EDID: сразу и навсегда",
+    "es": "instalar un EDID: ahora mismo y de forma permanente",
+    "de": "ein EDID installieren: sofort und dauerhaft",
+    "fr": "installer un EDID : immédiatement et définitivement"
+  },
+  "install even if the EDID was built for another monitor": {
+    "ru": "установить, даже если EDID собран для другого монитора",
+    "es": "instalar aunque el EDID se haya creado para otro monitor",
+    "de": "auch installieren, wenn das EDID für einen anderen Monitor erstellt wurde",
+    "fr": "installer même si l'EDID a été créé pour un autre moniteur"
+  },
+  "install it permanently": {
+    "ru": "установить навсегда",
+    "es": "instalarlo de forma permanente",
+    "de": "dauerhaft installieren",
+    "fr": "l'installer définitivement"
+  },
+  "installed by crtctl": {
+    "ru": "установлен crtctl",
+    "es": "instalado por crtctl",
+    "de": "von crtctl installiert",
+    "fr": "installé par crtctl"
+  },
+  "invalid mode %q": {
+    "ru": "некорректный режим %q",
+    "es": "modo no válido %q",
+    "de": "ungültiger Modus %q",
+    "fr": "mode invalide %q"
+  },
+  "invalid profile id %q: use letters, digits and dashes": {
+    "ru": "некорректный id профиля %q: используй буквы, цифры и дефисы",
+    "es": "id de perfil no válido %q: usa letras, números y guiones",
+    "de": "ungültige Profil-id %q: verwende Buchstaben, Ziffern und Bindestriche",
+    "fr": "id de profil invalide %q : utilisez des lettres, des chiffres et des tirets"
+  },
+  "it was already loaded": {
+    "ru": "уже был загружен",
+    "es": "ya estaba cargado",
+    "de": "war bereits geladen",
+    "fr": "il était déjà chargé"
+  },
+  "kscreen-doctor not found: custom KDE modes need Plasma 6.6 or newer": {
+    "ru": "kscreen-doctor не найден: кастомные режимы KDE требуют Plasma 6.6 или новее",
+    "es": "no se encontró kscreen-doctor: los modos personalizados de KDE necesitan Plasma 6.6 o posterior",
+    "de": "kscreen-doctor nicht gefunden: Eigene KDE-Modi brauchen Plasma 6.6 oder neuer",
+    "fr": "kscreen-doctor introuvable : les modes KDE personnalisés nécessitent Plasma 6.6 ou plus récent"
+  },
+  "lane count (default: the adapter's maximum)": {
+    "ru": "число линий (по умолчанию — максимум переходника)",
+    "es": "número de carriles (por defecto: el máximo del adaptador)",
+    "de": "Anzahl der Lanes (Standard: das Maximum des Adapters)",
+    "fr": "nombre de voies (par défaut : le maximum de l'adaptateur)"
+  },
+  "lane count must be 1, 2 or 4": {
+    "ru": "число линий: 1, 2 или 4",
+    "es": "el número de carriles debe ser 1, 2 o 4",
+    "de": "die Anzahl der Lanes muss 1, 2 oder 4 sein",
+    "fr": "le nombre de voies doit être 1, 2 ou 4"
+  },
+  "link rate %q: use rbr, hbr, hbr2, hbr3 or 0x6/0xa/0x14/0x1e": {
+    "ru": "скорость %q: используй rbr, hbr, hbr2, hbr3 или 0x6/0xa/0x14/0x1e",
+    "es": "velocidad de enlace %q: usa rbr, hbr, hbr2, hbr3 o 0x6/0xa/0x14/0x1e",
+    "de": "Verbindungsrate %q: verwende rbr, hbr, hbr2, hbr3 oder 0x6/0xa/0x14/0x1e",
+    "fr": "débit du lien %q : utilisez rbr, hbr, hbr2, hbr3 ou 0x6/0xa/0x14/0x1e"
+  },
+  "link rate: rbr, hbr, hbr2, hbr3 or a code 0x6/0xa/0x14/0x1e": {
+    "ru": "скорость: rbr, hbr, hbr2, hbr3 или код 0x6/0xa/0x14/0x1e",
+    "es": "velocidad de enlace: rbr, hbr, hbr2, hbr3 o un código 0x6/0xa/0x14/0x1e",
+    "de": "Verbindungsrate: rbr, hbr, hbr2, hbr3 oder ein Code 0x6/0xa/0x14/0x1e",
+    "fr": "débit du lien : rbr, hbr, hbr2, hbr3 ou un code 0x6/0xa/0x14/0x1e"
+  },
+  "list the modes to add, for example 1024x768@85": {
+    "ru": "перечисли режимы для добавления, например 1024x768@85",
+    "es": "indica los modos que añadir, por ejemplo 1024x768@85",
+    "de": "nenne die hinzuzufügenden Modi, zum Beispiel 1024x768@85",
+    "fr": "indiquez les modes à ajouter, par exemple 1024x768@85"
+  },
+  "lowest horizontal frequency, kHz": {
+    "ru": "минимальная строчная частота, кГц",
+    "es": "frecuencia horizontal mínima, kHz",
+    "de": "niedrigste Horizontalfrequenz, kHz",
+    "fr": "fréquence horizontale minimale, kHz"
+  },
+  "lowest vertical refresh, Hz": {
+    "ru": "минимальная кадровая частота, Гц",
+    "es": "frecuencia vertical mínima, Hz",
+    "de": "niedrigste Vertikalfrequenz, Hz",
+    "fr": "fréquence verticale minimale, Hz"
+  },
+  "make the driver re-read the EDID without replugging the cable": {
+    "ru": "заставить драйвер перечитать EDID без перетыкания кабеля",
+    "es": "hacer que el controlador relea el EDID sin reconectar el cable",
+    "de": "den Treiber das EDID neu einlesen lassen, ohne das Kabel umzustecken",
+    "fr": "faire relire l'EDID au pilote sans débrancher le câble"
+  }
+}

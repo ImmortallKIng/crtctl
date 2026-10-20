@@ -1,0 +1,4 @@
+/crtctl
+*.bin
+!internal/edid/testdata/*.bin
+/dist

@@ -1,0 +1,21 @@
+{
+  "id": "generic-crt-19in",
+  "name": "Typical 19-inch CRT (30–96 kHz)",
+  "name_l10n": {
+    "ru": "Типичный CRT 19 дюймов (30–96 кГц)",
+    "es": "CRT típico de 19 pulgadas (30–96 kHz)",
+    "de": "Typischer 19-Zoll-CRT (30–96 kHz)",
+    "fr": "CRT typique 19 pouces (30–96 kHz)"
+  },
+  "hmin_khz": 30,
+  "hmax_khz": 96,
+  "vmin_hz": 50,
+  "vmax_hz": 160,
+  "notes": "Estimate for 19-inch and good 17-inch monitors. Check against your monitor datasheet.",
+  "notes_l10n": {
+    "ru": "Оценка для 19-дюймовых и хороших 17-дюймовых мониторов. Сверь с паспортом своего монитора.",
+    "es": "Estimación para monitores de 19 pulgadas y buenos de 17. Compruébalo con la hoja de datos de tu monitor.",
+    "de": "Schätzung für 19-Zoll- und gute 17-Zoll-Monitore. Mit dem Datenblatt deines Monitors abgleichen.",
+    "fr": "Estimation pour les moniteurs 19 pouces et les bons 17 pouces. À vérifier avec la fiche technique de votre moniteur."
+  }
+}

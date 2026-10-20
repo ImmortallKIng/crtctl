@@ -1,0 +1,21 @@
+{
+  "id": "generic-crt-17in",
+  "name": "Typical 17-inch CRT (30–70 kHz)",
+  "name_l10n": {
+    "ru": "Типичный CRT 17 дюймов (30–70 кГц)",
+    "es": "CRT típico de 17 pulgadas (30–70 kHz)",
+    "de": "Typischer 17-Zoll-CRT (30–70 kHz)",
+    "fr": "CRT typique 17 pouces (30–70 kHz)"
+  },
+  "hmin_khz": 30,
+  "hmax_khz": 70,
+  "vmin_hz": 50,
+  "vmax_hz": 160,
+  "notes": "Conservative estimate for budget 17-inch monitors. Check against your monitor datasheet.",
+  "notes_l10n": {
+    "ru": "Консервативная оценка для бюджетных 17-дюймовых мониторов. Сверь с паспортом своего монитора.",
+    "es": "Estimación conservadora para monitores económicos de 17 pulgadas. Compruébalo con la hoja de datos de tu monitor.",
+    "de": "Vorsichtige Schätzung für günstige 17-Zoll-Monitore. Mit dem Datenblatt deines Monitors abgleichen.",
+    "fr": "Estimation prudente pour les moniteurs 17 pouces d'entrée de gamme. À vérifier avec la fiche technique de votre moniteur."
+  }
+}

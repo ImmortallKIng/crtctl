@@ -1,0 +1,632 @@
+{
+  "Found settings made outside crtctl (they may duplicate or conflict with it):": {
+    "ru": "Найдены настройки, сделанные не через crtctl (могут дублировать его или мешать):",
+    "es": "Hay ajustes hechos fuera de crtctl (pueden duplicarlo o entrar en conflicto):",
+    "de": "Einstellungen außerhalb von crtctl gefunden (können doppelt sein oder stören):",
+    "fr": "Réglages faits en dehors de crtctl trouvés (ils peuvent faire doublon ou entrer en conflit) :"
+  },
+  "HZ": {
+    "ru": "ГЦ",
+    "es": "HZ",
+    "de": "HZ",
+    "fr": "HZ"
+  },
+  "Help for a command: crtctl help <command>  (or crtctl <command> -h)": {
+    "ru": "Справка по команде: crtctl help <команда>  (или crtctl <команда> -h)",
+    "es": "Ayuda de un comando: crtctl help <comando>  (o crtctl <comando> -h)",
+    "de": "Hilfe zu einem Befehl: crtctl help <Befehl>  (oder crtctl <Befehl> -h)",
+    "fr": "Aide d'une commande : crtctl help <commande>  (ou crtctl <commande> -h)"
+  },
+  "Horizontal": {
+    "ru": "Строчная",
+    "es": "Horizontal",
+    "de": "Horizontal",
+    "fr": "Horizontale"
+  },
+  "ID:": {
+    "ru": "ID:",
+    "es": "ID:",
+    "de": "ID:",
+    "fr": "ID :"
+  },
+  "If low modes go black again after replugging the adapter: sudo systemctl restart crtctl-link-%s": {
+    "ru": "Если после переподключения переходника низкие режимы снова гаснут: sudo systemctl restart crtctl-link-%s",
+    "es": "Si los modos bajos vuelven a quedarse en negro tras reconectar el adaptador: sudo systemctl restart crtctl-link-%s",
+    "de": "Wenn niedrige Modi nach dem Umstecken des Adapters wieder schwarz bleiben: sudo systemctl restart crtctl-link-%s",
+    "fr": "Si les modes bas redeviennent noirs après avoir rebranché l'adaptateur : sudo systemctl restart crtctl-link-%s"
+  },
+  "If only 640x480 is available after the reboot, the driver cannot read the EDID through your adapter; install it again with crtctl apply.": {
+    "ru": "Если после перезагрузки останется только 640x480 — драйвер не читает EDID через твой переходник; поставь EDID снова через crtctl apply.",
+    "es": "Si tras reiniciar solo queda 640x480, el controlador no puede leer el EDID a través de tu adaptador; vuelve a instalarlo con crtctl apply.",
+    "de": "Wenn nach dem Neustart nur 640x480 verfügbar ist, kann der Treiber das EDID über deinen Adapter nicht lesen; installiere es erneut mit crtctl apply.",
+    "fr": "Si seul 640x480 est disponible après le redémarrage, le pilote ne peut pas lire l'EDID à travers votre adaptateur ; réinstallez-le avec crtctl apply."
+  },
+  "If that monitor is connected, add --profile %s.": {
+    "ru": "Если подключён именно он, добавь --profile %s.",
+    "es": "Si ese monitor es el que está conectado, añade --profile %s.",
+    "de": "Wenn dieser Monitor angeschlossen ist, füge --profile %s hinzu.",
+    "fr": "Si c'est bien ce moniteur qui est branché, ajoutez --profile %s."
+  },
+  "Installing an EDID on %s: %s, %d modes, preferred %s": {
+    "ru": "Ставлю EDID на %s: %s, режимов %d, основной %s",
+    "es": "Instalando un EDID en %s: %s, %d modos, preferido %s",
+    "de": "Installiere ein EDID auf %s: %s, %d Modi, bevorzugt %s",
+    "fr": "Installation d'un EDID sur %s : %s, %d modes, préféré %s"
+  },
+  "Installs an EDID for a connector:\n  1) right now: through debugfs; the driver re-reads it without replugging the cable;\n  2) permanently: the EDID goes into the firmware folder and the initramfs, and the\n     drm.edid_firmware kernel parameter is added; the initramfs tool and the boot loader\n     are detected automatically. --method service uses a systemd service instead.\nBefore installing, it checks that the EDID was built for the monitor that is connected.": {
+    "ru": "Ставит EDID для коннектора:\n  1) сразу — через debugfs; драйвер перечитывает его без перетыкания кабеля;\n  2) навсегда — кладёт EDID в папку прошивок и в initramfs и добавляет параметр ядра\n     drm.edid_firmware; генератор initramfs и загрузчик определяются автоматически.\n     --method service ставит вместо этого сервис systemd.\nПеред установкой проверяет, что EDID собран для подключённого сейчас монитора.",
+    "es": "Instala un EDID para un conector:\n  1) ahora mismo: mediante debugfs; el controlador lo relee sin reconectar el cable;\n  2) de forma permanente: copia el EDID a la carpeta de firmware y al initramfs, y añade\n     el parámetro del kernel drm.edid_firmware; la herramienta de initramfs y el gestor de\n     arranque se detectan automáticamente. --method service usa un servicio systemd en su lugar.\nAntes de instalar, comprueba que el EDID se creó para el monitor conectado.",
+    "de": "Installiert ein EDID für einen Anschluss:\n  1) sofort: über debugfs; der Treiber liest es neu ein, ohne das Kabel umzustecken;\n  2) dauerhaft: das EDID kommt in den Firmware-Ordner und ins initramfs, und der\n     Kernelparameter drm.edid_firmware wird gesetzt; initramfs-Werkzeug und Bootloader\n     werden automatisch erkannt. --method service nutzt stattdessen einen systemd-Dienst.\nVor der Installation wird geprüft, dass das EDID für den angeschlossenen Monitor erstellt wurde.",
+    "fr": "Installe un EDID pour un connecteur :\n  1) immédiatement : via debugfs ; le pilote le relit sans débrancher le câble ;\n  2) définitivement : l'EDID est copié dans le dossier des firmwares et dans l'initramfs,\n     et le paramètre noyau drm.edid_firmware est ajouté ; l'outil initramfs et le chargeur\n     d'amorçage sont détectés automatiquement. --method service utilise un service systemd.\nAvant l'installation, vérifie que l'EDID a été créé pour le moniteur branché."
+  },
+  "KDE does not see output %s": {
+    "ru": "KDE не видит выход %s",
+    "es": "KDE no ve la salida %s",
+    "de": "KDE sieht den Ausgang %s nicht",
+    "fr": "KDE ne voit pas la sortie %s"
+  },
+  "KHZ": {
+    "ru": "КГЦ",
+    "es": "KHZ",
+    "de": "KHZ",
+    "fr": "KHZ"
+  },
+  "Keeping a drm.edid_firmware entry not made by crtctl: %s → %s": {
+    "ru": "Оставляю запись drm.edid_firmware, сделанную не crtctl: %s → %s",
+    "es": "Conservo una entrada de drm.edid_firmware que no creó crtctl: %s → %s",
+    "de": "Behalte einen drm.edid_firmware-Eintrag, der nicht von crtctl stammt: %s → %s",
+    "fr": "Je conserve une entrée drm.edid_firmware qui ne vient pas de crtctl : %s → %s"
+  },
+  "Kernel EDID": {
+    "ru": "EDID ядра",
+    "es": "EDID del kernel",
+    "de": "Kernel-EDID",
+    "fr": "EDID du noyau"
+  },
+  "Kernel log: %s": {
+    "ru": "Журнал ядра: %s",
+    "es": "Registro del kernel: %s",
+    "de": "Kernel-Log: %s",
+    "fr": "Journal du noyau : %s"
+  },
+  "Kernel modes": {
+    "ru": "Режимов у ядра",
+    "es": "Modos del kernel",
+    "de": "Kernel-Modi",
+    "fr": "Modes du noyau"
+  },
+  "LIMITED BY": {
+    "ru": "УПИРАЕТСЯ В",
+    "es": "LIMITADO POR",
+    "de": "BEGRENZT DURCH",
+    "fr": "LIMITÉ PAR"
+  },
+  "Language: --lang %s, or the CRTCTL_LANG / LANG environment variables": {
+    "ru": "Язык: --lang %s или переменные окружения CRTCTL_LANG / LANG",
+    "es": "Idioma: --lang %s, o las variables de entorno CRTCTL_LANG / LANG",
+    "de": "Sprache: --lang %s oder die Umgebungsvariablen CRTCTL_LANG / LANG",
+    "fr": "Langue : --lang %s, ou les variables d'environnement CRTCTL_LANG / LANG"
+  },
+  "Limits": {
+    "ru": "Пределы",
+    "es": "Límites",
+    "de": "Grenzen",
+    "fr": "Limites"
+  },
+  "Limits: %s": {
+    "ru": "Пределы: %s",
+    "es": "Límites: %s",
+    "de": "Grenzen: %s",
+    "fr": "Limites : %s"
+  },
+  "Lists the modes of an output in KDE with their frequencies, checked against the limits.": {
+    "ru": "Показывает режимы выхода в KDE с частотами и проверкой по пределам.",
+    "es": "Muestra los modos de una salida en KDE con sus frecuencias, comprobados con los límites.",
+    "de": "Zeigt die Modi eines Ausgangs in KDE mit ihren Frequenzen, geprüft gegen die Grenzen.",
+    "fr": "Liste les modes d'une sortie dans KDE avec leurs fréquences, vérifiés par rapport aux limites."
+  },
+  "Loading the EDID through debugfs and asking the driver to re-read it...": {
+    "ru": "Подкладываю EDID через debugfs и прошу драйвер его перечитать...",
+    "es": "Cargando el EDID mediante debugfs y pidiendo al controlador que lo relea...",
+    "de": "Lade das EDID über debugfs und bitte den Treiber, es neu einzulesen...",
+    "fr": "Chargement de l'EDID via debugfs et demande au pilote de le relire..."
+  },
+  "MAX HZ": {
+    "ru": "МАКС ГЦ",
+    "es": "HZ MÁX",
+    "de": "MAX HZ",
+    "fr": "HZ MAX"
+  },
+  "MHZ": {
+    "ru": "МГЦ",
+    "es": "MHZ",
+    "de": "MHZ",
+    "fr": "MHZ"
+  },
+  "MODE": {
+    "ru": "РЕЖИМ",
+    "es": "MODO",
+    "de": "MODUS",
+    "fr": "MODE"
+  },
+  "MONITOR": {
+    "ru": "МОНИТОР",
+    "es": "MONITOR",
+    "de": "MONITOR",
+    "fr": "MONITEUR"
+  },
+  "Makes the driver read the EDID again without replugging the cable and tells the\ndesktop that the modes changed. Tries gentle methods first and stops as soon as the\nkernel EDID changes. --hard also allows a software replug (the monitor blinks).": {
+    "ru": "Заставляет драйвер заново прочитать EDID без перетыкания кабеля и сообщает\nрабочему столу, что режимы изменились. Начинает с мягких способов и останавливается,\nкак только EDID ядра сменится. --hard разрешает программное переподключение (монитор моргнёт).",
+    "es": "Hace que el controlador vuelva a leer el EDID sin reconectar el cable y avisa al\nescritorio de que los modos cambiaron. Prueba primero métodos suaves y se detiene en\ncuanto cambia el EDID del kernel. --hard permite también una reconexión por software (el monitor parpadea).",
+    "de": "Lässt den Treiber das EDID neu einlesen, ohne das Kabel umzustecken, und meldet dem\nDesktop, dass sich die Modi geändert haben. Probiert zuerst sanfte Methoden und hört auf,\nsobald sich das Kernel-EDID ändert. --hard erlaubt auch ein Software-Umstecken (der Monitor blinkt).",
+    "fr": "Fait relire l'EDID au pilote sans débrancher le câble et signale au bureau que les\nmodes ont changé. Essaie d'abord des méthodes douces et s'arrête dès que l'EDID du\nnoyau change. --hard autorise aussi un rebranchement logiciel (le moniteur clignote)."
+  },
+  "Maximum": {
+    "ru": "Максимум",
+    "es": "Máximo",
+    "de": "Maximum",
+    "fr": "Maximum"
+  },
+  "Mode kept.": {
+    "ru": "Режим оставлен.",
+    "es": "Modo conservado.",
+    "de": "Modus beibehalten.",
+    "fr": "Mode conservé."
+  },
+  "Monitor": {
+    "ru": "Монитор",
+    "es": "Monitor",
+    "de": "Monitor",
+    "fr": "Moniteur"
+  },
+  "Monitor profiles: horizontal and vertical frequency ranges and video bandwidth.\nYour own profiles are JSON files in ~/.config/crtctl/monitors (they override built-in\nprofiles with the same id). --new ID creates a template for your monitor.": {
+    "ru": "Профили мониторов: диапазоны строчной и кадровой частоты и полоса видеотракта.\nСвои профили — JSON-файлы в ~/.config/crtctl/monitors (они заменяют встроенные\nс тем же id). --new ID создаёт шаблон для твоего монитора.",
+    "es": "Perfiles de monitor: rangos de frecuencia horizontal y vertical y ancho de banda de vídeo.\nTus propios perfiles son archivos JSON en ~/.config/crtctl/monitors (sustituyen a los\nintegrados con el mismo id). --new ID crea una plantilla para tu monitor.",
+    "de": "Monitorprofile: Bereiche der Horizontal- und Vertikalfrequenz und Videobandbreite.\nEigene Profile sind JSON-Dateien in ~/.config/crtctl/monitors (sie ersetzen eingebaute\nProfile mit derselben id). --new ID erstellt eine Vorlage für deinen Monitor.",
+    "fr": "Profils de moniteur : plages de fréquence horizontale et verticale et bande passante vidéo.\nVos propres profils sont des fichiers JSON dans ~/.config/crtctl/monitors (ils remplacent\nles profils intégrés de même id). --new ID crée un modèle pour votre moniteur."
+  },
+  "Monitor:": {
+    "ru": "Монитор:",
+    "es": "Monitor:",
+    "de": "Monitor:",
+    "fr": "Moniteur :"
+  },
+  "NOTES": {
+    "ru": "ЗАМЕТКИ",
+    "es": "NOTAS",
+    "de": "HINWEISE",
+    "fr": "REMARQUES"
+  },
+  "No EDID at all: the monitor has no DDC, or the adapter does not pass it. Pick a monitor profile:": {
+    "ru": "EDID нет вообще: у монитора нет DDC или переходник его не пропускает. Выбери профиль монитора:",
+    "es": "No hay ningún EDID: el monitor no tiene DDC o el adaptador no lo deja pasar. Elige un perfil de monitor:",
+    "de": "Überhaupt kein EDID: Der Monitor hat kein DDC, oder der Adapter leitet es nicht weiter. Wähle ein Monitorprofil:",
+    "fr": "Aucun EDID : le moniteur n'a pas de DDC, ou l'adaptateur ne le transmet pas. Choisissez un profil de moniteur :"
+  },
+  "No confirmation; switching back.": {
+    "ru": "Подтверждения нет — возвращаю прежний режим.",
+    "es": "Sin confirmación; vuelvo al modo anterior.",
+    "de": "Keine Bestätigung; schalte zurück.",
+    "fr": "Pas de confirmation ; retour au mode précédent."
+  },
+  "No monitor is connected.": {
+    "ru": "Ни один монитор не подключён.",
+    "es": "No hay ningún monitor conectado.",
+    "de": "Es ist kein Monitor angeschlossen.",
+    "fr": "Aucun moniteur n'est branché."
+  },
+  "Not connected: %s": {
+    "ru": "Не подключены: %s",
+    "es": "Sin conectar: %s",
+    "de": "Nicht verbunden: %s",
+    "fr": "Non branchés : %s"
+  },
+  "Notes": {
+    "ru": "Заметки",
+    "es": "Notas",
+    "de": "Hinweise",
+    "fr": "Remarques"
+  },
+  "Nothing to add.": {
+    "ru": "Добавлять нечего.",
+    "es": "No hay nada que añadir.",
+    "de": "Nichts hinzuzufügen.",
+    "fr": "Rien à ajouter."
+  },
+  "Options:": {
+    "ru": "Флаги:",
+    "es": "Opciones:",
+    "de": "Optionen:",
+    "fr": "Options :"
+  },
+  "Preferred mode: %s (%s)": {
+    "ru": "Основной режим: %s (%s)",
+    "es": "Modo preferido: %s (%s)",
+    "de": "Bevorzugter Modus: %s (%s)",
+    "fr": "Mode préféré : %s (%s)"
+  },
+  "Profile": {
+    "ru": "Профиль",
+    "es": "Perfil",
+    "de": "Profil",
+    "fr": "Profil"
+  },
+  "RESOLUTION": {
+    "ru": "РАЗРЕШЕНИЕ",
+    "es": "RESOLUCIÓN",
+    "de": "AUFLÖSUNG",
+    "fr": "RÉSOLUTION"
+  },
+  "Ranges:": {
+    "ru": "Диапазоны:",
+    "es": "Rangos:",
+    "de": "Bereiche:",
+    "fr": "Plages :"
+  },
+  "Read %d bytes from /dev/i2c-%d → %s": {
+    "ru": "Прочитано %d байт с /dev/i2c-%d → %s",
+    "es": "Leídos %d bytes de /dev/i2c-%d → %s",
+    "de": "%d Bytes von /dev/i2c-%d gelesen → %s",
+    "fr": "%d octets lus depuis /dev/i2c-%d → %s"
+  },
+  "Reads the EDID straight from the monitor over DDC, bypassing the kernel.": {
+    "ru": "Читает EDID прямо с монитора по DDC, минуя ядро.",
+    "es": "Lee el EDID directamente del monitor por DDC, sin pasar por el kernel.",
+    "de": "Liest das EDID direkt vom Monitor über DDC, am Kernel vorbei.",
+    "fr": "Lit l'EDID directement depuis le moniteur via DDC, sans passer par le noyau."
+  },
+  "Rebuilding the initramfs for all installed kernels (usually 30–90 seconds per kernel)...": {
+    "ru": "Пересобираю initramfs для всех установленных ядер (обычно 30–90 секунд на ядро)...",
+    "es": "Reconstruyendo el initramfs para todos los kernels instalados (normalmente 30–90 segundos por kernel)...",
+    "de": "Baue das initramfs für alle installierten Kernel neu (meist 30–90 Sekunden pro Kernel)...",
+    "fr": "Reconstruction de l'initramfs pour tous les noyaux installés (en général 30 à 90 secondes par noyau)..."
+  },
+  "Rebuilding the initramfs for the running kernel (30–90 seconds)...": {
+    "ru": "Пересобираю initramfs для текущего ядра (30–90 секунд)...",
+    "es": "Reconstruyendo el initramfs para el kernel en uso (30–90 segundos)...",
+    "de": "Baue das initramfs für den laufenden Kernel neu (30–90 Sekunden)...",
+    "fr": "Reconstruction de l'initramfs pour le noyau en cours (30 à 90 secondes)..."
+  },
+  "Receiver: DP %s, up to %d lanes × %s Gbit/s": {
+    "ru": "Приёмник: DP %s, до %d линий × %s Гбит/с",
+    "es": "Receptor: DP %s, hasta %d carriles × %s Gbit/s",
+    "de": "Empfänger: DP %s, bis zu %d Lanes × %s Gbit/s",
+    "fr": "Récepteur : DP %s, jusqu'à %d voies × %s Gbit/s"
+  },
+  "Removed %s": {
+    "ru": "Удалён %s",
+    "es": "Eliminado %s",
+    "de": "%s entfernt",
+    "fr": "%s supprimé"
+  },
+  "Removed custom modes: %d": {
+    "ru": "Удалено кастомных режимов: %d",
+    "es": "Modos personalizados eliminados: %d",
+    "de": "Entfernte eigene Modi: %d",
+    "fr": "Modes personnalisés supprimés : %d"
+  },
+  "Removes custom modes: their numbers from crtctl kde list, or all.": {
+    "ru": "Удаляет кастомные режимы: номера из crtctl kde list или all.",
+    "es": "Elimina modos personalizados: sus números de crtctl kde list, o all.",
+    "de": "Entfernt eigene Modi: ihre Nummern aus crtctl kde list, oder all.",
+    "fr": "Supprime des modes personnalisés : leurs numéros dans crtctl kde list, ou all."
+  },
+  "Settings made outside crtctl are still present; check that they do not duplicate these:": {
+    "ru": "Остались настройки, сделанные не через crtctl; проверь, не дублируют ли они эти:",
+    "es": "Siguen presentes ajustes hechos fuera de crtctl; comprueba que no dupliquen estos:",
+    "de": "Einstellungen außerhalb von crtctl sind noch vorhanden; prüfe, dass sie diese nicht doppeln:",
+    "fr": "Des réglages faits en dehors de crtctl sont toujours présents ; vérifiez qu'ils ne font pas doublon :"
+  },
+  "Settings made outside crtctl:": {
+    "ru": "Настройки, сделанные не через crtctl:",
+    "es": "Ajustes hechos fuera de crtctl:",
+    "de": "Einstellungen außerhalb von crtctl:",
+    "fr": "Réglages faits en dehors de crtctl :"
+  },
+  "Shows every connected output: the monitor, the EDID the kernel uses and the real\nEDID read over DDC, the monitor profile, the limits, the adapter and the current mode.\nWith sudo it also reads the DisplayPort adapter registers and remembers its limit.": {
+    "ru": "Показывает все подключённые выходы: монитор, EDID, который использует ядро, и настоящий\nEDID по DDC, профиль монитора, пределы, переходник и текущий режим.\nС sudo читает ещё регистры переходника DisplayPort и запоминает его предел.",
+    "es": "Muestra cada salida conectada: el monitor, el EDID que usa el kernel y el EDID real\nleído por DDC, el perfil del monitor, los límites, el adaptador y el modo actual.\nCon sudo también lee los registros del adaptador DisplayPort y recuerda su límite.",
+    "de": "Zeigt jeden angeschlossenen Ausgang: den Monitor, das vom Kernel genutzte EDID und das\nechte EDID über DDC, das Monitorprofil, die Grenzen, den Adapter und den aktuellen Modus.\nMit sudo liest es auch die Register des DisplayPort-Adapters und merkt sich dessen Grenze.",
+    "fr": "Affiche chaque sortie connectée : le moniteur, l'EDID utilisé par le noyau et le vrai\nEDID lu via DDC, le profil du moniteur, les limites, l'adaptateur et le mode actuel.\nAvec sudo, lit aussi les registres de l'adaptateur DisplayPort et retient sa limite."
+  },
+  "Source": {
+    "ru": "Источник",
+    "es": "Origen",
+    "de": "Quelle",
+    "fr": "Source"
+  },
+  "Switch to one: crtctl kde set %s WxH@Hz": {
+    "ru": "Включить: crtctl kde set %s ШxВ@Гц",
+    "es": "Para activar uno: crtctl kde set %s AnchoxAlto@Hz",
+    "de": "Einen aktivieren: crtctl kde set %s BxH@Hz",
+    "fr": "Pour en activer un : crtctl kde set %s LxH@Hz"
+  },
+  "Switched to %s": {
+    "ru": "Включён %s",
+    "es": "Activado %s",
+    "de": "Umgeschaltet auf %s",
+    "fr": "Passé en %s"
+  },
+  "Switches to a mode (WxH@Hz or the KDE number). If you do not press Enter in time, the previous mode comes back.": {
+    "ru": "Включает режим (ШxВ@Гц или номер KDE). Если вовремя не нажать Enter, вернётся прежний режим.",
+    "es": "Cambia a un modo (AnchoxAlto@Hz o el número de KDE). Si no pulsas Intro a tiempo, vuelve el modo anterior.",
+    "de": "Schaltet auf einen Modus um (BxH@Hz oder die KDE-Nummer). Wenn du nicht rechtzeitig Enter drückst, kehrt der vorherige Modus zurück.",
+    "fr": "Passe à un mode (LxH@Hz ou le numéro KDE). Si vous n'appuyez pas sur Entrée à temps, le mode précédent revient."
+  },
+  "TYPE": {
+    "ru": "ТИП",
+    "es": "TIPO",
+    "de": "TYP",
+    "fr": "TYPE"
+  },
+  "The DisplayPort adapter limit is unknown, so the table may promise too much. Run once: sudo crtctl info %s (it is remembered), or use --pclk.": {
+    "ru": "Предел переходника DisplayPort неизвестен, таблица может обещать лишнее. Запусти один раз: sudo crtctl info %s (значение запомнится) или укажи --pclk.",
+    "es": "Se desconoce el límite del adaptador DisplayPort, así que la tabla puede prometer de más. Ejecuta una vez: sudo crtctl info %s (se recuerda), o usa --pclk.",
+    "de": "Die Grenze des DisplayPort-Adapters ist unbekannt, die Tabelle verspricht vielleicht zu viel. Einmal ausführen: sudo crtctl info %s (wird gespeichert), oder --pclk angeben.",
+    "fr": "La limite de l'adaptateur DisplayPort est inconnue, le tableau peut promettre trop. Lancez une fois : sudo crtctl info %s (la valeur est retenue), ou utilisez --pclk."
+  },
+  "The DisplayPort link service is removed.": {
+    "ru": "Сервис фиксации канала DisplayPort удалён.",
+    "es": "Se eliminó el servicio del enlace DisplayPort.",
+    "de": "Der Dienst für die DisplayPort-Verbindung wurde entfernt.",
+    "fr": "Le service du lien DisplayPort est supprimé."
+  },
+  "The EDID installed on %s was made for «%s», but %s is connected. Its modes were calculated for another monitor and may be unsafe for this one.": {
+    "ru": "EDID на %s собран для «%s», а подключён %s. Его режимы рассчитаны на другой монитор и для этого могут быть опасны.",
+    "es": "El EDID instalado en %s se creó para «%s», pero está conectado %s. Sus modos se calcularon para otro monitor y pueden no ser seguros para este.",
+    "de": "Das auf %s installierte EDID wurde für „%s“ erstellt, angeschlossen ist aber %s. Seine Modi wurden für einen anderen Monitor berechnet und könnten für diesen unsicher sein.",
+    "fr": "L'EDID installé sur %s a été créé pour « %s », mais %s est branché. Ses modes ont été calculés pour un autre moniteur et peuvent être dangereux pour celui-ci."
+  },
+  "The EDID is installed and already active until reboot; after a reboot the kernel will load it by itself.": {
+    "ru": "EDID установлен и уже действует до перезагрузки; после перезагрузки ядро загрузит его само.",
+    "es": "El EDID está instalado y ya activo hasta reiniciar; tras reiniciar, el kernel lo cargará por sí mismo.",
+    "de": "Das EDID ist installiert und bis zum Neustart schon aktiv; nach einem Neustart lädt der Kernel es selbst.",
+    "fr": "L'EDID est installé et déjà actif jusqu'au redémarrage ; après un redémarrage, le noyau le chargera lui-même."
+  },
+  "The EDID is installed, but this boot does not use it yet: reboot.": {
+    "ru": "EDID установлен, но текущая загрузка его ещё не использует: перезагрузись.",
+    "es": "El EDID está instalado, pero este arranque aún no lo usa: reinicia.",
+    "de": "Das EDID ist installiert, aber dieser Start nutzt es noch nicht: starte neu.",
+    "fr": "L'EDID est installé, mais ce démarrage ne l'utilise pas encore : redémarrez."
+  },
+  "The EDID is removed from firmware, the initramfs and the kernel parameters.": {
+    "ru": "EDID убран из firmware, initramfs и параметров ядра.",
+    "es": "El EDID se eliminó de firmware, del initramfs y de los parámetros del kernel.",
+    "de": "Das EDID wurde aus Firmware, initramfs und Kernelparametern entfernt.",
+    "fr": "L'EDID est retiré du firmware, de l'initramfs et des paramètres du noyau."
+  },
+  "The current mode %s is out of limits: %s": {
+    "ru": "Текущий режим %s вне пределов: %s",
+    "es": "El modo actual %s está fuera de los límites: %s",
+    "de": "Der aktuelle Modus %s liegt außerhalb der Grenzen: %s",
+    "fr": "Le mode actuel %s est hors limites : %s"
+  },
+  "The current picture stays as it is until a reboot (or until the cable is replugged).": {
+    "ru": "Текущая картинка останется как есть до перезагрузки (или до переподключения кабеля).",
+    "es": "La imagen actual se mantiene hasta reiniciar (o hasta reconectar el cable).",
+    "de": "Das aktuelle Bild bleibt bis zum Neustart (oder bis zum Umstecken des Kabels) wie es ist.",
+    "fr": "L'image actuelle reste telle quelle jusqu'au redémarrage (ou jusqu'au rebranchement du câble)."
+  },
+  "The file %s was changed outside crtctl.": {
+    "ru": "Файл %s изменён не через crtctl.",
+    "es": "El archivo %s se modificó fuera de crtctl.",
+    "de": "Die Datei %s wurde außerhalb von crtctl geändert.",
+    "fr": "Le fichier %s a été modifié en dehors de crtctl."
+  },
+  "The installed EDID file is missing: %s": {
+    "ru": "Файл установленного EDID пропал: %s",
+    "es": "Falta el archivo del EDID instalado: %s",
+    "de": "Die Datei des installierten EDID fehlt: %s",
+    "fr": "Le fichier de l'EDID installé est introuvable : %s"
+  },
+  "The installed EDID was made for «%s».": {
+    "ru": "Установленный EDID собран для «%s».",
+    "es": "El EDID instalado se creó para «%s».",
+    "de": "Das installierte EDID wurde für „%s“ erstellt.",
+    "fr": "L'EDID installé a été créé pour « %s »."
+  },
+  "The kernel EDID did not change (%d bytes). If a change was expected, try --hard.": {
+    "ru": "EDID ядра не изменился (%d байт). Если ожидалась смена — попробуй --hard.",
+    "es": "El EDID del kernel no cambió (%d bytes). Si esperabas un cambio, prueba --hard.",
+    "de": "Das Kernel-EDID hat sich nicht geändert (%d Bytes). Falls eine Änderung erwartet war, versuche --hard.",
+    "fr": "L'EDID du noyau n'a pas changé (%d octets). Si un changement était attendu, essayez --hard."
+  },
+  "The kernel EDID is updated (%s): %d bytes before, %d now.": {
+    "ru": "EDID ядра обновлён (%s): было %d байт, стало %d.",
+    "es": "El EDID del kernel se actualizó (%s): antes %d bytes, ahora %d.",
+    "de": "Das Kernel-EDID wurde aktualisiert (%s): vorher %d Bytes, jetzt %d.",
+    "fr": "L'EDID du noyau est mis à jour (%s) : %d octets avant, %d maintenant."
+  },
+  "The kernel could not read the EDID, although the monitor sends it over DDC (typical for DP→VGA adapters). That is why almost no modes are available.": {
+    "ru": "Ядро не прочитало EDID, хотя монитор отдаёт его по DDC (типично для переходников DP→VGA). Поэтому режимов почти нет.",
+    "es": "El kernel no pudo leer el EDID, aunque el monitor lo envía por DDC (típico de los adaptadores DP→VGA). Por eso casi no hay modos disponibles.",
+    "de": "Der Kernel konnte das EDID nicht lesen, obwohl der Monitor es über DDC sendet (typisch für DP→VGA-Adapter). Deshalb sind fast keine Modi verfügbar.",
+    "fr": "Le noyau n'a pas pu lire l'EDID, alors que le moniteur l'envoie via DDC (typique des adaptateurs DP→VGA). C'est pourquoi presque aucun mode n'est disponible."
+  },
+  "The kernel loaded an older version of the EDID: the initramfs is outdated. Install it again:": {
+    "ru": "Ядро загрузило старую версию EDID: initramfs устарел. Поставь EDID ещё раз:",
+    "es": "El kernel cargó una versión antigua del EDID: el initramfs está desactualizado. Instálalo de nuevo:",
+    "de": "Der Kernel hat eine ältere Version des EDID geladen: Das initramfs ist veraltet. Installiere es erneut:",
+    "fr": "Le noyau a chargé une ancienne version de l'EDID : l'initramfs est périmé. Réinstallez-le :"
+  },
+  "The kernel picked up the new EDID (%s); the modes should already be in your display settings.": {
+    "ru": "Ядро подхватило новый EDID (%s); режимы уже должны быть в настройках экрана.",
+    "es": "El kernel tomó el nuevo EDID (%s); los modos ya deberían estar en la configuración de pantalla.",
+    "de": "Der Kernel hat das neue EDID übernommen (%s); die Modi sollten schon in den Anzeigeeinstellungen stehen.",
+    "fr": "Le noyau a pris en compte le nouvel EDID (%s) ; les modes devraient déjà figurer dans les paramètres d'affichage."
+  },
+  "The monitor does not send an EDID, and the kernel uses a replaced one, so crtctl cannot tell which monitor is connected.": {
+    "ru": "Монитор не отдаёт EDID, а ядро использует подменённый, поэтому crtctl не может понять, какой монитор подключён.",
+    "es": "El monitor no envía EDID y el kernel usa uno sustituido, así que crtctl no puede saber qué monitor está conectado.",
+    "de": "Der Monitor sendet kein EDID, und der Kernel nutzt ein ersetztes, daher kann crtctl nicht erkennen, welcher Monitor angeschlossen ist.",
+    "fr": "Le moniteur n'envoie pas d'EDID et le noyau en utilise un remplacé : crtctl ne peut donc pas savoir quel moniteur est branché."
+  },
+  "The monitor does not send an EDID, so crtctl cannot check that %s is really what is connected.": {
+    "ru": "Монитор не отдаёт EDID, поэтому crtctl не может проверить, что подключён именно %s.",
+    "es": "El monitor no envía EDID, así que crtctl no puede comprobar que lo conectado sea realmente %s.",
+    "de": "Der Monitor sendet kein EDID, daher kann crtctl nicht prüfen, ob wirklich %s angeschlossen ist.",
+    "fr": "Le moniteur n'envoie pas d'EDID, donc crtctl ne peut pas vérifier que c'est bien %s qui est branché."
+  },
+  "The monitor limits are unknown, so crtctl cannot tell which modes are safe.": {
+    "ru": "Пределы монитора неизвестны, поэтому crtctl не может сказать, какие режимы безопасны.",
+    "es": "Se desconocen los límites del monitor, así que crtctl no puede saber qué modos son seguros.",
+    "de": "Die Grenzen des Monitors sind unbekannt, daher kann crtctl nicht sagen, welche Modi sicher sind.",
+    "fr": "Les limites du moniteur sont inconnues : crtctl ne peut donc pas dire quels modes sont sûrs."
+  },
+  "The monitor will go dark for a second": {
+    "ru": "Монитор на секунду погаснет",
+    "es": "El monitor se apagará un segundo",
+    "de": "Der Monitor wird für eine Sekunde dunkel",
+    "fr": "Le moniteur va s'éteindre une seconde"
+  },
+  "The service is removed; the current link setting is reset at the next reboot.": {
+    "ru": "Сервис удалён; текущая настройка канала сбросится при следующей перезагрузке.",
+    "es": "Se eliminó el servicio; el ajuste actual del enlace se restablece en el próximo reinicio.",
+    "de": "Der Dienst wurde entfernt; die aktuelle Verbindungseinstellung wird beim nächsten Neustart zurückgesetzt.",
+    "fr": "Le service est supprimé ; le réglage actuel du lien sera réinitialisé au prochain redémarrage."
+  },
+  "The service that forces the DP link failed at boot.": {
+    "ru": "Сервис фиксации канала DP упал при загрузке.",
+    "es": "El servicio que fuerza el enlace DP falló al arrancar.",
+    "de": "Der Dienst, der die DP-Verbindung festlegt, ist beim Start fehlgeschlagen.",
+    "fr": "Le service qui force le lien DP a échoué au démarrage."
+  },
+  "The temporary (debugfs) EDID is cleared.": {
+    "ru": "Временный EDID (debugfs) убран.",
+    "es": "Se borró el EDID temporal (debugfs).",
+    "de": "Das temporäre EDID (debugfs) wurde entfernt.",
+    "fr": "L'EDID temporaire (debugfs) est effacé."
+  },
+  "There are no custom modes.": {
+    "ru": "Кастомных режимов нет.",
+    "es": "No hay modos personalizados.",
+    "de": "Es gibt keine eigenen Modi.",
+    "fr": "Il n'y a aucun mode personnalisé."
+  },
+  "This mode is already active.": {
+    "ru": "Этот режим уже включён.",
+    "es": "Este modo ya está activo.",
+    "de": "Dieser Modus ist bereits aktiv.",
+    "fr": "Ce mode est déjà actif."
+  },
+  "Tip: sudo crtctl info also reads the DisplayPort adapter registers.": {
+    "ru": "Подсказка: sudo crtctl info прочитает ещё и регистры переходника DisplayPort.",
+    "es": "Consejo: sudo crtctl info también lee los registros del adaptador DisplayPort.",
+    "de": "Tipp: sudo crtctl info liest auch die Register des DisplayPort-Adapters.",
+    "fr": "Astuce : sudo crtctl info lit aussi les registres de l'adaptateur DisplayPort."
+  },
+  "Try it until the next reboot, then install it permanently:": {
+    "ru": "Проверь до перезагрузки, потом поставь навсегда:",
+    "es": "Pruébalo hasta el próximo reinicio y luego instálalo de forma permanente:",
+    "de": "Bis zum nächsten Neustart ausprobieren, dann dauerhaft installieren:",
+    "fr": "Essayez-le jusqu'au prochain redémarrage, puis installez-le définitivement :"
+  },
+  "Typical workflow:": {
+    "ru": "Типичный путь:",
+    "es": "Flujo habitual:",
+    "de": "Typischer Ablauf:",
+    "fr": "Démarche habituelle :"
+  },
+  "Undo: sudo crtctl remove %s": {
+    "ru": "Откатить: sudo crtctl remove %s",
+    "es": "Deshacer: sudo crtctl remove %s",
+    "de": "Rückgängig: sudo crtctl remove %s",
+    "fr": "Annuler : sudo crtctl remove %s"
+  },
+  "Undoes everything crtctl did for a connector: the EDID (debugfs, firmware, initramfs,\nkernel parameter) and the DisplayPort link forcing. The picture does not change\nuntil the next reboot.": {
+    "ru": "Откатывает всё, что crtctl сделал для коннектора: EDID (debugfs, firmware, initramfs,\nпараметр ядра) и фиксацию канала DisplayPort. Картинка не изменится\nдо следующей перезагрузки.",
+    "es": "Deshace todo lo que crtctl hizo para un conector: el EDID (debugfs, firmware, initramfs,\nparámetro del kernel) y el forzado del enlace DisplayPort. La imagen no cambia\nhasta el próximo reinicio.",
+    "de": "Macht alles rückgängig, was crtctl für einen Anschluss getan hat: das EDID (debugfs, Firmware,\ninitramfs, Kernelparameter) und das Festlegen der DisplayPort-Verbindung. Das Bild ändert sich\nerst beim nächsten Neustart.",
+    "fr": "Annule tout ce que crtctl a fait pour un connecteur : l'EDID (debugfs, firmware, initramfs,\nparamètre du noyau) et le forçage du lien DisplayPort. L'image ne change pas\navant le prochain redémarrage."
+  },
+  "Until the next reboot. To keep it, add --persistent.": {
+    "ru": "До перезагрузки. Чтобы закрепить, добавь --persistent.",
+    "es": "Hasta el próximo reinicio. Para mantenerlo, añade --persistent.",
+    "de": "Bis zum nächsten Neustart. Um es zu behalten, füge --persistent hinzu.",
+    "fr": "Jusqu'au prochain redémarrage. Pour le conserver, ajoutez --persistent."
+  },
+  "Usage: crtctl %s %s": {
+    "ru": "Использование: crtctl %s %s",
+    "es": "Uso: crtctl %s %s",
+    "de": "Aufruf: crtctl %s %s",
+    "fr": "Utilisation : crtctl %s %s"
+  },
+  "Usage: crtctl [--lang LANG] <command> [arguments]": {
+    "ru": "Использование: crtctl [--lang ЯЗЫК] <команда> [аргументы]",
+    "es": "Uso: crtctl [--lang IDIOMA] <comando> [argumentos]",
+    "de": "Aufruf: crtctl [--lang SPRACHE] <Befehl> [Argumente]",
+    "fr": "Utilisation : crtctl [--lang LANGUE] <commande> [arguments]"
+  },
+  "Usage: crtctl edid read|show|build ...": {
+    "ru": "Использование: crtctl edid read|show|build ...",
+    "es": "Uso: crtctl edid read|show|build ...",
+    "de": "Aufruf: crtctl edid read|show|build ...",
+    "fr": "Utilisation : crtctl edid read|show|build ..."
+  },
+  "Usage: crtctl kde list|add|best|remove|set [CONNECTOR] ...": {
+    "ru": "Использование: crtctl kde list|add|best|remove|set [КОННЕКТОР] ...",
+    "es": "Uso: crtctl kde list|add|best|remove|set [CONECTOR] ...",
+    "de": "Aufruf: crtctl kde list|add|best|remove|set [ANSCHLUSS] ...",
+    "fr": "Utilisation : crtctl kde list|add|best|remove|set [CONNECTEUR] ..."
+  },
+  "Usage: crtctl link show|force|remove CONNECTOR": {
+    "ru": "Использование: crtctl link show|force|remove КОННЕКТОР",
+    "es": "Uso: crtctl link show|force|remove CONECTOR",
+    "de": "Aufruf: crtctl link show|force|remove ANSCHLUSS",
+    "fr": "Utilisation : crtctl link show|force|remove CONNECTEUR"
+  },
+  "Using %s, the only output that looks like a CRT (name another output to change that).": {
+    "ru": "Беру %s — это единственный выход, похожий на CRT (чтобы выбрать другой, укажи его имя).",
+    "es": "Se usa %s, la única salida que parece un CRT (indica otra salida para cambiarlo).",
+    "de": "Verwende %s, den einzigen Ausgang, der wie ein CRT aussieht (einen anderen Ausgang angeben, um das zu ändern).",
+    "fr": "Utilisation de %s, la seule sortie qui ressemble à un CRT (indiquez une autre sortie pour changer)."
+  },
+  "Vertical": {
+    "ru": "Кадровая",
+    "es": "Vertical",
+    "de": "Vertikal",
+    "fr": "Verticale"
+  },
+  "WARNING": {
+    "ru": "ВНИМАНИЕ",
+    "es": "ATENCIÓN",
+    "de": "ACHTUNG",
+    "fr": "ATTENTION"
+  },
+  "Without an EDID the driver offers only 640x480.": {
+    "ru": "Без EDID драйвер предлагает только 640x480.",
+    "es": "Sin EDID el controlador solo ofrece 640x480.",
+    "de": "Ohne EDID bietet der Treiber nur 640x480 an.",
+    "fr": "Sans EDID, le pilote ne propose que 640x480."
+  },
+  "[CONNECTOR]": {
+    "ru": "[КОННЕКТОР]",
+    "es": "[CONECTOR]",
+    "de": "[ANSCHLUSS]",
+    "fr": "[CONNECTEUR]"
+  },
+  "[CONNECTOR] MODE...  (e.g. 1280x1024@85)": {
+    "ru": "[КОННЕКТОР] РЕЖИМ...  (например 1280x1024@85)",
+    "es": "[CONECTOR] MODO...  (p. ej. 1280x1024@85)",
+    "de": "[ANSCHLUSS] MODUS...  (z. B. 1280x1024@85)",
+    "fr": "[CONNECTEUR] MODE...  (par ex. 1280x1024@85)"
+  },
+  "[CONNECTOR] [MODE...]": {
+    "ru": "[КОННЕКТОР] [РЕЖИМ...]",
+    "es": "[CONECTOR] [MODO...]",
+    "de": "[ANSCHLUSS] [MODUS...]",
+    "fr": "[CONNECTEUR] [MODE...]"
+  },
+  "[ID]": {
+    "ru": "[ID]",
+    "es": "[ID]",
+    "de": "[ID]",
+    "fr": "[ID]"
+  },
+  "[sudo]": {
+    "ru": "[sudo]",
+    "es": "[sudo]",
+    "de": "[sudo]",
+    "fr": "[sudo]"
+  }
+}

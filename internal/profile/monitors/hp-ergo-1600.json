@@ -1,0 +1,23 @@
+{
+  "id": "hp-ergo-1600",
+  "name": "HP Ergo 1600 (D2845A), 21\"",
+  "match": [
+    "HWP 2845"
+  ],
+  "hmin_khz": 30,
+  "hmax_khz": 93.75,
+  "vmin_hz": 50,
+  "vmax_hz": 140,
+  "max_res": "1600x1200@75",
+  "notes": "No official datasheet found. 93.75 kHz is the maximum the monitor declares in its own EDID (1600x1200@75); higher is untested. Vertical up to 140 Hz verified in practice (800x600@139.84).",
+  "notes_l10n": {
+    "ru": "Официальный паспорт не найден. 93.75 кГц — максимум, который монитор заявляет в собственном EDID (1600x1200@75); выше не проверялось. Кадровая до 140 Гц проверена на практике (800x600@139.84).",
+    "es": "No se encontró la hoja de datos oficial. 93,75 kHz es el máximo que el monitor declara en su propio EDID (1600x1200@75); más alto no está probado. Vertical hasta 140 Hz comprobado en la práctica (800x600@139,84).",
+    "de": "Kein offizielles Datenblatt gefunden. 93,75 kHz ist das Maximum, das der Monitor in seinem eigenen EDID angibt (1600x1200@75); höher ist ungetestet. Vertikal bis 140 Hz praktisch geprüft (800x600@139,84).",
+    "fr": "Aucune fiche technique officielle trouvée. 93,75 kHz est le maximum que le moniteur déclare dans son propre EDID (1600x1200@75) ; au-delà, non testé. Vertical jusqu'à 140 Hz vérifié en pratique (800x600@139,84)."
+  },
+  "sources": [
+    "monitor EDID",
+    "verified 2026-10-19"
+  ]
+}

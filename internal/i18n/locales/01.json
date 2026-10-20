@@ -1,0 +1,596 @@
+{
+  "! preferred mode": {
+    "ru": "! предпочтительный режим",
+    "es": "! modo preferido",
+    "de": "! bevorzugter Modus",
+    "fr": "! mode préféré"
+  },
+  "%7.2f Hz %7.2f kHz %7.2f MHz": {
+    "ru": "%7.2f Гц %7.2f кГц %7.2f МГц",
+    "es": "%7.2f Hz %7.2f kHz %7.2f MHz",
+    "de": "%7.2f Hz %7.2f kHz %7.2f MHz",
+    "fr": "%7.2f Hz %7.2f kHz %7.2f MHz"
+  },
+  "%d (full list with checks: crtctl modes %s --kernel)": {
+    "ru": "%d (полный список с проверкой: crtctl modes %s --kernel)",
+    "es": "%d (lista completa con comprobación: crtctl modes %s --kernel)",
+    "de": "%d (vollständige Liste mit Prüfung: crtctl modes %s --kernel)",
+    "fr": "%d (liste complète avec vérification : crtctl modes %s --kernel)"
+  },
+  "%d bytes from /dev/i2c-%d": {
+    "ru": "%d байт с /dev/i2c-%d",
+    "es": "%d bytes de /dev/i2c-%d",
+    "de": "%d Bytes von /dev/i2c-%d",
+    "fr": "%d octets depuis /dev/i2c-%d"
+  },
+  "%d bytes, replaced (differs from the monitor's own)": {
+    "ru": "%d байт, подменён (отличается от родного EDID монитора)",
+    "es": "%d bytes, sustituido (distinto del propio del monitor)",
+    "de": "%d Bytes, ersetzt (weicht vom eigenen EDID des Monitors ab)",
+    "fr": "%d octets, remplacé (différent de celui du moniteur)"
+  },
+  "%d bytes, replaced until reboot (debugfs)": {
+    "ru": "%d байт, подменён до перезагрузки (debugfs)",
+    "es": "%d bytes, sustituido hasta reiniciar (debugfs)",
+    "de": "%d Bytes, bis zum Neustart ersetzt (debugfs)",
+    "fr": "%d octets, remplacé jusqu'au redémarrage (debugfs)"
+  },
+  "%d bytes, replaced: %s": {
+    "ru": "%d байт, подменён: %s",
+    "es": "%d bytes, sustituido: %s",
+    "de": "%d Bytes, ersetzt: %s",
+    "fr": "%d octets, remplacé : %s"
+  },
+  "%d bytes, the monitor's own": {
+    "ru": "%d байт, родной EDID монитора",
+    "es": "%d bytes, el propio del monitor",
+    "de": "%d Bytes, das eigene EDID des Monitors",
+    "fr": "%d octets, celui du moniteur"
+  },
+  "%d extension blocks declared, %d present": {
+    "ru": "заявлено блоков расширения: %d, на деле: %d",
+    "es": "%d bloques de extensión declarados, %d presentes",
+    "de": "%d Erweiterungsblöcke angegeben, %d vorhanden",
+    "fr": "%d blocs d'extension déclarés, %d présents"
+  },
+  "%d modes in the list are out of limits; do not choose them: %s": {
+    "ru": "%d режимов в списке выходят за пределы, не выбирай их: %s",
+    "es": "%d modos de la lista están fuera de los límites; no los elijas: %s",
+    "de": "%d Modi in der Liste liegen außerhalb der Grenzen; wähle sie nicht: %s",
+    "fr": "%d modes de la liste sont hors limites ; ne les choisissez pas : %s"
+  },
+  "%d modes requested, but only %d fit into an EDID; the last ones were dropped": {
+    "ru": "Запрошено режимов: %d, в EDID помещается %d; последние отброшены",
+    "es": "Se pidieron %d modos, pero en un EDID solo caben %d; se descartaron los últimos",
+    "de": "%d Modi angefordert, aber nur %d passen in ein EDID; die letzten wurden verworfen",
+    "fr": "%d modes demandés, mais seuls %d tiennent dans un EDID ; les derniers ont été ignorés"
+  },
+  "%g MHz": {
+    "ru": "%g МГц",
+    "es": "%g MHz",
+    "de": "%g MHz",
+    "fr": "%g MHz"
+  },
+  "%g–%g Hz": {
+    "ru": "%g–%g Гц",
+    "es": "%g–%g Hz",
+    "de": "%g–%g Hz",
+    "fr": "%g–%g Hz"
+  },
+  "%g–%g kHz": {
+    "ru": "%g–%g кГц",
+    "es": "%g–%g kHz",
+    "de": "%g–%g kHz",
+    "fr": "%g–%g kHz"
+  },
+  "%q is neither a mode number nor WxH@Hz": {
+    "ru": "%q — не номер режима и не ШxВ@Гц",
+    "es": "%q no es un número de modo ni AnchoxAlto@Hz",
+    "de": "%q ist weder eine Modusnummer noch BxH@Hz",
+    "fr": "%q n'est ni un numéro de mode ni LxH@Hz"
+  },
+  "%q is neither a readable file nor a connector": {
+    "ru": "%q — не читаемый файл и не коннектор",
+    "es": "%q no es un archivo legible ni un conector",
+    "de": "%q ist weder eine lesbare Datei noch ein Anschluss",
+    "fr": "%q n'est ni un fichier lisible ni un connecteur"
+  },
+  "%s (%s): %s; add --force if you are sure": {
+    "ru": "%s (%s): %s; добавь --force, если уверен",
+    "es": "%s (%s): %s; añade --force si estás seguro",
+    "de": "%s (%s): %s; füge --force hinzu, wenn du sicher bist",
+    "fr": "%s (%s) : %s ; ajoutez --force si vous êtes sûr"
+  },
+  "%s (add --force if this is intentional)": {
+    "ru": "%s (добавь --force, если так и задумано)",
+    "es": "%s (añade --force si es intencionado)",
+    "de": "%s (füge --force hinzu, wenn das Absicht ist)",
+    "fr": "%s (ajoutez --force si c'est voulu)"
+  },
+  "%s already exists": {
+    "ru": "%s уже существует",
+    "es": "%s ya existe",
+    "de": "%s existiert bereits",
+    "fr": "%s existe déjà"
+  },
+  "%s does not exist: link forcing is supported only by amdgpu (and needs sudo)": {
+    "ru": "%s не существует: фиксация канала поддерживается только amdgpu (и нужен sudo)",
+    "es": "%s no existe: forzar el enlace solo lo admite amdgpu (y necesita sudo)",
+    "de": "%s existiert nicht: Das Festlegen der Verbindung unterstützt nur amdgpu (und braucht sudo)",
+    "fr": "%s n'existe pas : le forçage du lien n'est pris en charge que par amdgpu (et nécessite sudo)"
+  },
+  "%s exists in the VESA DMT standard, but KWin computes it with CVT (%.2f kHz instead of %.2f). For exact DMT timings use crtctl edid build.": {
+    "ru": "%s есть в стандарте VESA DMT, но KWin посчитает его по CVT (%.2f кГц вместо %.2f). Точные тайминги DMT — через crtctl edid build.",
+    "es": "%s existe en el estándar VESA DMT, pero KWin lo calcula con CVT (%.2f kHz en lugar de %.2f). Para tiempos DMT exactos usa crtctl edid build.",
+    "de": "%s gibt es im VESA-DMT-Standard, aber KWin berechnet ihn mit CVT (%.2f kHz statt %.2f). Für exakte DMT-Timings nutze crtctl edid build.",
+    "fr": "%s existe dans la norme VESA DMT, mais KWin le calcule avec CVT (%.2f kHz au lieu de %.2f). Pour des timings DMT exacts, utilisez crtctl edid build."
+  },
+  "%s has no detailed modes; build it with crtctl edid build": {
+    "ru": "в %s нет подробных режимов; собери EDID через crtctl edid build",
+    "es": "%s no tiene modos detallados; créalo con crtctl edid build",
+    "de": "%s enthält keine detaillierten Modi; erstelle es mit crtctl edid build",
+    "fr": "%s ne contient aucun mode détaillé ; créez-le avec crtctl edid build"
+  },
+  "%s in KDE: %d modes, %d custom": {
+    "ru": "%s в KDE: режимов %d, кастомных %d",
+    "es": "%s en KDE: %d modos, %d personalizados",
+    "de": "%s in KDE: %d Modi, %d eigene",
+    "fr": "%s dans KDE : %d modes, dont %d personnalisés"
+  },
+  "%s is a digital input: CRT scan limits do not apply to it": {
+    "ru": "%s — цифровой вход: пределы развёртки CRT к нему не относятся",
+    "es": "%s es una entrada digital: los límites de barrido CRT no se le aplican",
+    "de": "%s ist ein digitaler Eingang: CRT-Ablenkgrenzen gelten dafür nicht",
+    "fr": "%s est une entrée numérique : les limites de balayage CRT ne s'y appliquent pas"
+  },
+  "%s is already there": {
+    "ru": "%s уже есть",
+    "es": "%s ya está",
+    "de": "%s ist bereits vorhanden",
+    "fr": "%s est déjà présent"
+  },
+  "%s is damaged: %w (delete it to start over)": {
+    "ru": "%s повреждён: %w (удали его, чтобы начать заново)",
+    "es": "%s está dañado: %w (bórralo para empezar de nuevo)",
+    "de": "%s ist beschädigt: %w (lösche die Datei, um neu anzufangen)",
+    "fr": "%s est endommagé : %w (supprimez-le pour repartir de zéro)"
+  },
+  "%s is not a DisplayPort output": {
+    "ru": "%s — не выход DisplayPort",
+    "es": "%s no es una salida DisplayPort",
+    "de": "%s ist kein DisplayPort-Ausgang",
+    "fr": "%s n'est pas une sortie DisplayPort"
+  },
+  "%s is not connected now; the EDID will be used as soon as a monitor is connected.": {
+    "ru": "%s сейчас не подключён; EDID начнёт действовать, как только подключишь монитор.",
+    "es": "%s no está conectado ahora; el EDID se usará en cuanto conectes un monitor.",
+    "de": "%s ist gerade nicht verbunden; das EDID wird verwendet, sobald ein Monitor angeschlossen wird.",
+    "fr": "%s n'est pas branché ; l'EDID sera utilisé dès qu'un moniteur sera connecté."
+  },
+  "%s is out of limits (%s), added because of --force": {
+    "ru": "%s вне пределов (%s), добавлен из-за --force",
+    "es": "%s está fuera de los límites (%s), añadido por --force",
+    "de": "%s liegt außerhalb der Grenzen (%s), wegen --force hinzugefügt",
+    "fr": "%s est hors limites (%s), ajouté à cause de --force"
+  },
+  "%s is out of limits, added because of --force": {
+    "ru": "%s вне пределов, добавлен из-за --force",
+    "es": "%s está fuera de los límites, añadido por --force",
+    "de": "%s liegt außerhalb der Grenzen, wegen --force hinzugefügt",
+    "fr": "%s est hors limites, ajouté à cause de --force"
+  },
+  "%s link forced: %d lanes × %s Gbit/s («%s»)": {
+    "ru": "Канал %s зафиксирован: линий %d × %s Гбит/с («%s»)",
+    "es": "Enlace de %s forzado: %d carriles × %s Gbit/s («%s»)",
+    "de": "Verbindung von %s festgelegt: %d Lanes × %s Gbit/s („%s“)",
+    "fr": "Lien de %s forcé : %d voies × %s Gbit/s (« %s »)"
+  },
+  "%s must run as your normal user (without sudo): it talks to your KDE session": {
+    "ru": "%s запускается от обычного пользователя (без sudo): он работает с твоей сессией KDE",
+    "es": "%s debe ejecutarse con tu usuario normal (sin sudo): se comunica con tu sesión de KDE",
+    "de": "%s muss als normaler Benutzer laufen (ohne sudo): es spricht mit deiner KDE-Sitzung",
+    "fr": "%s doit être lancé avec votre utilisateur normal (sans sudo) : il communique avec votre session KDE"
+  },
+  "%s needs root: run it with sudo": {
+    "ru": "%s требует root: запусти через sudo",
+    "es": "%s necesita root: ejecútalo con sudo",
+    "de": "%s braucht root: führe es mit sudo aus",
+    "fr": "%s nécessite root : lancez-le avec sudo"
+  },
+  "%s, EDID %s, extension blocks: %d": {
+    "ru": "%s, EDID %s, блоков расширения: %d",
+    "es": "%s, EDID %s, bloques de extensión: %d",
+    "de": "%s, EDID %s, Erweiterungsblöcke: %d",
+    "fr": "%s, EDID %s, blocs d'extension : %d"
+  },
+  "%s, made in %d, %s, %d×%d cm": {
+    "ru": "%s, выпущен в %d г., %s, %d×%d см",
+    "es": "%s, fabricado en %d, %s, %d×%d cm",
+    "de": "%s, Baujahr %d, %s, %d×%d cm",
+    "fr": "%s, fabriqué en %d, %s, %d×%d cm"
+  },
+  "%s: %s (add --force if you are sure)": {
+    "ru": "%s: %s (добавь --force, если уверен)",
+    "es": "%s: %s (añade --force si estás seguro)",
+    "de": "%s: %s (füge --force hinzu, wenn du sicher bist)",
+    "fr": "%s : %s (ajoutez --force si vous êtes sûr)"
+  },
+  "%s: adds an EDID to the initramfs": {
+    "ru": "%s: добавляет EDID в initramfs",
+    "es": "%s: añade un EDID al initramfs",
+    "de": "%s: fügt ein EDID zum initramfs hinzu",
+    "fr": "%s : ajoute un EDID à l'initramfs"
+  },
+  "%s: connector_id is unknown": {
+    "ru": "%s: неизвестен connector_id",
+    "es": "%s: connector_id desconocido",
+    "de": "%s: connector_id ist unbekannt",
+    "fr": "%s : connector_id inconnu"
+  },
+  "%s: dimensions do not fit in a DTD": {
+    "ru": "%s: размеры не помещаются в DTD",
+    "es": "%s: las dimensiones no caben en un DTD",
+    "de": "%s: die Abmessungen passen nicht in einen DTD",
+    "fr": "%s : les dimensions ne tiennent pas dans un DTD"
+  },
+  "%s: forces the DisplayPort link": {
+    "ru": "%s: фиксирует канал DisplayPort",
+    "es": "%s: fuerza el enlace DisplayPort",
+    "de": "%s: legt die DisplayPort-Verbindung fest",
+    "fr": "%s : force le lien DisplayPort"
+  },
+  "%s: give the refresh rate, for example %dx%d@85": {
+    "ru": "%s: укажи частоту, например %dx%d@85",
+    "es": "%s: indica la frecuencia, por ejemplo %dx%d@85",
+    "de": "%s: gib die Bildwiederholrate an, zum Beispiel %dx%d@85",
+    "fr": "%s : indiquez la fréquence, par exemple %dx%d@85"
+  },
+  "%s: interlaced modes are not supported": {
+    "ru": "%s: чересстрочные режимы не поддерживаются",
+    "es": "%s: los modos entrelazados no son compatibles",
+    "de": "%s: Zeilensprungmodi werden nicht unterstützt",
+    "fr": "%s : les modes entrelacés ne sont pas pris en charge"
+  },
+  "%s: no DDC bus found": {
+    "ru": "%s: не найдена шина DDC",
+    "es": "%s: no se encontró el bus DDC",
+    "de": "%s: kein DDC-Bus gefunden",
+    "fr": "%s : aucun bus DDC trouvé"
+  },
+  "%s: no such mode in the VESA DMT standard": {
+    "ru": "%s: такого режима нет в стандарте VESA DMT",
+    "es": "%s: ese modo no existe en el estándar VESA DMT",
+    "de": "%s: diesen Modus gibt es im VESA-DMT-Standard nicht",
+    "fr": "%s : ce mode n'existe pas dans la norme VESA DMT"
+  },
+  "%s: no timing formula produced this mode": {
+    "ru": "%s: ни одна формула таймингов не дала такой режим",
+    "es": "%s: ninguna fórmula de tiempos produjo este modo",
+    "de": "%s: keine Timing-Formel ergab diesen Modus",
+    "fr": "%s : aucune formule de timing n'a produit ce mode"
+  },
+  "%s: pixel clock %d kHz cannot be stored in a DTD (10 kHz steps, 655.35 MHz max)": {
+    "ru": "%s: частоту пикселей %d кГц нельзя записать в DTD (шаг 10 кГц, максимум 655.35 МГц)",
+    "es": "%s: el reloj de píxel de %d kHz no se puede guardar en un DTD (pasos de 10 kHz, máximo 655.35 MHz)",
+    "de": "%s: Pixeltakt %d kHz lässt sich nicht in einem DTD speichern (10-kHz-Schritte, max. 655.35 MHz)",
+    "fr": "%s : la fréquence pixel de %d kHz ne peut pas être stockée dans un DTD (pas de 10 kHz, 655.35 MHz max.)"
+  },
+  "%s: refresh rate is missing": {
+    "ru": "%s: не указана частота",
+    "es": "%s: falta la frecuencia de refresco",
+    "de": "%s: Bildwiederholrate fehlt",
+    "fr": "%s : la fréquence de rafraîchissement manque"
+  },
+  "%s: sync parameters do not fit in a DTD": {
+    "ru": "%s: параметры синхронизации не помещаются в DTD",
+    "es": "%s: los parámetros de sincronización no caben en un DTD",
+    "de": "%s: die Sync-Parameter passen nicht in einen DTD",
+    "fr": "%s : les paramètres de synchro ne tiennent pas dans un DTD"
+  },
+  "%s: the EDID did not change": {
+    "ru": "%s: EDID не сменился",
+    "es": "%s: el EDID no cambió",
+    "de": "%s: das EDID hat sich nicht geändert",
+    "fr": "%s : l'EDID n'a pas changé"
+  },
+  "%s: the kernel has no EDID": {
+    "ru": "%s: у ядра нет EDID",
+    "es": "%s: el kernel no tiene EDID",
+    "de": "%s: der Kernel hat kein EDID",
+    "fr": "%s : le noyau n'a pas d'EDID"
+  },
+  "%s; limit about %.1f MHz": {
+    "ru": "%s; предел около %.1f МГц",
+    "es": "%s; límite de unos %.1f MHz",
+    "de": "%s; Grenze etwa %.1f MHz",
+    "fr": "%s ; limite d'environ %.1f MHz"
+  },
+  "* current": {
+    "ru": "* текущий",
+    "es": "* actual",
+    "de": "* aktuell",
+    "fr": "* actuel"
+  },
+  "* current, ! preferred": {
+    "ru": "* текущий, ! предпочтительный",
+    "es": "* actual, ! preferido",
+    "de": "* aktuell, ! bevorzugt",
+    "fr": "* actuel, ! préféré"
+  },
+  ", monitor bandwidth %s MHz": {
+    "ru": ", полоса монитора %s МГц",
+    "es": ", ancho de banda del monitor %s MHz",
+    "de": ", Monitorbandbreite %s MHz",
+    "fr": ", bande passante du moniteur %s MHz"
+  },
+  ", pixel clock up to %s MHz": {
+    "ru": ", частота пикселей до %s МГц",
+    "es": ", reloj de píxel hasta %s MHz",
+    "de": ", Pixeltakt bis %s MHz",
+    "fr": ", fréquence pixel jusqu'à %s MHz"
+  },
+  "--test: everything goes back to normal after a reboot. To install permanently, run the same command without --test.": {
+    "ru": "--test: после перезагрузки всё вернётся как было. Установить навсегда — та же команда без --test.",
+    "es": "--test: todo vuelve a la normalidad al reiniciar. Para instalarlo de forma permanente, ejecuta el mismo comando sin --test.",
+    "de": "--test: Nach einem Neustart ist alles wieder wie vorher. Für eine dauerhafte Installation denselben Befehl ohne --test ausführen.",
+    "fr": "--test : tout redevient normal après un redémarrage. Pour installer définitivement, relancez la même commande sans --test."
+  },
+  "Adapter": {
+    "ru": "Переходник",
+    "es": "Adaptador",
+    "de": "Adapter",
+    "fr": "Adaptateur"
+  },
+  "Adapter and debugfs checks need root: sudo crtctl doctor": {
+    "ru": "Проверки переходника и debugfs требуют root: sudo crtctl doctor",
+    "es": "Las comprobaciones del adaptador y de debugfs necesitan root: sudo crtctl doctor",
+    "de": "Prüfungen von Adapter und debugfs brauchen root: sudo crtctl doctor",
+    "fr": "Les vérifications de l'adaptateur et de debugfs nécessitent root : sudo crtctl doctor"
+  },
+  "Adapter registers not read: %s": {
+    "ru": "Регистры переходника не прочитаны: %s",
+    "es": "No se leyeron los registros del adaptador: %s",
+    "de": "Adapter-Register nicht gelesen: %s",
+    "fr": "Registres de l'adaptateur non lus : %s"
+  },
+  "Added (as KWin created them):": {
+    "ru": "Добавлено (как их создал KWin):",
+    "es": "Añadidos (tal como los creó KWin):",
+    "de": "Hinzugefügt (so wie KWin sie erstellt hat):",
+    "fr": "Ajoutés (tels que KWin les a créés) :"
+  },
+  "Adds custom KDE modes. KWin computes them with CVT; for exact VESA DMT timings use an EDID instead.": {
+    "ru": "Добавляет кастомные режимы KDE. KWin считает их по CVT; для точных таймингов VESA DMT используй EDID.",
+    "es": "Añade modos personalizados de KDE. KWin los calcula con CVT; para tiempos VESA DMT exactos usa un EDID.",
+    "de": "Fügt eigene KDE-Modi hinzu. KWin berechnet sie mit CVT; für exakte VESA-DMT-Timings nutze stattdessen ein EDID.",
+    "fr": "Ajoute des modes KDE personnalisés. KWin les calcule avec CVT ; pour des timings VESA DMT exacts, utilisez plutôt un EDID."
+  },
+  "Adds the highest safe refresh rate (CVT) for every 4:3/5:4 resolution that is not there yet.": {
+    "ru": "Добавляет максимальную безопасную частоту (CVT) для каждого разрешения 4:3/5:4, которого ещё нет.",
+    "es": "Añade la frecuencia segura más alta (CVT) para cada resolución 4:3/5:4 que aún no esté.",
+    "de": "Fügt für jede noch fehlende 4:3/5:4-Auflösung die höchste sichere Bildwiederholrate (CVT) hinzu.",
+    "fr": "Ajoute la fréquence sûre la plus élevée (CVT) pour chaque résolution 4:3/5:4 qui n'existe pas encore."
+  },
+  "Applied at every boot by %s": {
+    "ru": "Применяется при каждой загрузке: %s",
+    "es": "Se aplica en cada arranque mediante %s",
+    "de": "Wird bei jedem Start angewendet durch %s",
+    "fr": "Appliqué à chaque démarrage par %s"
+  },
+  "Audio:": {
+    "ru": "Звук:",
+    "es": "Audio:",
+    "de": "Audio:",
+    "fr": "Audio :"
+  },
+  "Bandwidth": {
+    "ru": "Полоса",
+    "es": "Ancho de banda",
+    "de": "Bandbreite",
+    "fr": "Bande passante"
+  },
+  "Build an EDID with these modes: crtctl edid build %s --best": {
+    "ru": "Собрать EDID с этими режимами: crtctl edid build %s --best",
+    "es": "Crea un EDID con estos modos: crtctl edid build %s --best",
+    "de": "Ein EDID mit diesen Modi erstellen: crtctl edid build %s --best",
+    "fr": "Créer un EDID avec ces modes : crtctl edid build %s --best"
+  },
+  "CHECK": {
+    "ru": "ПРОВЕРКА",
+    "es": "COMPROBACIÓN",
+    "de": "PRÜFUNG",
+    "fr": "VÉRIFICATION"
+  },
+  "CONNECTOR": {
+    "ru": "КОННЕКТОР",
+    "es": "CONECTOR",
+    "de": "ANSCHLUSS",
+    "fr": "CONNECTEUR"
+  },
+  "CONNECTOR FILE.bin": {
+    "ru": "КОННЕКТОР ФАЙЛ.bin",
+    "es": "CONECTOR ARCHIVO.bin",
+    "de": "ANSCHLUSS DATEI.bin",
+    "fr": "CONNECTEUR FICHIER.bin"
+  },
+  "Checks every connected output and prints the exact command that fixes each problem.\nWith sudo it also checks the DisplayPort adapter and debugfs.": {
+    "ru": "Проверяет все подключённые выходы и для каждой проблемы печатает команду, которая её исправит.\nС sudo проверяет ещё переходник DisplayPort и debugfs.",
+    "es": "Revisa cada salida conectada e imprime el comando exacto que corrige cada problema.\nCon sudo también revisa el adaptador DisplayPort y debugfs.",
+    "de": "Prüft jeden angeschlossenen Ausgang und gibt für jedes Problem den genauen Befehl zur Behebung aus.\nMit sudo werden auch der DisplayPort-Adapter und debugfs geprüft.",
+    "fr": "Vérifie chaque sortie connectée et affiche la commande exacte qui corrige chaque problème.\nAvec sudo, vérifie aussi l'adaptateur DisplayPort et debugfs."
+  },
+  "Commands:": {
+    "ru": "Команды:",
+    "es": "Comandos:",
+    "de": "Befehle:",
+    "fr": "Commandes :"
+  },
+  "Computes the exact timings of a mode and checks them against the monitor limits\n(when a connector, a profile or limits are given). --all shows DMT, CVT and GTF side by side.": {
+    "ru": "Считает точные тайминги режима и проверяет их по пределам монитора\n(если указан коннектор, профиль или пределы). --all показывает DMT, CVT и GTF рядом.",
+    "es": "Calcula los tiempos exactos de un modo y los compara con los límites del monitor\n(si se indica un conector, un perfil o límites). --all muestra DMT, CVT y GTF juntos.",
+    "de": "Berechnet die genauen Timings eines Modus und prüft sie gegen die Grenzen des Monitors\n(wenn ein Anschluss, ein Profil oder Grenzen angegeben sind). --all zeigt DMT, CVT und GTF nebeneinander.",
+    "fr": "Calcule les timings exacts d'un mode et les compare aux limites du moniteur\n(si un connecteur, un profil ou des limites sont indiqués). --all affiche DMT, CVT et GTF côte à côte."
+  },
+  "Continuing with the permanent install: after a reboot the kernel loads the EDID from firmware.": {
+    "ru": "Продолжаю постоянную установку: после перезагрузки ядро возьмёт EDID из firmware.",
+    "es": "Sigo con la instalación permanente: tras reiniciar, el kernel cargará el EDID desde firmware.",
+    "de": "Fahre mit der dauerhaften Installation fort: Nach einem Neustart lädt der Kernel das EDID aus der Firmware.",
+    "fr": "Je poursuis l'installation permanente : après un redémarrage, le noyau chargera l'EDID depuis le firmware."
+  },
+  "Created %s — open it and fill it in from your monitor's datasheet.": {
+    "ru": "Создан %s — открой его и заполни по паспорту монитора.",
+    "es": "Creado %s: ábrelo y rellénalo con la hoja de datos de tu monitor.",
+    "de": "%s erstellt – öffne die Datei und fülle sie anhand des Datenblatts deines Monitors aus.",
+    "fr": "%s créé : ouvrez-le et remplissez-le d'après la fiche technique de votre moniteur."
+  },
+  "Creates an EDID for a connector. The first mode becomes the preferred one.\nThe monitor identity (vendor, model, serial number) is copied from its real EDID,\nso KDE and other programs keep recognising it. Every mode is checked against the\nlimits; modes outside them are rejected (--force builds anyway).\n\n  --best   add the highest safe refresh rate for every 4:3/5:4 resolution\n           (the same as crtctl modes; rates below 60 Hz are skipped)\n\nExample: crtctl edid build DP-2 1280x1024@85 --best": {
+    "ru": "Собирает EDID для коннектора. Первый режим станет основным.\nИдентификация монитора (производитель, модель, серийный номер) копируется из его\nнастоящего EDID, поэтому KDE и другие программы продолжат его узнавать. Каждый режим\nпроверяется по пределам; выходящие за них отклоняются (--force — собрать всё равно).\n\n  --best   добавить максимальную безопасную частоту для каждого разрешения 4:3/5:4\n           (то же, что crtctl modes; частоты ниже 60 Гц пропускаются)\n\nПример: crtctl edid build DP-2 1280x1024@85 --best",
+    "es": "Crea un EDID para un conector. El primer modo será el preferido.\nLa identidad del monitor (fabricante, modelo, número de serie) se copia de su EDID real,\npara que KDE y otros programas lo sigan reconociendo. Cada modo se comprueba con los\nlímites; los que se salen se rechazan (--force lo crea igualmente).\n\n  --best   añade la frecuencia segura más alta para cada resolución 4:3/5:4\n           (igual que crtctl modes; se omiten las inferiores a 60 Hz)\n\nEjemplo: crtctl edid build DP-2 1280x1024@85 --best",
+    "de": "Erstellt ein EDID für einen Anschluss. Der erste Modus wird der bevorzugte.\nDie Identität des Monitors (Hersteller, Modell, Seriennummer) wird aus seinem echten EDID\nübernommen, damit KDE und andere Programme ihn weiterhin erkennen. Jeder Modus wird\ngegen die Grenzen geprüft; Modi außerhalb werden abgelehnt (--force erstellt trotzdem).\n\n  --best   für jede 4:3/5:4-Auflösung die höchste sichere Bildwiederholrate hinzufügen\n           (wie crtctl modes; Raten unter 60 Hz werden übersprungen)\n\nBeispiel: crtctl edid build DP-2 1280x1024@85 --best",
+    "fr": "Crée un EDID pour un connecteur. Le premier mode devient le mode préféré.\nL'identité du moniteur (fabricant, modèle, numéro de série) est copiée de son vrai EDID,\npour que KDE et les autres programmes continuent de le reconnaître. Chaque mode est\nvérifié par rapport aux limites ; ceux qui les dépassent sont refusés (--force crée quand même).\n\n  --best   ajoute la fréquence sûre la plus élevée pour chaque résolution 4:3/5:4\n           (comme crtctl modes ; les fréquences sous 60 Hz sont ignorées)\n\nExemple : crtctl edid build DP-2 1280x1024@85 --best"
+  },
+  "Current mode": {
+    "ru": "Текущий режим",
+    "es": "Modo actual",
+    "de": "Aktueller Modus",
+    "fr": "Mode actuel"
+  },
+  "Custom modes (number for crtctl kde remove):": {
+    "ru": "Кастомные режимы (номер для crtctl kde remove):",
+    "es": "Modos personalizados (número para crtctl kde remove):",
+    "de": "Eigene Modi (Nummer für crtctl kde remove):",
+    "fr": "Modes personnalisés (numéro pour crtctl kde remove) :"
+  },
+  "DP %s → %s, %d lanes × %s Gbit/s": {
+    "ru": "DP %s → %s, линий %d × %s Гбит/с",
+    "es": "DP %s → %s, %d carriles × %s Gbit/s",
+    "de": "DP %s → %s, %d Lanes × %s Gbit/s",
+    "fr": "DP %s → %s, %d voies × %s Gbit/s"
+  },
+  "DP %s, %d lanes × %s Gbit/s, no adapter": {
+    "ru": "DP %s, линий %d × %s Гбит/с, без переходника",
+    "es": "DP %s, %d carriles × %s Gbit/s, sin adaptador",
+    "de": "DP %s, %d Lanes × %s Gbit/s, kein Adapter",
+    "fr": "DP %s, %d voies × %s Gbit/s, sans adaptateur"
+  },
+  "DP link": {
+    "ru": "Канал DP",
+    "es": "Enlace DP",
+    "de": "DP-Verbindung",
+    "fr": "Lien DP"
+  },
+  "DP receiver": {
+    "ru": "Приёмник DP",
+    "es": "Receptor DP",
+    "de": "DP-Empfänger",
+    "fr": "Récepteur DP"
+  },
+  "DP→VGA adapter. If low resolutions (800x600, 1024x768@60…) give a black screen, the adapter cannot handle a slower link. Force the link to its maximum:": {
+    "ru": "Переходник DP→VGA. Если на низких разрешениях (800x600, 1024x768@60…) чёрный экран, переходник не держит пониженную скорость канала. Зафиксируй канал на максимум:",
+    "es": "Adaptador DP→VGA. Si las resoluciones bajas (800x600, 1024x768@60…) dan pantalla negra, el adaptador no soporta un enlace más lento. Fuerza el enlace al máximo:",
+    "de": "DP→VGA-Adapter. Wenn niedrige Auflösungen (800x600, 1024x768@60…) ein schwarzes Bild ergeben, verträgt der Adapter keine langsamere Verbindung. Lege die Verbindung auf das Maximum fest:",
+    "fr": "Adaptateur DP→VGA. Si les basses résolutions (800x600, 1024x768@60…) donnent un écran noir, l'adaptateur ne supporte pas un lien plus lent. Forcez le lien au maximum :"
+  },
+  "Decodes an EDID file, or the EDID the kernel uses for a connector.\nFor every single field use: edid-decode FILE": {
+    "ru": "Разбирает EDID из файла или тот, что ядро использует для коннектора.\nВсе поля до единого: edid-decode ФАЙЛ",
+    "es": "Decodifica un archivo EDID o el EDID que usa el kernel para un conector.\nPara ver todos los campos: edid-decode ARCHIVO",
+    "de": "Dekodiert eine EDID-Datei oder das EDID, das der Kernel für einen Anschluss nutzt.\nFür jedes einzelne Feld: edid-decode DATEI",
+    "fr": "Décode un fichier EDID, ou l'EDID que le noyau utilise pour un connecteur.\nPour tous les champs : edid-decode FICHIER"
+  },
+  "Details: crtctl edid build -h": {
+    "ru": "Подробнее: crtctl edid build -h",
+    "es": "Detalles: crtctl edid build -h",
+    "de": "Details: crtctl edid build -h",
+    "fr": "Détails : crtctl edid build -h"
+  },
+  "Details: crtctl link force -h": {
+    "ru": "Подробнее: crtctl link force -h",
+    "es": "Detalles: crtctl link force -h",
+    "de": "Details: crtctl link force -h",
+    "fr": "Détails : crtctl link force -h"
+  },
+  "Details: crtctl profiles ID. Your own profile: crtctl profiles --new ID": {
+    "ru": "Подробнее: crtctl profiles ID. Свой профиль: crtctl profiles --new ID",
+    "es": "Detalles: crtctl profiles ID. Tu propio perfil: crtctl profiles --new ID",
+    "de": "Details: crtctl profiles ID. Eigenes Profil: crtctl profiles --new ID",
+    "fr": "Détails : crtctl profiles ID. Votre propre profil : crtctl profiles --new ID"
+  },
+  "DisplayPort link: show, force, remove (for picky DP→VGA adapters)": {
+    "ru": "канал DisplayPort: show, force, remove (для капризных переходников DP→VGA)",
+    "es": "enlace DisplayPort: show, force, remove (para adaptadores DP→VGA exigentes)",
+    "de": "DisplayPort-Verbindung: show, force, remove (für heikle DP→VGA-Adapter)",
+    "fr": "lien DisplayPort : show, force, remove (pour les adaptateurs DP→VGA capricieux)"
+  },
+  "Done. From now on the kernel loads the EDID from %s at every boot.": {
+    "ru": "Готово. Теперь ядро при каждой загрузке берёт EDID из %s.",
+    "es": "Listo. A partir de ahora el kernel carga el EDID desde %s en cada arranque.",
+    "de": "Fertig. Ab jetzt lädt der Kernel das EDID bei jedem Start aus %s.",
+    "fr": "Terminé. Désormais, le noyau charge l'EDID depuis %s à chaque démarrage."
+  },
+  "EDID for %s written to %s (%d bytes)": {
+    "ru": "EDID для %s записан в %s (%d байт)",
+    "es": "EDID para %s guardado en %s (%d bytes)",
+    "de": "EDID für %s nach %s geschrieben (%d Bytes)",
+    "fr": "EDID pour %s écrit dans %s (%d octets)"
+  },
+  "EDID is too short: %d bytes": {
+    "ru": "EDID слишком короткий: %d байт",
+    "es": "El EDID es demasiado corto: %d bytes",
+    "de": "EDID ist zu kurz: %d Bytes",
+    "fr": "EDID trop court : %d octets"
+  },
+  "EDID match": {
+    "ru": "По EDID",
+    "es": "Coincide con EDID",
+    "de": "EDID-Zuordnung",
+    "fr": "Correspondance EDID"
+  },
+  "EDID over DDC": {
+    "ru": "EDID по DDC",
+    "es": "EDID por DDC",
+    "de": "EDID über DDC",
+    "fr": "EDID via DDC"
+  },
+  "EDID tools: read (from the monitor), show (decode), build (create your own)": {
+    "ru": "EDID: read — прочитать с монитора, show — разобрать, build — собрать свой",
+    "es": "herramientas EDID: read (leer del monitor), show (decodificar), build (crear el tuyo)",
+    "de": "EDID-Werkzeuge: read (vom Monitor lesen), show (dekodieren), build (eigenes erstellen)",
+    "fr": "outils EDID : read (lire depuis le moniteur), show (décoder), build (créer le vôtre)"
+  },
+  "EDID written to %s": {
+    "ru": "EDID записан в %s",
+    "es": "EDID guardado en %s",
+    "de": "EDID nach %s geschrieben",
+    "fr": "EDID écrit dans %s"
+  },
+  "FILE|CONNECTOR": {
+    "ru": "ФАЙЛ|КОННЕКТОР",
+    "es": "ARCHIVO|CONECTOR",
+    "de": "DATEI|ANSCHLUSS",
+    "fr": "FICHIER|CONNECTEUR"
+  },
+  "File": {
+    "ru": "Файл",
+    "es": "Archivo",
+    "de": "Datei",
+    "fr": "Fichier"
+  },
+  "For every resolution finds the highest refresh rate that both the monitor and the\nadapter can handle, and what limits it. Timing \"auto\" uses the VESA DMT standard mode\nwhen one exists, otherwise CVT. --kernel checks the modes the kernel offers right now.": {
+    "ru": "Для каждого разрешения находит максимальную частоту, которую выдержат и монитор,\nи переходник, и показывает, во что она упирается. Тип «auto» берёт стандартный режим\nVESA DMT, если он есть, иначе CVT. --kernel проверяет режимы, которые ядро предлагает сейчас.",
+    "es": "Para cada resolución busca la frecuencia más alta que soportan el monitor y el\nadaptador, y qué la limita. El tipo \"auto\" usa el modo estándar VESA DMT si existe;\nsi no, CVT. --kernel revisa los modos que ofrece el kernel ahora mismo.",
+    "de": "Ermittelt für jede Auflösung die höchste Bildwiederholrate, die Monitor und Adapter\nschaffen, und was sie begrenzt. Timing „auto“ nimmt den VESA-DMT-Standardmodus,\nwenn es ihn gibt, sonst CVT. --kernel prüft die Modi, die der Kernel gerade anbietet.",
+    "fr": "Pour chaque résolution, trouve la fréquence la plus élevée que le moniteur et\nl'adaptateur supportent, et ce qui la limite. Le timing « auto » utilise le mode standard\nVESA DMT s'il existe, sinon CVT. --kernel vérifie les modes proposés par le noyau en ce moment."
+  },
+  "Forced by crtctl: «%s» (%s)": {
+    "ru": "Зафиксировано crtctl: «%s» (%s)",
+    "es": "Forzado por crtctl: «%s» (%s)",
+    "de": "Von crtctl festgelegt: „%s“ (%s)",
+    "fr": "Forcé par crtctl : « %s » (%s)"
+  },
+  "Forces the DisplayPort link configuration (amdgpu only, through debugfs).\nFor light modes the driver lowers the link rate or the lane count, and many cheap\nDP→VGA adapters cannot handle that: the screen goes black. \"force\" sets the maximum\nthe adapter declares; --persistent installs a systemd service that does it at every boot.": {
+    "ru": "Фиксирует конфигурацию канала DisplayPort (только amdgpu, через debugfs).\nДля лёгких режимов драйвер понижает скорость или число линий, а многие дешёвые\nпереходники DP→VGA так не работают — экран гаснет. «force» ставит максимум, который\nзаявляет переходник; --persistent ставит systemd-сервис, делающий это при каждой загрузке.",
+    "es": "Fuerza la configuración del enlace DisplayPort (solo amdgpu, mediante debugfs).\nCon modos ligeros el controlador reduce la velocidad o el número de carriles, y muchos\nadaptadores DP→VGA baratos no lo soportan: la pantalla se queda negra. \"force\" fija el\nmáximo que declara el adaptador; --persistent instala un servicio systemd que lo hace en cada arranque.",
+    "de": "Legt die Konfiguration der DisplayPort-Verbindung fest (nur amdgpu, über debugfs).\nBei leichten Modi senkt der Treiber die Rate oder die Zahl der Lanes, und viele billige\nDP→VGA-Adapter kommen damit nicht klar: Das Bild wird schwarz. „force“ setzt das Maximum,\ndas der Adapter angibt; --persistent installiert einen systemd-Dienst, der das bei jedem Start tut.",
+    "fr": "Force la configuration du lien DisplayPort (amdgpu uniquement, via debugfs).\nPour les modes légers, le pilote baisse le débit ou le nombre de voies, et beaucoup\nd'adaptateurs DP→VGA bon marché ne le supportent pas : l'écran devient noir. « force » fixe\nle maximum déclaré par l'adaptateur ; --persistent installe un service systemd qui le fait à chaque démarrage."
+  }
+}

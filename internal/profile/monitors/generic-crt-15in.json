@@ -1,0 +1,21 @@
+{
+  "id": "generic-crt-15in",
+  "name": "Typical 15-inch CRT (30–54 kHz)",
+  "name_l10n": {
+    "ru": "Типичный CRT 15 дюймов (30–54 кГц)",
+    "es": "CRT típico de 15 pulgadas (30–54 kHz)",
+    "de": "Typischer 15-Zoll-CRT (30–54 kHz)",
+    "fr": "CRT typique 15 pouces (30–54 kHz)"
+  },
+  "hmin_khz": 30,
+  "hmax_khz": 54,
+  "vmin_hz": 50,
+  "vmax_hz": 120,
+  "notes": "Conservative estimate for late-90s 15-inch monitors. Check against your monitor datasheet.",
+  "notes_l10n": {
+    "ru": "Консервативная оценка для 15-дюймовых мониторов конца 90-х. Сверь с паспортом своего монитора.",
+    "es": "Estimación conservadora para monitores de 15 pulgadas de finales de los 90. Compruébalo con la hoja de datos de tu monitor.",
+    "de": "Vorsichtige Schätzung für 15-Zoll-Monitore der späten 90er. Mit dem Datenblatt deines Monitors abgleichen.",
+    "fr": "Estimation prudente pour les moniteurs 15 pouces de la fin des années 90. À vérifier avec la fiche technique de votre moniteur."
+  }
+}

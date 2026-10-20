@@ -1,0 +1,26 @@
+# Push a tag like v0.3.0 (it must match `version` in main.go) and the binaries
+# appear on the Releases page.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - name: Check that the tag matches the version in main.go
+        run: test "v$(make -s version)" = "$GITHUB_REF_NAME"
+      - run: make release
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" dist/* --title "crtctl $GITHUB_REF_NAME" --generate-notes

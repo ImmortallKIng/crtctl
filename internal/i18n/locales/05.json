@@ -1,0 +1,434 @@
+{
+  "%s builds modes with CVT only, so %s timings become CVT. For exact timings use: sudo crtctl try %s %s --via edid": {
+    "ru": "%s строит режимы только по CVT, поэтому тайминги %s заменятся на CVT. Точные тайминги: sudo crtctl try %s %s --via edid",
+    "es": "%s solo crea modos con CVT, así que los tiempos %s pasan a ser CVT. Para tiempos exactos usa: sudo crtctl try %s %s --via edid",
+    "de": "%s erzeugt Modi nur mit CVT, daher werden die %s-Timings zu CVT. Für exakte Timings: sudo crtctl try %s %s --via edid",
+    "fr": "%s ne crée des modes qu'en CVT, les timings %s deviennent donc CVT. Pour des timings exacts : sudo crtctl try %s %s --via edid"
+  },
+  "%s failed: %w; fix the problem and run the same crtctl command again": {
+    "ru": "%s завершился с ошибкой: %w; устрани проблему и запусти ту же команду crtctl ещё раз",
+    "es": "%s falló: %w; corrige el problema y vuelve a ejecutar el mismo comando de crtctl",
+    "de": "%s ist fehlgeschlagen: %w; behebe das Problem und führe denselben crtctl-Befehl erneut aus",
+    "fr": "%s a échoué : %w ; corrigez le problème et relancez la même commande crtctl"
+  },
+  "%s is not connected": {
+    "ru": "%s не подключён",
+    "es": "%s no está conectado",
+    "de": "%s ist nicht verbunden",
+    "fr": "%s n'est pas branché"
+  },
+  "%s is now in the display settings. Choose it there and look at the picture.": {
+    "ru": "%s теперь есть в настройках экрана. Выбери его там и посмотри на картинку.",
+    "es": "%s ya está en la configuración de pantalla. Elígelo allí y mira la imagen.",
+    "de": "%s steht jetzt in den Anzeigeeinstellungen. Wähle ihn dort aus und sieh dir das Bild an.",
+    "fr": "%s figure maintenant dans les paramètres d'affichage. Choisissez-le et regardez l'image."
+  },
+  "%s was updated, but no grub-mkconfig was found to regenerate the GRUB menu": {
+    "ru": "%s обновлён, но не найден grub-mkconfig, чтобы пересобрать меню GRUB",
+    "es": "%s se actualizó, pero no se encontró grub-mkconfig para regenerar el menú de GRUB",
+    "de": "%s wurde aktualisiert, aber kein grub-mkconfig gefunden, um das GRUB-Menü neu zu erzeugen",
+    "fr": "%s a été mis à jour, mais aucun grub-mkconfig n'a été trouvé pour régénérer le menu GRUB"
+  },
+  "%s; driver: %s; session: %s; %s": {
+    "ru": "%s; драйвер: %s; сессия: %s; %s",
+    "es": "%s; controlador: %s; sesión: %s; %s",
+    "de": "%s; Treiber: %s; Sitzung: %s; %s",
+    "fr": "%s ; pilote : %s ; session : %s ; %s"
+  },
+  "%s→VGA converter": {
+    "ru": "переходник %s→VGA",
+    "es": "convertidor %s→VGA",
+    "de": "%s→VGA-Wandler",
+    "fr": "convertisseur %s→VGA"
+  },
+  "Adapter: %s; limit about %.1f MHz": {
+    "ru": "Переходник: %s; предел около %.1f МГц",
+    "es": "Adaptador: %s; límite de unos %.1f MHz",
+    "de": "Adapter: %s; Grenze etwa %.1f MHz",
+    "fr": "Adaptateur : %s ; limite d'environ %.1f MHz"
+  },
+  "Check later: crtctl doctor": {
+    "ru": "Проверить потом: crtctl doctor",
+    "es": "Para revisar más tarde: crtctl doctor",
+    "de": "Später prüfen: crtctl doctor",
+    "fr": "Vérifier plus tard : crtctl doctor"
+  },
+  "Checking before installing...": {
+    "ru": "Проверка перед установкой...",
+    "es": "Comprobación antes de instalar...",
+    "de": "Prüfung vor der Installation...",
+    "fr": "Vérification avant l'installation..."
+  },
+  "Choosing the modes...": {
+    "ru": "Подбираю режимы...",
+    "es": "Eligiendo los modos...",
+    "de": "Wähle die Modi...",
+    "fr": "Choix des modes..."
+  },
+  "Created by crtctl setup from the monitor's own EDID: the limits are the highest values the monitor declares about itself. Raise them only according to the datasheet.": {
+    "ru": "Создан crtctl setup по EDID монитора: пределы — максимальные значения, которые монитор заявляет о себе сам. Поднимай их только по паспорту.",
+    "es": "Creado por crtctl setup a partir del EDID del monitor: los límites son los valores más altos que el monitor declara de sí mismo. Súbelos solo según la hoja de datos.",
+    "de": "Von crtctl setup aus dem EDID des Monitors erstellt: Die Grenzen sind die höchsten Werte, die der Monitor über sich angibt. Erhöhe sie nur laut Datenblatt.",
+    "fr": "Créé par crtctl setup à partir de l'EDID du moniteur : les limites sont les valeurs maximales que le moniteur déclare lui-même. Ne les augmentez que d'après la fiche technique."
+  },
+  "DP→VGA adapter (its registers are not available)": {
+    "ru": "переходник DP→VGA (его регистры недоступны)",
+    "es": "adaptador DP→VGA (sus registros no están disponibles)",
+    "de": "DP→VGA-Adapter (seine Register sind nicht verfügbar)",
+    "fr": "adaptateur DP→VGA (ses registres ne sont pas disponibles)"
+  },
+  "DisplayPort link": {
+    "ru": "Канал DisplayPort",
+    "es": "Enlace DisplayPort",
+    "de": "DisplayPort-Verbindung",
+    "fr": "Lien DisplayPort"
+  },
+  "Does everything look right? Install it permanently?": {
+    "ru": "Всё выглядит нормально? Установить навсегда?",
+    "es": "¿Se ve todo bien? ¿Lo instalo de forma permanente?",
+    "de": "Sieht alles richtig aus? Dauerhaft installieren?",
+    "fr": "Tout semble correct ? L'installer définitivement ?"
+  },
+  "Done. At every boot a service loads the EDID from %s.": {
+    "ru": "Готово. При каждой загрузке сервис подкладывает EDID из %s.",
+    "es": "Listo. En cada arranque un servicio carga el EDID desde %s.",
+    "de": "Fertig. Bei jedem Start lädt ein Dienst das EDID aus %s.",
+    "fr": "Terminé. À chaque démarrage, un service charge l'EDID depuis %s."
+  },
+  "Done: %s is set up. The modes stay after a reboot.": {
+    "ru": "Готово: %s настроен. Режимы сохранятся после перезагрузки.",
+    "es": "Listo: %s está configurado. Los modos se mantienen tras reiniciar.",
+    "de": "Fertig: %s ist eingerichtet. Die Modi bleiben nach einem Neustart erhalten.",
+    "fr": "Terminé : %s est configuré. Les modes restent après un redémarrage."
+  },
+  "Enter a number from 1 to %d.": {
+    "ru": "Введи число от 1 до %d.",
+    "es": "Escribe un número del 1 al %d.",
+    "de": "Gib eine Zahl von 1 bis %d ein.",
+    "fr": "Entrez un nombre de 1 à %d."
+  },
+  "Experiment with any mode: crtctl try %s 1000x500@75": {
+    "ru": "Поэкспериментировать с любым режимом: crtctl try %s 1000x500@75",
+    "es": "Experimenta con cualquier modo: crtctl try %s 1000x500@75",
+    "de": "Mit beliebigen Modi experimentieren: crtctl try %s 1000x500@75",
+    "fr": "Expérimenter n'importe quel mode : crtctl try %s 1000x500@75"
+  },
+  "Going back to the previous mode.": {
+    "ru": "Возвращаю прежний режим.",
+    "es": "Vuelvo al modo anterior.",
+    "de": "Zurück zum vorherigen Modus.",
+    "fr": "Retour au mode précédent."
+  },
+  "Highest horizontal frequency from the datasheet, kHz (for example 70):": {
+    "ru": "Максимальная строчная частота по паспорту, кГц (например 70):",
+    "es": "Frecuencia horizontal máxima según la hoja de datos, kHz (por ejemplo 70):",
+    "de": "Höchste Horizontalfrequenz laut Datenblatt, kHz (zum Beispiel 70):",
+    "fr": "Fréquence horizontale maximale d'après la fiche technique, kHz (par exemple 70) :"
+  },
+  "Highest vertical refresh, Hz (Enter for 120):": {
+    "ru": "Максимальная кадровая частота, Гц (Enter — 120):",
+    "es": "Frecuencia vertical máxima, Hz (Intro para 120):",
+    "de": "Höchste Vertikalfrequenz, Hz (Enter für 120):",
+    "fr": "Fréquence verticale maximale, Hz (Entrée pour 120) :"
+  },
+  "Hyprland did not accept the modeline: %s": {
+    "ru": "Hyprland не принял modeline: %s",
+    "es": "Hyprland no aceptó el modeline: %s",
+    "de": "Hyprland hat die Modeline nicht angenommen: %s",
+    "fr": "Hyprland n'a pas accepté la modeline : %s"
+  },
+  "Hyprland does not show monitor %s": {
+    "ru": "Hyprland не видит монитор %s",
+    "es": "Hyprland no muestra el monitor %s",
+    "de": "Hyprland zeigt den Monitor %s nicht",
+    "fr": "Hyprland n'affiche pas le moniteur %s"
+  },
+  "Installing permanently...": {
+    "ru": "Устанавливаю навсегда...",
+    "es": "Instalando de forma permanente...",
+    "de": "Dauerhafte Installation...",
+    "fr": "Installation définitive..."
+  },
+  "Is «%s» connected?": {
+    "ru": "Подключён «%s»?",
+    "es": "¿Está conectado «%s»?",
+    "de": "Ist „%s“ angeschlossen?",
+    "fr": "Est-ce « %s » qui est branché ?"
+  },
+  "KWin did not create the mode %s": {
+    "ru": "KWin не создал режим %s",
+    "es": "KWin no creó el modo %s",
+    "de": "KWin hat den Modus %s nicht erstellt",
+    "fr": "KWin n'a pas créé le mode %s"
+  },
+  "Keep the DP link at the maximum?": {
+    "ru": "Держать канал DP на максимуме?",
+    "es": "¿Mantener el enlace DP al máximo?",
+    "de": "Die DP-Verbindung auf dem Maximum halten?",
+    "fr": "Maintenir le lien DP au maximum ?"
+  },
+  "Kernel lockdown is on (%s, usually because of Secure Boot): debugfs is closed, so apply --test, reprobe, link and the service install method do not work. The permanent install through the kernel parameter still works.": {
+    "ru": "Включён kernel lockdown (%s, обычно из-за Secure Boot): debugfs закрыт, поэтому apply --test, reprobe, link и установка через сервис не работают. Постоянная установка через параметр ядра работает.",
+    "es": "El kernel lockdown está activo (%s, normalmente por Secure Boot): debugfs está cerrado, así que apply --test, reprobe, link y la instalación mediante servicio no funcionan. La instalación permanente por parámetro del kernel sí funciona.",
+    "de": "Kernel-Lockdown ist aktiv (%s, meist wegen Secure Boot): debugfs ist gesperrt, daher funktionieren apply --test, reprobe, link und die Installation per Dienst nicht. Die dauerhafte Installation über den Kernelparameter funktioniert weiterhin.",
+    "fr": "Le kernel lockdown est actif (%s, généralement à cause de Secure Boot) : debugfs est fermé, donc apply --test, reprobe, link et l'installation par service ne fonctionnent pas. L'installation permanente par paramètre du noyau fonctionne toujours."
+  },
+  "Kernel parameters via %s": {
+    "ru": "Параметры ядра через %s",
+    "es": "Parámetros del kernel mediante %s",
+    "de": "Kernelparameter über %s",
+    "fr": "Paramètres du noyau via %s"
+  },
+  "Loading a temporary EDID with the test mode first...": {
+    "ru": "Подкладываю временный EDID, где пробный режим стоит первым...",
+    "es": "Cargando un EDID temporal con el modo de prueba primero...",
+    "de": "Lade ein temporäres EDID mit dem Testmodus an erster Stelle...",
+    "fr": "Chargement d'un EDID temporaire avec le mode d'essai en premier..."
+  },
+  "Looking for the CRT monitor...": {
+    "ru": "Ищу CRT-монитор...",
+    "es": "Buscando el monitor CRT...",
+    "de": "Suche den CRT-Monitor...",
+    "fr": "Recherche du moniteur CRT..."
+  },
+  "Many DP→VGA adapters go black on low resolutions because the driver slows the link down. Keeping the link at the adapter's maximum avoids that and is harmless.": {
+    "ru": "Многие переходники DP→VGA гаснут на низких разрешениях, потому что драйвер понижает скорость канала. Если держать канал на максимуме переходника, этого не происходит, и это безвредно.",
+    "es": "Muchos adaptadores DP→VGA se quedan en negro con resoluciones bajas porque el controlador reduce la velocidad del enlace. Mantener el enlace al máximo del adaptador lo evita y no hace daño.",
+    "de": "Viele DP→VGA-Adapter bleiben bei niedrigen Auflösungen schwarz, weil der Treiber die Verbindung verlangsamt. Die Verbindung auf dem Maximum des Adapters zu halten verhindert das und schadet nicht.",
+    "fr": "Beaucoup d'adaptateurs DP→VGA deviennent noirs en basse résolution, car le pilote ralentit le lien. Maintenir le lien au maximum de l'adaptateur l'évite et ne présente aucun risque."
+  },
+  "Mode kept. It stays until you change it or log out; to keep it for good: crtctl edid build %s %s --best": {
+    "ru": "Режим оставлен. Он продержится, пока ты его не сменишь или не выйдешь из сессии; чтобы закрепить: crtctl edid build %s %s --best",
+    "es": "Modo conservado. Se mantiene hasta que lo cambies o cierres la sesión; para dejarlo fijo: crtctl edid build %s %s --best",
+    "de": "Modus beibehalten. Er bleibt, bis du ihn änderst oder dich abmeldest; für dauerhaft: crtctl edid build %s %s --best",
+    "fr": "Mode conservé. Il reste jusqu'à ce que vous le changiez ou vous déconnectiez ; pour le garder définitivement : crtctl edid build %s %s --best"
+  },
+  "Monitor on %s (entered by hand)": {
+    "ru": "Монитор на %s (введён вручную)",
+    "es": "Monitor en %s (introducido a mano)",
+    "de": "Monitor an %s (von Hand eingegeben)",
+    "fr": "Moniteur sur %s (saisi à la main)"
+  },
+  "Monitor: %s": {
+    "ru": "Монитор: %s",
+    "es": "Monitor: %s",
+    "de": "Monitor: %s",
+    "fr": "Moniteur : %s"
+  },
+  "NVIDIA driver %s has a known bug: custom EDIDs are ignored. Update to 580.119.02 or newer.": {
+    "ru": "В драйвере NVIDIA %s известная ошибка: свои EDID игнорируются. Обнови до 580.119.02 или новее.",
+    "es": "El controlador NVIDIA %s tiene un error conocido: ignora los EDID personalizados. Actualiza a 580.119.02 o posterior.",
+    "de": "Der NVIDIA-Treiber %s hat einen bekannten Fehler: Eigene EDIDs werden ignoriert. Aktualisiere auf 580.119.02 oder neuer.",
+    "fr": "Le pilote NVIDIA %s a un bogue connu : les EDID personnalisés sont ignorés. Mettez à jour vers 580.119.02 ou plus récent."
+  },
+  "NixOS: crtctl prints the configuration.nix lines instead of changing the boot setup.": {
+    "ru": "NixOS: crtctl напечатает строки для configuration.nix вместо правки загрузки.",
+    "es": "NixOS: crtctl muestra las líneas para configuration.nix en lugar de cambiar el arranque.",
+    "de": "NixOS: crtctl gibt die Zeilen für configuration.nix aus, statt den Start zu ändern.",
+    "fr": "NixOS : crtctl affiche les lignes pour configuration.nix au lieu de modifier le démarrage."
+  },
+  "No output looks like a CRT (no analog EDID, no VGA adapter). Pick one anyway:": {
+    "ru": "Ни один выход не похож на CRT (нет аналогового EDID и переходника на VGA). Выбери вручную:",
+    "es": "Ninguna salida parece un CRT (sin EDID analógico ni adaptador VGA). Elige una de todos modos:",
+    "de": "Kein Ausgang sieht nach einem CRT aus (kein analoges EDID, kein VGA-Adapter). Wähle trotzdem einen:",
+    "fr": "Aucune sortie ne ressemble à un CRT (pas d'EDID analogique ni d'adaptateur VGA). Choisissez-en une quand même :"
+  },
+  "Nothing was changed. To choose modes yourself: crtctl edid build %s MODE... and sudo crtctl apply.": {
+    "ru": "Ничего не изменено. Выбрать режимы самому: crtctl edid build %s РЕЖИМ... и sudo crtctl apply.",
+    "es": "No se cambió nada. Para elegir los modos tú mismo: crtctl edid build %s MODO... y sudo crtctl apply.",
+    "de": "Nichts wurde geändert. Modi selbst wählen: crtctl edid build %s MODUS... und sudo crtctl apply.",
+    "fr": "Rien n'a été modifié. Pour choisir les modes vous-même : crtctl edid build %s MODE... puis sudo crtctl apply."
+  },
+  "Open the display settings and try a few of them, or in another terminal: crtctl try %s 1024x768@85": {
+    "ru": "Открой настройки экрана и попробуй несколько режимов или в другом терминале: crtctl try %s 1024x768@85",
+    "es": "Abre la configuración de pantalla y prueba algunos, o en otra terminal: crtctl try %s 1024x768@85",
+    "de": "Öffne die Anzeigeeinstellungen und probiere einige aus, oder in einem anderen Terminal: crtctl try %s 1024x768@85",
+    "fr": "Ouvrez les paramètres d'affichage et essayez-en quelques-uns, ou dans un autre terminal : crtctl try %s 1024x768@85"
+  },
+  "Output: %s (%s)": {
+    "ru": "Выход: %s (%s)",
+    "es": "Salida: %s (%s)",
+    "de": "Ausgang: %s (%s)",
+    "fr": "Sortie : %s (%s)"
+  },
+  "Plug in the CRT and run this: crtctl finds the monitor and the adapter, works out\nthe safe limits (creating a monitor profile if the monitor is unknown), builds an EDID\nwith the best modes, lets you check it before anything is written, and installs it\npermanently. Asks before every step; --yes accepts the defaults.": {
+    "ru": "Подключи CRT и запусти: crtctl найдёт монитор и переходник, вычислит безопасные\nпределы (создаст профиль, если монитор незнакомый), соберёт EDID с лучшими режимами,\nдаст проверить его до записи и установит навсегда.\nСпрашивает перед каждым шагом; --yes принимает ответы по умолчанию.",
+    "es": "Conecta el CRT y ejecuta esto: crtctl encuentra el monitor y el adaptador, calcula\nlos límites seguros (crea un perfil si el monitor es desconocido), crea un EDID con los\nmejores modos, te deja comprobarlo antes de escribir nada y lo instala de forma\npermanente. Pregunta antes de cada paso; --yes acepta las respuestas por defecto.",
+    "de": "CRT anschließen und das hier starten: crtctl findet Monitor und Adapter, ermittelt\ndie sicheren Grenzen (legt ein Profil an, wenn der Monitor unbekannt ist), erstellt ein\nEDID mit den besten Modi, lässt es dich vor dem Schreiben prüfen und installiert es\ndauerhaft. Fragt vor jedem Schritt; --yes übernimmt die Standardantworten.",
+    "fr": "Branchez le CRT et lancez ceci : crtctl trouve le moniteur et l'adaptateur, calcule\nles limites sûres (en créant un profil si le moniteur est inconnu), crée un EDID avec les\nmeilleurs modes, vous laisse le vérifier avant toute écriture et l'installe\ndéfinitivement. Demande avant chaque étape ; --yes accepte les réponses par défaut."
+  },
+  "Press Enter within %d seconds to keep it; otherwise the previous mode comes back.": {
+    "ru": "Нажми Enter в течение %d с, чтобы оставить; иначе вернётся прежний режим.",
+    "es": "Pulsa Intro en menos de %d segundos para conservarlo; si no, vuelve el modo anterior.",
+    "de": "Drücke innerhalb von %d Sekunden Enter, um ihn zu behalten; sonst kehrt der vorherige Modus zurück.",
+    "fr": "Appuyez sur Entrée dans les %d secondes pour le garder ; sinon, le mode précédent revient."
+  },
+  "Profile %s (%s)": {
+    "ru": "Профиль %s (%s)",
+    "es": "Perfil %s (%s)",
+    "de": "Profil %s (%s)",
+    "fr": "Profil %s (%s)"
+  },
+  "Restored the previous EDID; nothing was installed.": {
+    "ru": "Прежний EDID возвращён; ничего не установлено.",
+    "es": "Se restauró el EDID anterior; no se instaló nada.",
+    "de": "Das vorherige EDID ist wiederhergestellt; nichts wurde installiert.",
+    "fr": "L'EDID précédent est restauré ; rien n'a été installé."
+  },
+  "Restoring the previous EDID...": {
+    "ru": "Возвращаю прежний EDID...",
+    "es": "Restaurando el EDID anterior...",
+    "de": "Stelle das vorherige EDID wieder her...",
+    "fr": "Restauration de l'EDID précédent..."
+  },
+  "Saved profile %s: %s": {
+    "ru": "Профиль %s сохранён: %s",
+    "es": "Perfil %s guardado: %s",
+    "de": "Profil %s gespeichert: %s",
+    "fr": "Profil %s enregistré : %s"
+  },
+  "Several outputs look like a CRT:": {
+    "ru": "Несколько выходов похожи на CRT:",
+    "es": "Varias salidas parecen un CRT:",
+    "de": "Mehrere Ausgänge sehen nach einem CRT aus:",
+    "fr": "Plusieurs sorties ressemblent à un CRT :"
+  },
+  "Shows any resolution and refresh rate on the monitor right away, for example 1000x500@75,\nso you can see how it looks. If you do not press Enter in time, the previous mode comes back.\nIt uses your desktop session: KDE, X11 (any desktop), Sway or Hyprland. On other desktops\n(GNOME…) it adds the mode to a temporary EDID instead: run it with sudo and --via edid.\nThe mode is checked against the monitor and adapter limits first.": {
+    "ru": "Сразу показывает на мониторе любое разрешение и частоту, например 1000x500@75, чтобы\nпосмотреть, как это выглядит. Если вовремя не нажать Enter, вернётся прежний режим.\nРаботает через твою сессию: KDE, X11 (любой рабочий стол), Sway или Hyprland. На других\nстолах (GNOME…) режим кладётся во временный EDID: запускай через sudo с --via edid.\nСначала режим проверяется по пределам монитора и переходника.",
+    "es": "Muestra al instante en el monitor cualquier resolución y frecuencia, por ejemplo 1000x500@75,\npara ver cómo queda. Si no pulsas Intro a tiempo, vuelve el modo anterior.\nUsa tu sesión de escritorio: KDE, X11 (cualquier escritorio), Sway o Hyprland. En otros\nescritorios (GNOME…) añade el modo a un EDID temporal: ejecútalo con sudo y --via edid.\nAntes se comprueba el modo con los límites del monitor y del adaptador.",
+    "de": "Zeigt sofort jede Auflösung und Bildwiederholrate auf dem Monitor, zum Beispiel 1000x500@75,\ndamit du siehst, wie es aussieht. Drückst du nicht rechtzeitig Enter, kehrt der vorherige Modus zurück.\nNutzt deine Desktop-Sitzung: KDE, X11 (jeder Desktop), Sway oder Hyprland. Auf anderen\nDesktops (GNOME…) kommt der Modus in ein temporäres EDID: mit sudo und --via edid ausführen.\nVorher wird der Modus gegen die Grenzen von Monitor und Adapter geprüft.",
+    "fr": "Affiche immédiatement sur le moniteur n'importe quelle résolution et fréquence, par exemple 1000x500@75,\npour voir le résultat. Si vous n'appuyez pas sur Entrée à temps, le mode précédent revient.\nPasse par votre session : KDE, X11 (tout bureau), Sway ou Hyprland. Sur les autres bureaux\n(GNOME…), le mode est ajouté à un EDID temporaire : lancez-le avec sudo et --via edid.\nLe mode est d'abord vérifié par rapport aux limites du moniteur et de l'adaptateur."
+  },
+  "Some steps need root; asking for the sudo password.": {
+    "ru": "Некоторым шагам нужен root; запрашиваю пароль sudo.",
+    "es": "Algunos pasos necesitan root; pidiendo la contraseña de sudo.",
+    "de": "Einige Schritte brauchen root; frage nach dem sudo-Passwort.",
+    "fr": "Certaines étapes nécessitent root ; demande du mot de passe sudo."
+  },
+  "Switching through %s...": {
+    "ru": "Переключаю через %s...",
+    "es": "Cambiando mediante %s...",
+    "de": "Schalte um über %s...",
+    "fr": "Changement via %s..."
+  },
+  "System: %s": {
+    "ru": "Система: %s",
+    "es": "Sistema: %s",
+    "de": "System: %s",
+    "fr": "Système : %s"
+  },
+  "The EDID file is ready; finish the steps above and reboot.": {
+    "ru": "Файл EDID готов; выполни шаги выше и перезагрузись.",
+    "es": "El archivo EDID está listo; completa los pasos de arriba y reinicia.",
+    "de": "Die EDID-Datei ist fertig; erledige die Schritte oben und starte neu.",
+    "fr": "Le fichier EDID est prêt ; effectuez les étapes ci-dessus et redémarrez."
+  },
+  "The EDID is installed through the boot service, but the kernel does not use it now. Check: systemctl status crtctl-edid": {
+    "ru": "EDID установлен через сервис загрузки, но ядро сейчас его не использует. Проверь: systemctl status crtctl-edid",
+    "es": "El EDID está instalado mediante el servicio de arranque, pero el kernel no lo usa ahora. Revisa: systemctl status crtctl-edid",
+    "de": "Das EDID ist über den Startdienst installiert, aber der Kernel nutzt es gerade nicht. Prüfe: systemctl status crtctl-edid",
+    "fr": "L'EDID est installé via le service de démarrage, mais le noyau ne l'utilise pas actuellement. Vérifiez : systemctl status crtctl-edid"
+  },
+  "The NVIDIA driver runs without kernel modesetting (nvidia-drm.modeset=1 is off). Without it Linux does not see the outputs, and EDID tricks do not work. Add the kernel parameter and reboot:": {
+    "ru": "Драйвер NVIDIA работает без kernel modesetting (nvidia-drm.modeset=1 выключен). Без него Linux не видит выходы, и подмена EDID не работает. Добавь параметр ядра и перезагрузись:",
+    "es": "El controlador NVIDIA funciona sin kernel modesetting (nvidia-drm.modeset=1 está desactivado). Sin él Linux no ve las salidas y los EDID personalizados no funcionan. Añade el parámetro del kernel y reinicia:",
+    "de": "Der NVIDIA-Treiber läuft ohne Kernel-Modesetting (nvidia-drm.modeset=1 ist aus). Ohne das sieht Linux die Ausgänge nicht, und eigene EDIDs funktionieren nicht. Füge den Kernelparameter hinzu und starte neu:",
+    "fr": "Le pilote NVIDIA fonctionne sans kernel modesetting (nvidia-drm.modeset=1 est désactivé). Sans lui, Linux ne voit pas les sorties et les EDID personnalisés ne fonctionnent pas. Ajoutez le paramètre du noyau et redémarrez :"
+  },
+  "The boot loader was not recognised, so the permanent install will use a systemd service (or manual steps).": {
+    "ru": "Загрузчик не распознан, поэтому постоянная установка пойдёт через systemd-сервис (или вручную).",
+    "es": "No se reconoció el gestor de arranque, así que la instalación permanente usará un servicio de systemd (o pasos manuales).",
+    "de": "Der Bootloader wurde nicht erkannt, daher nutzt die dauerhafte Installation einen systemd-Dienst (oder manuelle Schritte).",
+    "fr": "Le chargeur d'amorçage n'a pas été reconnu : l'installation permanente utilisera un service systemd (ou des étapes manuelles)."
+  },
+  "The initramfs generator was not recognised. If the graphics driver loads from the initramfs, add these files to it: %s": {
+    "ru": "Генератор initramfs не распознан. Если видеодрайвер грузится из initramfs, добавь в него эти файлы: %s",
+    "es": "No se reconoció el generador de initramfs. Si el controlador gráfico se carga desde el initramfs, añade estos archivos: %s",
+    "de": "Der initramfs-Generator wurde nicht erkannt. Wenn der Grafiktreiber aus dem initramfs lädt, füge diese Dateien hinzu: %s",
+    "fr": "Le générateur d'initramfs n'a pas été reconnu. Si le pilote graphique se charge depuis l'initramfs, ajoutez-y ces fichiers : %s"
+  },
+  "The limits are what the monitor declares about itself. If you have its datasheet, you can raise them in that file.": {
+    "ru": "Пределы — то, что монитор заявляет о себе сам. Если есть паспорт, их можно поднять в этом файле.",
+    "es": "Los límites son lo que el monitor declara de sí mismo. Si tienes su hoja de datos, puedes subirlos en ese archivo.",
+    "de": "Die Grenzen sind das, was der Monitor über sich angibt. Wenn du das Datenblatt hast, kannst du sie in dieser Datei erhöhen.",
+    "fr": "Les limites sont ce que le moniteur déclare lui-même. Si vous avez sa fiche technique, vous pouvez les augmenter dans ce fichier."
+  },
+  "The monitor does not tell its limits. Choose a profile, or enter the values from its datasheet:": {
+    "ru": "Монитор не сообщает свои пределы. Выбери профиль или введи значения из паспорта:",
+    "es": "El monitor no informa de sus límites. Elige un perfil o introduce los valores de su hoja de datos:",
+    "de": "Der Monitor nennt seine Grenzen nicht. Wähle ein Profil oder gib die Werte aus dem Datenblatt ein:",
+    "fr": "Le moniteur n'indique pas ses limites. Choisissez un profil, ou saisissez les valeurs de sa fiche technique :"
+  },
+  "The monitor is not in the profile list; created profile %s from its EDID: %s": {
+    "ru": "Монитора нет в списке профилей; по его EDID создан профиль %s: %s",
+    "es": "El monitor no está en la lista de perfiles; se creó el perfil %s a partir de su EDID: %s",
+    "de": "Der Monitor ist nicht in der Profilliste; Profil %s aus seinem EDID erstellt: %s",
+    "fr": "Le moniteur n'est pas dans la liste des profils ; profil %s créé à partir de son EDID : %s"
+  },
+  "The new modes are active until reboot (%s).": {
+    "ru": "Новые режимы действуют до перезагрузки (%s).",
+    "es": "Los nuevos modos están activos hasta reiniciar (%s).",
+    "de": "Die neuen Modi sind bis zum Neustart aktiv (%s).",
+    "fr": "Les nouveaux modes sont actifs jusqu'au redémarrage (%s)."
+  },
+  "Trying %s (%s), %s": {
+    "ru": "Пробую %s (%s), %s",
+    "es": "Probando %s (%s), %s",
+    "de": "Teste %s (%s), %s",
+    "fr": "Essai de %s (%s), %s"
+  },
+  "Use these modes?": {
+    "ru": "Использовать эти режимы?",
+    "es": "¿Usar estos modos?",
+    "de": "Diese Modi verwenden?",
+    "fr": "Utiliser ces modes ?"
+  },
+  "When you are done, press Enter here to bring the previous EDID back (or wait %d seconds).": {
+    "ru": "Когда закончишь, нажми здесь Enter, чтобы вернуть прежний EDID (или подожди %d с).",
+    "es": "Cuando termines, pulsa Intro aquí para recuperar el EDID anterior (o espera %d segundos).",
+    "de": "Wenn du fertig bist, drücke hier Enter, um das vorherige EDID zurückzuholen (oder warte %d Sekunden).",
+    "fr": "Quand vous avez terminé, appuyez sur Entrée ici pour rétablir l'EDID précédent (ou attendez %d secondes)."
+  },
+  "Which one?": {
+    "ru": "Какой?",
+    "es": "¿Cuál?",
+    "de": "Welcher?",
+    "fr": "Lequel ?"
+  },
+  "Without --dry-run crtctl setup would now:": {
+    "ru": "Без --dry-run crtctl setup сейчас:",
+    "es": "Sin --dry-run, crtctl setup ahora:",
+    "de": "Ohne --dry-run würde crtctl setup jetzt:",
+    "fr": "Sans --dry-run, crtctl setup va maintenant :"
+  },
+  "Working out the safe limits...": {
+    "ru": "Вычисляю безопасные пределы...",
+    "es": "Calculando los límites seguros...",
+    "de": "Ermittle die sicheren Grenzen...",
+    "fr": "Calcul des limites sûres..."
+  },
+  "Your choice?": {
+    "ru": "Твой выбор?",
+    "es": "¿Tu elección?",
+    "de": "Deine Wahl?",
+    "fr": "Votre choix ?"
+  },
+  "[CONNECTOR] WxH@Hz": {
+    "ru": "[КОННЕКТОР] ШxВ@Гц",
+    "es": "[CONECTOR] AnchoxAlto@Hz",
+    "de": "[ANSCHLUSS] BxH@Hz",
+    "fr": "[CONNECTEUR] LxH@Hz"
+  },
+  "[Y/n]": {
+    "ru": "[Д/н]",
+    "es": "[S/n]",
+    "de": "[J/n]",
+    "fr": "[O/n]"
+  },
+  "[y/N]": {
+    "ru": "[д/Н]",
+    "es": "[s/N]",
+    "de": "[j/N]",
+    "fr": "[o/N]"
+  }
+}

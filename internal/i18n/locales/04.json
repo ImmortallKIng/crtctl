@@ -1,0 +1,530 @@
+{
+  "%s:": {
+    "ru": "%s:",
+    "es": "%s:",
+    "de": "%s:",
+    "fr": "%s :"
+  },
+  "(built-in)": {
+    "ru": "(встроенный)",
+    "es": "(integrado)",
+    "de": "(eingebaut)",
+    "fr": "(intégré)"
+  },
+  "matched by EDID": {
+    "ru": "найден по EDID",
+    "es": "encontrado por EDID",
+    "de": "über EDID zugeordnet",
+    "fr": "trouvé via l'EDID"
+  },
+  "mode %s is active right now; switch to another one first": {
+    "ru": "режим %s сейчас включён; сначала переключись на другой",
+    "es": "el modo %s está activo ahora; cambia primero a otro",
+    "de": "Modus %s ist gerade aktiv; wechsle zuerst zu einem anderen",
+    "fr": "le mode %s est actif en ce moment ; passez d'abord à un autre"
+  },
+  "monitor horizontal": {
+    "ru": "строчная монитора",
+    "es": "horizontal del monitor",
+    "de": "Horizontalfrequenz des Monitors",
+    "fr": "horizontale du moniteur"
+  },
+  "monitor name stored in the EDID, up to 13 ASCII characters": {
+    "ru": "имя монитора в EDID, до 13 символов ASCII",
+    "es": "nombre del monitor guardado en el EDID, hasta 13 caracteres ASCII",
+    "de": "im EDID gespeicherter Monitorname, bis zu 13 ASCII-Zeichen",
+    "fr": "nom du moniteur stocké dans l'EDID, jusqu'à 13 caractères ASCII"
+  },
+  "monitor profile (see crtctl profiles); by default it is found from the EDID": {
+    "ru": "профиль монитора (см. crtctl profiles); по умолчанию находится по EDID",
+    "es": "perfil del monitor (ver crtctl profiles); por defecto se busca por el EDID",
+    "de": "Monitorprofil (siehe crtctl profiles); standardmäßig über das EDID gefunden",
+    "fr": "profil du moniteur (voir crtctl profiles) ; par défaut, trouvé via l'EDID"
+  },
+  "monitor profiles: list, details, create your own": {
+    "ru": "профили мониторов: список, подробности, создание своего",
+    "es": "perfiles de monitor: lista, detalles, crear el tuyo",
+    "de": "Monitorprofile: Liste, Details, eigenes erstellen",
+    "fr": "profils de moniteur : liste, détails, créer le vôtre"
+  },
+  "monitor vertical": {
+    "ru": "кадровая монитора",
+    "es": "vertical del monitor",
+    "de": "Vertikalfrequenz des Monitors",
+    "fr": "verticale du moniteur"
+  },
+  "name the connector, several are connected: %s": {
+    "ru": "укажи коннектор, подключено несколько: %s",
+    "es": "indica el conector, hay varios conectados: %s",
+    "de": "gib den Anschluss an, mehrere sind verbunden: %s",
+    "fr": "indiquez le connecteur, plusieurs sont branchés : %s"
+  },
+  "no access to %s: run with sudo": {
+    "ru": "нет доступа к %s: запусти через sudo",
+    "es": "sin acceso a %s: ejecuta con sudo",
+    "de": "kein Zugriff auf %s: mit sudo ausführen",
+    "fr": "pas d'accès à %s : lancez avec sudo"
+  },
+  "no access to /dev/i2c-%d (run as root, or install ddcutil, which adds a udev rule)": {
+    "ru": "нет доступа к /dev/i2c-%d (запусти от root или поставь ddcutil — он добавляет udev-правило)",
+    "es": "sin acceso a /dev/i2c-%d (ejecuta como root o instala ddcutil, que añade una regla de udev)",
+    "de": "kein Zugriff auf /dev/i2c-%d (als root ausführen oder ddcutil installieren, das eine udev-Regel mitbringt)",
+    "fr": "pas d'accès à /dev/i2c-%d (lancez en root, ou installez ddcutil, qui ajoute une règle udev)"
+  },
+  "no mode given": {
+    "ru": "не указан режим",
+    "es": "no se indicó ningún modo",
+    "de": "kein Modus angegeben",
+    "fr": "aucun mode indiqué"
+  },
+  "no modes given": {
+    "ru": "не задано ни одного режима",
+    "es": "no se indicaron modos",
+    "de": "keine Modi angegeben",
+    "fr": "aucun mode indiqué"
+  },
+  "no modes given (list them, or use --best)": {
+    "ru": "не задано ни одного режима (перечисли их или используй --best)",
+    "es": "no se indicaron modos (enuméralos o usa --best)",
+    "de": "keine Modi angegeben (zähle sie auf oder nutze --best)",
+    "fr": "aucun mode indiqué (listez-les, ou utilisez --best)"
+  },
+  "no monitor is connected": {
+    "ru": "ни один монитор не подключён",
+    "es": "no hay ningún monitor conectado",
+    "de": "es ist kein Monitor angeschlossen",
+    "fr": "aucun moniteur n'est branché"
+  },
+  "no problems found": {
+    "ru": "проблем не найдено",
+    "es": "no se encontraron problemas",
+    "de": "keine Probleme gefunden",
+    "fr": "aucun problème trouvé"
+  },
+  "no subcommand given": {
+    "ru": "не указана подкоманда",
+    "es": "no se indicó ningún subcomando",
+    "de": "kein Unterbefehl angegeben",
+    "fr": "aucune sous-commande indiquée"
+  },
+  "no vendor ID": {
+    "ru": "без ID производителя",
+    "es": "sin ID de fabricante",
+    "de": "ohne Hersteller-ID",
+    "fr": "sans ID de fabricant"
+  },
+  "none (list: crtctl profiles; your own: crtctl profiles --new ID)": {
+    "ru": "нет (список: crtctl profiles; свой: crtctl profiles --new ID)",
+    "es": "ninguno (lista: crtctl profiles; el tuyo: crtctl profiles --new ID)",
+    "de": "keines (Liste: crtctl profiles; eigenes: crtctl profiles --new ID)",
+    "fr": "aucun (liste : crtctl profiles ; le vôtre : crtctl profiles --new ID)"
+  },
+  "none: the driver could not read the EDID, so almost no modes are available": {
+    "ru": "нет: драйвер не смог прочитать EDID, поэтому режимов почти нет",
+    "es": "ninguno: el controlador no pudo leer el EDID, por eso casi no hay modos",
+    "de": "keines: Der Treiber konnte das EDID nicht lesen, daher gibt es kaum Modi",
+    "fr": "aucun : le pilote n'a pas pu lire l'EDID, il n'y a donc presque aucun mode"
+  },
+  "not an EDID: header is missing": {
+    "ru": "это не EDID: нет заголовка",
+    "es": "no es un EDID: falta la cabecera",
+    "de": "kein EDID: der Kopf fehlt",
+    "fr": "ce n'est pas un EDID : l'en-tête est absent"
+  },
+  "not connected": {
+    "ru": "не подключён",
+    "es": "sin conectar",
+    "de": "nicht verbunden",
+    "fr": "non branché"
+  },
+  "not read: %s": {
+    "ru": "не прочитан: %s",
+    "es": "no leído: %s",
+    "de": "nicht gelesen: %s",
+    "fr": "non lu : %s"
+  },
+  "not verified": {
+    "ru": "не проверено",
+    "es": "sin verificar",
+    "de": "nicht überprüft",
+    "fr": "non vérifié"
+  },
+  "nothing is connected: give --lanes and --rate yourself": {
+    "ru": "ничего не подключено: укажи --lanes и --rate сам",
+    "es": "no hay nada conectado: indica --lanes y --rate tú mismo",
+    "de": "nichts angeschlossen: gib --lanes und --rate selbst an",
+    "fr": "rien n'est branché : indiquez vous-même --lanes et --rate"
+  },
+  "only the DisplayPort link forcing": {
+    "ru": "только фиксацию канала DisplayPort",
+    "es": "solo el forzado del enlace DisplayPort",
+    "de": "nur das Festlegen der DisplayPort-Verbindung",
+    "fr": "uniquement le forçage du lien DisplayPort"
+  },
+  "only the EDID": {
+    "ru": "только EDID",
+    "es": "solo el EDID",
+    "de": "nur das EDID",
+    "fr": "uniquement l'EDID"
+  },
+  "only until the next reboot (debugfs); nothing is written permanently": {
+    "ru": "только до перезагрузки (debugfs); навсегда ничего не записывается",
+    "es": "solo hasta el próximo reinicio (debugfs); no se guarda nada de forma permanente",
+    "de": "nur bis zum nächsten Neustart (debugfs); dauerhaft wird nichts geschrieben",
+    "fr": "seulement jusqu'au prochain redémarrage (debugfs) ; rien n'est écrit définitivement"
+  },
+  "out of limits": {
+    "ru": "вне пределов",
+    "es": "fuera de límites",
+    "de": "außerhalb der Grenzen",
+    "fr": "hors limites"
+  },
+  "output file (default: crtctl-CONNECTOR.bin)": {
+    "ru": "файл (по умолчанию crtctl-КОННЕКТОР.bin)",
+    "es": "archivo de salida (por defecto: crtctl-CONECTOR.bin)",
+    "de": "Ausgabedatei (Standard: crtctl-ANSCHLUSS.bin)",
+    "fr": "fichier de sortie (par défaut : crtctl-CONNECTEUR.bin)"
+  },
+  "output file (default: edid-CONNECTOR.bin)": {
+    "ru": "файл (по умолчанию edid-КОННЕКТОР.bin)",
+    "es": "archivo de salida (por defecto: edid-CONECTOR.bin)",
+    "de": "Ausgabedatei (Standard: edid-ANSCHLUSS.bin)",
+    "fr": "fichier de sortie (par défaut : edid-CONNECTEUR.bin)"
+  },
+  "pixel clock": {
+    "ru": "частота пикселей",
+    "es": "reloj de píxel",
+    "de": "Pixeltakt",
+    "fr": "fréquence pixel"
+  },
+  "pixel clock %.1f MHz exceeds the monitor bandwidth of %.0f MHz: the picture will be softer": {
+    "ru": "частота пикселей %.1f МГц выше полосы монитора %.0f МГц: картинка будет мягче",
+    "es": "el reloj de píxel de %.1f MHz supera el ancho de banda del monitor de %.0f MHz: la imagen será más suave",
+    "de": "Pixeltakt %.1f MHz übersteigt die Monitorbandbreite von %.0f MHz: das Bild wird weicher",
+    "fr": "la fréquence pixel de %.1f MHz dépasse la bande passante du moniteur de %.0f MHz : l'image sera plus douce"
+  },
+  "pixel clock %.2f MHz is above the limit of %.1f MHz (%s)": {
+    "ru": "частота пикселей %.2f МГц выше предела %.1f МГц (%s)",
+    "es": "el reloj de píxel de %.2f MHz supera el límite de %.1f MHz (%s)",
+    "de": "Pixeltakt %.2f MHz liegt über der Grenze von %.1f MHz (%s)",
+    "fr": "la fréquence pixel de %.2f MHz dépasse la limite de %.1f MHz (%s)"
+  },
+  "pixel clock limit (adapter), MHz": {
+    "ru": "предел частоты пикселей (переходник), МГц",
+    "es": "límite del reloj de píxel (adaptador), MHz",
+    "de": "Pixeltakt-Grenze (Adapter), MHz",
+    "fr": "limite de fréquence pixel (adaptateur), MHz"
+  },
+  "preferred": {
+    "ru": "основной",
+    "es": "preferido",
+    "de": "bevorzugt",
+    "fr": "préféré"
+  },
+  "profile %q not found (list: crtctl profiles)": {
+    "ru": "профиль %q не найден (список: crtctl profiles)",
+    "es": "no se encontró el perfil %q (lista: crtctl profiles)",
+    "de": "Profil %q nicht gefunden (Liste: crtctl profiles)",
+    "fr": "profil %q introuvable (liste : crtctl profiles)"
+  },
+  "profile %s": {
+    "ru": "профиль %s",
+    "es": "perfil %s",
+    "de": "Profil %s",
+    "fr": "profil %s"
+  },
+  "ranges from the monitor's EDID": {
+    "ru": "диапазоны из EDID монитора",
+    "es": "rangos del EDID del monitor",
+    "de": "Bereiche aus dem EDID des Monitors",
+    "fr": "plages issues de l'EDID du moniteur"
+  },
+  "re-probe (status=detect)": {
+    "ru": "повторный опрос (status=detect)",
+    "es": "nuevo sondeo (status=detect)",
+    "de": "erneute Abfrage (status=detect)",
+    "fr": "nouvelle détection (status=detect)"
+  },
+  "read the EDID straight from the monitor over DDC": {
+    "ru": "прочитать EDID прямо с монитора по DDC",
+    "es": "leer el EDID directamente del monitor por DDC",
+    "de": "das EDID direkt vom Monitor über DDC lesen",
+    "fr": "lire l'EDID directement depuis le moniteur via DDC"
+  },
+  "reading DPCD 0x%03x: %w": {
+    "ru": "чтение DPCD 0x%03x: %w",
+    "es": "leyendo DPCD 0x%03x: %w",
+    "de": "Lesen von DPCD 0x%03x: %w",
+    "fr": "lecture de DPCD 0x%03x : %w"
+  },
+  "rebuild the initramfs only for the running kernel (faster)": {
+    "ru": "пересобрать initramfs только для текущего ядра (быстрее)",
+    "es": "reconstruir el initramfs solo para el kernel en uso (más rápido)",
+    "de": "das initramfs nur für den laufenden Kernel neu bauen (schneller)",
+    "fr": "reconstruire l'initramfs uniquement pour le noyau en cours (plus rapide)"
+  },
+  "reduced blanking": {
+    "ru": "reduced blanking",
+    "es": "borrado reducido",
+    "de": "Reduced Blanking",
+    "fr": "suppression réduite"
+  },
+  "reduced blanking is meant for LCDs; a CRT may not complete the beam retrace in time": {
+    "ru": "reduced blanking рассчитан на ЖК; CRT может не успевать с обратным ходом луча",
+    "es": "el borrado reducido está pensado para LCD; un CRT puede no completar el retorno del haz a tiempo",
+    "de": "Reduced Blanking ist für LCDs gedacht; ein CRT schafft den Strahlrücklauf womöglich nicht rechtzeitig",
+    "fr": "la suppression réduite est conçue pour les LCD ; un CRT peut ne pas terminer le retour du faisceau à temps"
+  },
+  "refresh rate in %q: %w": {
+    "ru": "частота в %q: %w",
+    "es": "frecuencia en %q: %w",
+    "de": "Bildwiederholrate in %q: %w",
+    "fr": "fréquence dans %q : %w"
+  },
+  "refresh rate search step, Hz": {
+    "ru": "шаг подбора частоты, Гц",
+    "es": "paso de búsqueda de la frecuencia, Hz",
+    "de": "Schrittweite der Frequenzsuche, Hz",
+    "fr": "pas de recherche de la fréquence, Hz"
+  },
+  "requested": {
+    "ru": "указан",
+    "es": "solicitado",
+    "de": "angefordert",
+    "fr": "demandé"
+  },
+  "saved DPCD registers are corrupted": {
+    "ru": "сохранённые регистры DPCD повреждены",
+    "es": "los registros DPCD guardados están dañados",
+    "de": "gespeicherte DPCD-Register sind beschädigt",
+    "fr": "les registres DPCD enregistrés sont corrompus"
+  },
+  "seconds to confirm the new mode (set)": {
+    "ru": "секунд на подтверждение нового режима (set)",
+    "es": "segundos para confirmar el nuevo modo (set)",
+    "de": "Sekunden zum Bestätigen des neuen Modus (set)",
+    "fr": "secondes pour confirmer le nouveau mode (set)"
+  },
+  "service %s does not exist": {
+    "ru": "сервиса %s нет",
+    "es": "el servicio %s no existe",
+    "de": "Dienst %s existiert nicht",
+    "fr": "le service %s n'existe pas"
+  },
+  "show every timing formula": {
+    "ru": "показать все формулы таймингов",
+    "es": "mostrar todas las fórmulas de tiempos",
+    "de": "alle Timing-Formeln zeigen",
+    "fr": "afficher toutes les formules de timing"
+  },
+  "show what is connected: monitor, EDID, adapter, limits, current mode": {
+    "ru": "что подключено: монитор, EDID, переходник, пределы, текущий режим",
+    "es": "mostrar qué está conectado: monitor, EDID, adaptador, límites, modo actual",
+    "de": "zeigen, was angeschlossen ist: Monitor, EDID, Adapter, Grenzen, aktueller Modus",
+    "fr": "afficher ce qui est branché : moniteur, EDID, adaptateur, limites, mode actuel"
+  },
+  "softer picture (above bandwidth)": {
+    "ru": "мягче (выше полосы)",
+    "es": "imagen más suave (supera el ancho de banda)",
+    "de": "weicheres Bild (über der Bandbreite)",
+    "fr": "image plus douce (au-delà de la bande passante)"
+  },
+  "software replug (trigger_hotplug=0, then 1)": {
+    "ru": "программное переподключение (trigger_hotplug=0, затем 1)",
+    "es": "reconexión por software (trigger_hotplug=0 y luego 1)",
+    "de": "Software-Umstecken (trigger_hotplug=0, dann 1)",
+    "fr": "rebranchement logiciel (trigger_hotplug=0, puis 1)"
+  },
+  "the EDID in %s was built for %s, but %s is connected": {
+    "ru": "EDID в %s собран для %s, а подключён %s",
+    "es": "el EDID de %s se creó para %s, pero está conectado %s",
+    "de": "das EDID in %s wurde für %s erstellt, angeschlossen ist aber %s",
+    "fr": "l'EDID de %s a été créé pour %s, mais %s est branché"
+  },
+  "the EDID is in place, but the driver did not re-read it by any method; please report this output": {
+    "ru": "EDID подложен, но драйвер не перечитал его ни одним способом; пришли этот вывод разработчику",
+    "es": "el EDID está en su sitio, pero el controlador no lo releyó con ningún método; informa de esta salida",
+    "de": "das EDID ist bereit, aber der Treiber hat es mit keiner Methode neu eingelesen; bitte diese Ausgabe melden",
+    "fr": "l'EDID est en place, mais le pilote ne l'a relu par aucune méthode ; merci de signaler cette sortie"
+  },
+  "the installed EDID was made for «%s», but %s is connected": {
+    "ru": "установленный EDID собран для «%s», а подключён %s",
+    "es": "el EDID instalado se creó para «%s», pero está conectado %s",
+    "de": "das installierte EDID wurde für „%s“ erstellt, angeschlossen ist aber %s",
+    "fr": "l'EDID installé a été créé pour « %s », mais %s est branché"
+  },
+  "the largest one that fits with a 3 percent margin": {
+    "ru": "самый крупный, что проходит с запасом 3 процента",
+    "es": "el más grande que cabe con un margen del 3 por ciento",
+    "de": "der größte, der mit 3 Prozent Reserve passt",
+    "fr": "le plus grand qui passe avec une marge de 3 pour cent"
+  },
+  "the monitor limits are unknown: use --profile or --hmax/--vmax": {
+    "ru": "пределы монитора неизвестны: укажи --profile или --hmax/--vmax",
+    "es": "se desconocen los límites del monitor: usa --profile o --hmax/--vmax",
+    "de": "die Grenzen des Monitors sind unbekannt: nutze --profile oder --hmax/--vmax",
+    "fr": "les limites du moniteur sont inconnues : utilisez --profile ou --hmax/--vmax"
+  },
+  "the output has no mode %s (add it: crtctl kde add %s %s)": {
+    "ru": "у выхода нет режима %s (добавить: crtctl kde add %s %s)",
+    "es": "la salida no tiene el modo %s (añádelo: crtctl kde add %s %s)",
+    "de": "der Ausgang hat keinen Modus %s (hinzufügen: crtctl kde add %s %s)",
+    "fr": "la sortie n'a pas de mode %s (ajoutez-le : crtctl kde add %s %s)"
+  },
+  "there is no custom mode %q (there are %d)": {
+    "ru": "нет кастомного режима %q (всего их %d)",
+    "es": "no existe el modo personalizado %q (hay %d)",
+    "de": "es gibt keinen eigenen Modus %q (vorhanden: %d)",
+    "fr": "il n'y a pas de mode personnalisé %q (il y en a %d)"
+  },
+  "timing formula: auto (DMT, otherwise CVT), cvt, gtf": {
+    "ru": "формула таймингов: auto (DMT, иначе CVT), cvt, gtf",
+    "es": "fórmula de tiempos: auto (DMT; si no, CVT), cvt, gtf",
+    "de": "Timing-Formel: auto (DMT, sonst CVT), cvt, gtf",
+    "fr": "formule de timing : auto (DMT, sinon CVT), cvt, gtf"
+  },
+  "timing formula: auto, cvt, cvt-rb, gtf, dmt": {
+    "ru": "формула таймингов: auto, cvt, cvt-rb, gtf, dmt",
+    "es": "fórmula de tiempos: auto, cvt, cvt-rb, gtf, dmt",
+    "de": "Timing-Formel: auto, cvt, cvt-rb, gtf, dmt",
+    "fr": "formule de timing : auto, cvt, cvt-rb, gtf, dmt"
+  },
+  "timing formula: auto, cvt, gtf, dmt": {
+    "ru": "формула таймингов: auto, cvt, gtf, dmt",
+    "es": "fórmula de tiempos: auto, cvt, gtf, dmt",
+    "de": "Timing-Formel: auto, cvt, gtf, dmt",
+    "fr": "formule de timing : auto, cvt, gtf, dmt"
+  },
+  "too many modes: %d, at most %d fit": {
+    "ru": "слишком много режимов: %d, помещается не больше %d",
+    "es": "demasiados modos: %d, caben como máximo %d",
+    "de": "zu viele Modi: %d, höchstens %d passen",
+    "fr": "trop de modes : %d, %d au maximum peuvent tenir"
+  },
+  "try it until the next reboot": {
+    "ru": "проверить до перезагрузки",
+    "es": "probarlo hasta el próximo reinicio",
+    "de": "bis zum nächsten Neustart ausprobieren",
+    "fr": "l'essayer jusqu'au prochain redémarrage"
+  },
+  "undo everything crtctl installed for a connector": {
+    "ru": "откатить всё, что crtctl установил для коннектора",
+    "es": "deshacer todo lo que crtctl instaló para un conector",
+    "de": "alles rückgängig machen, was crtctl für einen Anschluss installiert hat",
+    "fr": "annuler tout ce que crtctl a installé pour un connecteur"
+  },
+  "unknown command %q": {
+    "ru": "неизвестная команда %q",
+    "es": "comando desconocido %q",
+    "de": "unbekannter Befehl %q",
+    "fr": "commande inconnue %q"
+  },
+  "unknown monitor": {
+    "ru": "неизвестный монитор",
+    "es": "monitor desconocido",
+    "de": "unbekannter Monitor",
+    "fr": "moniteur inconnu"
+  },
+  "unknown subcommand edid %q: read, show, build": {
+    "ru": "неизвестная подкоманда edid %q: read, show, build",
+    "es": "subcomando de edid desconocido %q: read, show, build",
+    "de": "unbekannter Unterbefehl edid %q: read, show, build",
+    "fr": "sous-commande edid inconnue %q : read, show, build"
+  },
+  "unknown subcommand kde %q: list, add, best, remove, set": {
+    "ru": "неизвестная подкоманда kde %q: list, add, best, remove, set",
+    "es": "subcomando de kde desconocido %q: list, add, best, remove, set",
+    "de": "unbekannter Unterbefehl kde %q: list, add, best, remove, set",
+    "fr": "sous-commande kde inconnue %q : list, add, best, remove, set"
+  },
+  "unknown subcommand link %q: show, force, remove": {
+    "ru": "неизвестная подкоманда link %q: show, force, remove",
+    "es": "subcomando de link desconocido %q: show, force, remove",
+    "de": "unbekannter Unterbefehl link %q: show, force, remove",
+    "fr": "sous-commande link inconnue %q : show, force, remove"
+  },
+  "unknown timing type %q": {
+    "ru": "неизвестный тип тайминга %q",
+    "es": "tipo de tiempos desconocido %q",
+    "de": "unbekannter Timing-Typ %q",
+    "fr": "type de timing inconnu %q"
+  },
+  "unknown timing type %q (auto, dmt, cvt, cvt-rb, gtf)": {
+    "ru": "неизвестный тип тайминга %q (auto, dmt, cvt, cvt-rb, gtf)",
+    "es": "tipo de tiempos desconocido %q (auto, dmt, cvt, cvt-rb, gtf)",
+    "de": "unbekannter Timing-Typ %q (auto, dmt, cvt, cvt-rb, gtf)",
+    "fr": "type de timing inconnu %q (auto, dmt, cvt, cvt-rb, gtf)"
+  },
+  "unknown: it does not send an EDID, and the kernel uses a replaced one": {
+    "ru": "неизвестен: он не отдаёт EDID, а ядро использует подменённый",
+    "es": "desconocido: no envía EDID y el kernel usa uno sustituido",
+    "de": "unbekannt: Er sendet kein EDID, und der Kernel nutzt ein ersetztes",
+    "fr": "inconnu : il n'envoie pas d'EDID et le noyau en utilise un remplacé"
+  },
+  "unknown: neither the kernel nor crtctl could read its EDID": {
+    "ru": "неизвестен: ни ядро, ни crtctl не смогли прочитать его EDID",
+    "es": "desconocido: ni el kernel ni crtctl pudieron leer su EDID",
+    "de": "unbekannt: Weder der Kernel noch crtctl konnten sein EDID lesen",
+    "fr": "inconnu : ni le noyau ni crtctl n'ont pu lire son EDID"
+  },
+  "unknown: use --profile or --hmax/--vmax": {
+    "ru": "неизвестны: укажи --profile или --hmax/--vmax",
+    "es": "desconocidos: usa --profile o --hmax/--vmax",
+    "de": "unbekannt: nutze --profile oder --hmax/--vmax",
+    "fr": "inconnues : utilisez --profile ou --hmax/--vmax"
+  },
+  "value": {
+    "ru": "значение",
+    "es": "valor",
+    "de": "Wert",
+    "fr": "valeur"
+  },
+  "vertical": {
+    "ru": "кадровая",
+    "es": "vertical",
+    "de": "vertikal",
+    "fr": "verticale"
+  },
+  "vertical %.2f Hz is above the limit of %.0f Hz (%s)": {
+    "ru": "кадровая %.2f Гц выше предела %.0f Гц (%s)",
+    "es": "la vertical de %.2f Hz supera el límite de %.0f Hz (%s)",
+    "de": "Vertikalfrequenz %.2f Hz liegt über der Grenze von %.0f Hz (%s)",
+    "fr": "la verticale de %.2f Hz dépasse la limite de %.0f Hz (%s)"
+  },
+  "vertical %.2f Hz is below the limit of %.0f Hz (%s)": {
+    "ru": "кадровая %.2f Гц ниже предела %.0f Гц (%s)",
+    "es": "la vertical de %.2f Hz está por debajo del límite de %.0f Hz (%s)",
+    "de": "Vertikalfrequenz %.2f Hz liegt unter der Grenze von %.0f Hz (%s)",
+    "fr": "la verticale de %.2f Hz est sous la limite de %.0f Hz (%s)"
+  },
+  "what is wrong and how to fix it": {
+    "ru": "что не так и как это исправить",
+    "es": "qué falla y cómo arreglarlo",
+    "de": "was falsch ist und wie man es behebt",
+    "fr": "ce qui ne va pas et comment le corriger"
+  },
+  "which refresh rates are really possible": {
+    "ru": "какие частоты реально доступны",
+    "es": "qué frecuencias son realmente posibles",
+    "de": "welche Bildwiederholraten wirklich möglich sind",
+    "fr": "quelles fréquences sont vraiment possibles"
+  },
+  "width in %q: %w": {
+    "ru": "ширина в %q: %w",
+    "es": "ancho en %q: %w",
+    "de": "Breite in %q: %w",
+    "fr": "largeur dans %q : %w"
+  },
+  "within limits": {
+    "ru": "в пределах",
+    "es": "dentro de los límites",
+    "de": "innerhalb der Grenzen",
+    "fr": "dans les limites"
+  },
+  "writing %s: %w (is debugfs mounted? the kernel rejects a broken EDID)": {
+    "ru": "запись %s: %w (смонтирован ли debugfs? ядро отвергает битый EDID)",
+    "es": "escribiendo %s: %w (¿está montado debugfs? el kernel rechaza un EDID dañado)",
+    "de": "Schreiben von %s: %w (ist debugfs eingehängt? der Kernel lehnt ein defektes EDID ab)",
+    "fr": "écriture de %s : %w (debugfs est-il monté ? le noyau refuse un EDID défectueux)"
+  }
+}

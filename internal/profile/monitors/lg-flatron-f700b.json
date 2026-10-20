@@ -1,0 +1,21 @@
+{
+  "id": "lg-flatron-f700b",
+  "name": "LG Flatron F700B, 17\"",
+  "hmin_khz": 30,
+  "hmax_khz": 70,
+  "vmin_hz": 50,
+  "vmax_hz": 160,
+  "bandwidth_mhz": 110,
+  "max_res": "1280x1024@66",
+  "notes": "Recommended mode 1024x768@85. 1280x1024@85 is impossible (needs 91 kHz). Do not confuse with the F700P (30–96 kHz).",
+  "notes_l10n": {
+    "ru": "Рекомендуемый режим 1024x768@85. 1280x1024@85 недоступен (нужно 91 кГц). Не путать с F700P (30–96 кГц).",
+    "es": "Modo recomendado 1024x768@85. 1280x1024@85 es imposible (requiere 91 kHz). No confundir con el F700P (30–96 kHz).",
+    "de": "Empfohlener Modus 1024x768@85. 1280x1024@85 ist nicht möglich (braucht 91 kHz). Nicht mit dem F700P (30–96 kHz) verwechseln.",
+    "fr": "Mode recommandé 1024x768@85. 1280x1024@85 est impossible (il faut 91 kHz). Ne pas confondre avec le F700P (30–96 kHz)."
+  },
+  "sources": [
+    "https://www.hwupgrade.it/forum/archive/index.php/t-1286496.html",
+    "service manual FB770G-EA"
+  ]
+}

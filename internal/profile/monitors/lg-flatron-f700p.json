@@ -1,0 +1,19 @@
+{
+  "id": "lg-flatron-f700p",
+  "name": "LG Flatron F700P, 17\"",
+  "hmin_khz": 30,
+  "hmax_khz": 96,
+  "vmin_hz": 50,
+  "vmax_hz": 160,
+  "max_res": "1600x1200@75",
+  "notes": "Values from a forum post; official datasheet not verified.",
+  "notes_l10n": {
+    "ru": "Данные с форума, официальный паспорт не проверен.",
+    "es": "Valores de un foro; hoja de datos oficial no verificada.",
+    "de": "Werte aus einem Forum; offizielles Datenblatt nicht geprüft.",
+    "fr": "Valeurs issues d'un forum ; fiche technique officielle non vérifiée."
+  },
+  "sources": [
+    "https://www.hwupgrade.it/forum/archive/index.php/t-1368532.html"
+  ]
+}

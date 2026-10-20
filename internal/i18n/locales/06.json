@@ -1,0 +1,416 @@
+{
+  "%s already has a Device section for the NVIDIA driver; add these lines to it and restart X:": {
+    "ru": "в %s уже есть секция Device для драйвера NVIDIA; добавь в неё эти строки и перезапусти X:",
+    "es": "%s ya tiene una sección Device para el controlador NVIDIA; añade estas líneas y reinicia X:",
+    "de": "%s hat bereits einen Device-Abschnitt für den NVIDIA-Treiber; füge diese Zeilen dort ein und starte X neu:",
+    "fr": "%s contient déjà une section Device pour le pilote NVIDIA ; ajoutez-y ces lignes et redémarrez X :"
+  },
+  "--via edid needs root: sudo crtctl try %s %s --via edid": {
+    "ru": "--via edid требует root: sudo crtctl try %s %s --via edid",
+    "es": "--via edid necesita root: sudo crtctl try %s %s --via edid",
+    "de": "--via edid braucht root: sudo crtctl try %s %s --via edid",
+    "fr": "--via edid nécessite root : sudo crtctl try %s %s --via edid"
+  },
+  "NVIDIA on X11: could not find which X output is %s (is xrandr installed?). To pass the EDID to the X driver, add Option \"CustomEDID\" \"OUTPUT:FILE\" to the Device section; the output name is shown by xrandr.": {
+    "ru": "NVIDIA на X11: не удалось понять, какой выход X соответствует %s (установлен ли xrandr?). Чтобы передать EDID X-драйверу, добавь в секцию Device Option \"CustomEDID\" \"ВЫХОД:ФАЙЛ\"; имя выхода показывает xrandr.",
+    "es": "NVIDIA en X11: no se pudo saber qué salida de X es %s (¿está instalado xrandr?). Para pasar el EDID al controlador X, añade Option \"CustomEDID\" \"SALIDA:ARCHIVO\" a la sección Device; xrandr muestra el nombre de la salida.",
+    "de": "NVIDIA unter X11: Es ließ sich nicht ermitteln, welcher X-Ausgang %s ist (ist xrandr installiert?). Um das EDID an den X-Treiber zu geben, füge Option \"CustomEDID\" \"AUSGANG:DATEI\" in den Device-Abschnitt ein; den Ausgangsnamen zeigt xrandr.",
+    "fr": "NVIDIA sous X11 : impossible de savoir quelle sortie X correspond à %s (xrandr est-il installé ?). Pour transmettre l'EDID au pilote X, ajoutez Option \"CustomEDID\" \"SORTIE:FICHIER\" à la section Device ; xrandr affiche le nom de la sortie."
+  },
+  "NVIDIA on X11: the X driver reads the EDID by itself and ignores the kernel override, so crtctl apply and setup also pass the EDID to it through xorg.conf.d (log out and back in afterwards).": {
+    "ru": "NVIDIA на X11: X-драйвер читает EDID сам и не видит подмену в ядре, поэтому crtctl apply и setup передают ему EDID ещё и через xorg.conf.d (после этого выйди из сессии и зайди снова).",
+    "es": "NVIDIA en X11: el controlador X lee el EDID por su cuenta e ignora el del kernel, así que crtctl apply y setup también se lo pasan mediante xorg.conf.d (después cierra la sesión y vuelve a entrar).",
+    "de": "NVIDIA unter X11: Der X-Treiber liest das EDID selbst und ignoriert das Kernel-EDID, daher geben crtctl apply und setup es ihm zusätzlich über xorg.conf.d (danach ab- und wieder anmelden).",
+    "fr": "NVIDIA sous X11 : le pilote X lit l'EDID lui-même et ignore celui du noyau ; crtctl apply et setup le lui transmettent donc aussi via xorg.conf.d (déconnectez-vous puis reconnectez-vous ensuite)."
+  },
+  "No answer within %d seconds.": {
+    "ru": "Ответа нет %d с.",
+    "es": "Sin respuesta en %d segundos.",
+    "de": "Keine Antwort innerhalb von %d Sekunden.",
+    "fr": "Pas de réponse en %d secondes."
+  },
+  "The check did not work, so the modes will only appear after a reboot. Install anyway?": {
+    "ru": "Проверка не удалась, поэтому режимы появятся только после перезагрузки. Всё равно установить?",
+    "es": "La comprobación no funcionó, así que los modos solo aparecerán tras reiniciar. ¿Instalar de todos modos?",
+    "de": "Die Prüfung hat nicht funktioniert, daher erscheinen die Modi erst nach einem Neustart. Trotzdem installieren?",
+    "fr": "La vérification n'a pas fonctionné : les modes n'apparaîtront qu'après un redémarrage. Installer quand même ?"
+  },
+  "The driver does not report the new mode yet; check the picture and the display settings.": {
+    "ru": "Драйвер пока не сообщает о новом режиме; проверь картинку и настройки экрана.",
+    "es": "El controlador aún no informa del nuevo modo; revisa la imagen y la configuración de pantalla.",
+    "de": "Der Treiber meldet den neuen Modus noch nicht; prüfe das Bild und die Anzeigeeinstellungen.",
+    "fr": "Le pilote ne signale pas encore le nouveau mode ; vérifiez l'image et les paramètres d'affichage."
+  },
+  "The monitor now gets: %s": {
+    "ru": "Монитор сейчас получает: %s",
+    "es": "El monitor recibe ahora: %s",
+    "de": "Der Monitor bekommt jetzt: %s",
+    "fr": "Le moniteur reçoit maintenant : %s"
+  },
+  "X server configuration written to %s; log out and back in (or restart X) to apply it.": {
+    "ru": "Настройки X-сервера записаны в %s; чтобы они применились, выйди из сессии и зайди снова (или перезапусти X).",
+    "es": "Configuración del servidor X guardada en %s; cierra la sesión y vuelve a entrar (o reinicia X) para aplicarla.",
+    "de": "X-Server-Konfiguration nach %s geschrieben; ab- und wieder anmelden (oder X neu starten), damit sie gilt.",
+    "fr": "Configuration du serveur X écrite dans %s ; déconnectez-vous puis reconnectez-vous (ou redémarrez X) pour l'appliquer."
+  },
+  "[y/N, %d s]": {
+    "ru": "[д/Н, %d с]",
+    "es": "[s/N, %d s]",
+    "de": "[j/N, %d s]",
+    "fr": "[o/N, %d s]"
+  },
+  "a modeline needs a clock and 8 timing numbers: %q": {
+    "ru": "в modeline нужны частота и 8 чисел таймингов: %q",
+    "es": "un modeline necesita un reloj y 8 números de tiempos: %q",
+    "de": "eine Modeline braucht einen Takt und 8 Timing-Werte: %q",
+    "fr": "une modeline nécessite une fréquence et 8 valeurs de timing : %q"
+  },
+  "accept the default answer to every question; the check before installing still waits for your \"yes\" (add --no-test to skip it)": {
+    "ru": "на все вопросы ответ по умолчанию; проверка перед установкой всё равно ждёт твоего «да» (--no-test её пропускает)",
+    "es": "aceptar la respuesta predeterminada en cada pregunta; la comprobación antes de instalar sigue esperando tu «sí» (--no-test la omite)",
+    "de": "bei jeder Frage die Standardantwort nehmen; die Prüfung vor der Installation wartet trotzdem auf dein „ja“ (--no-test überspringt sie)",
+    "fr": "accepter la réponse par défaut à chaque question ; la vérification avant l'installation attend quand même votre « oui » (--no-test la saute)"
+  },
+  "add to the kernel parameters: %s": {
+    "ru": "добавь в параметры ядра: %s",
+    "es": "añade a los parámetros del kernel: %s",
+    "de": "füge zu den Kernelparametern hinzu: %s",
+    "fr": "ajoutez aux paramètres du noyau : %s"
+  },
+  "allow a mode outside the limits": {
+    "ru": "разрешить режим вне пределов",
+    "es": "permitir un modo fuera de los límites",
+    "de": "einen Modus außerhalb der Grenzen erlauben",
+    "fr": "autoriser un mode hors limites"
+  },
+  "analog output of the graphics card": {
+    "ru": "аналоговый выход видеокарты",
+    "es": "salida analógica de la tarjeta gráfica",
+    "de": "analoger Ausgang der Grafikkarte",
+    "fr": "sortie analogique de la carte graphique"
+  },
+  "bad number in the modeline: %q": {
+    "ru": "неверное число в modeline: %q",
+    "es": "número incorrecto en el modeline: %q",
+    "de": "ungültige Zahl in der Modeline: %q",
+    "fr": "nombre invalide dans la modeline : %q"
+  },
+  "bad pixel clock in the modeline: %q": {
+    "ru": "неверная частота пикселей в modeline: %q",
+    "es": "reloj de píxel incorrecto en el modeline: %q",
+    "de": "ungültiger Pixeltakt in der Modeline: %q",
+    "fr": "fréquence pixel invalide dans la modeline : %q"
+  },
+  "cautious assumption for an adapter without data; set the real limit with --pclk": {
+    "ru": "осторожная оценка для переходника без данных; реальный предел задаётся через --pclk",
+    "es": "estimación prudente para un adaptador sin datos; indica el límite real con --pclk",
+    "de": "vorsichtige Annahme für einen Adapter ohne Daten; die echte Grenze mit --pclk setzen",
+    "fr": "estimation prudente pour un adaptateur sans données ; indiquez la vraie limite avec --pclk"
+  },
+  "could not update the kernel parameters (%s): %w": {
+    "ru": "не удалось обновить параметры ядра (%s): %w",
+    "es": "no se pudieron actualizar los parámetros del kernel (%s): %w",
+    "de": "die Kernelparameter konnten nicht aktualisiert werden (%s): %w",
+    "fr": "impossible de mettre à jour les paramètres du noyau (%s) : %w"
+  },
+  "crtctl cannot change the boot configuration on this system automatically. Do it by hand:": {
+    "ru": "crtctl не может сам изменить настройки загрузки в этой системе. Сделай это вручную:",
+    "es": "crtctl no puede cambiar automáticamente la configuración de arranque en este sistema. Hazlo a mano:",
+    "de": "crtctl kann die Startkonfiguration auf diesem System nicht automatisch ändern. Mach es von Hand:",
+    "fr": "crtctl ne peut pas modifier automatiquement la configuration de démarrage sur ce système. Faites-le à la main :"
+  },
+  "crtctl setup — step-by-step CRT setup": {
+    "ru": "crtctl setup — пошаговая настройка CRT",
+    "es": "crtctl setup — configuración del CRT paso a paso",
+    "de": "crtctl setup – schrittweise CRT-Einrichtung",
+    "fr": "crtctl setup — configuration du CRT pas à pas"
+  },
+  "detect and set up the CRT step by step": {
+    "ru": "найти и настроить CRT по шагам",
+    "es": "detectar y configurar el CRT paso a paso",
+    "de": "den CRT erkennen und Schritt für Schritt einrichten",
+    "fr": "détecter et configurer le CRT pas à pas"
+  },
+  "enter the values by hand": {
+    "ru": "ввести значения вручную",
+    "es": "introducir los valores a mano",
+    "de": "Werte von Hand eingeben",
+    "fr": "saisir les valeurs à la main"
+  },
+  "exact timings instead of WxH@Hz, e.g. \"157.5 1280 1344 1504 1728 1024 1025 1028 1072 +hsync +vsync\"": {
+    "ru": "точные тайминги вместо ШxВ@Гц, например \"157.5 1280 1344 1504 1728 1024 1025 1028 1072 +hsync +vsync\"",
+    "es": "tiempos exactos en lugar de AnchoxAlto@Hz, p. ej. \"157.5 1280 1344 1504 1728 1024 1025 1028 1072 +hsync +vsync\"",
+    "de": "exakte Timings statt BxH@Hz, z. B. \"157.5 1280 1344 1504 1728 1024 1025 1028 1072 +hsync +vsync\"",
+    "fr": "timings exacts au lieu de LxH@Hz, par ex. \"157.5 1280 1344 1504 1728 1024 1025 1028 1072 +hsync +vsync\""
+  },
+  "fix the problem above first, then run crtctl setup again": {
+    "ru": "сначала устрани проблему выше, потом запусти crtctl setup ещё раз",
+    "es": "corrige primero el problema de arriba y vuelve a ejecutar crtctl setup",
+    "de": "behebe zuerst das Problem oben und starte dann crtctl setup erneut",
+    "fr": "corrigez d'abord le problème ci-dessus, puis relancez crtctl setup"
+  },
+  "give one mode, for example 1000x500@75": {
+    "ru": "укажи один режим, например 1000x500@75",
+    "es": "indica un modo, por ejemplo 1000x500@75",
+    "de": "gib einen Modus an, zum Beispiel 1000x500@75",
+    "fr": "indiquez un mode, par exemple 1000x500@75"
+  },
+  "graphics card DAC (typically 400 MHz)": {
+    "ru": "ЦАП видеокарты (обычно 400 МГц)",
+    "es": "DAC de la tarjeta gráfica (normalmente 400 MHz)",
+    "de": "DAC der Grafikkarte (meist 400 MHz)",
+    "fr": "DAC de la carte graphique (en général 400 MHz)"
+  },
+  "how to install permanently: boot (kernel parameter, works with Secure Boot) or service (debugfs at boot); default: automatic": {
+    "ru": "способ постоянной установки: boot (параметр ядра, работает с Secure Boot) или service (debugfs при загрузке); по умолчанию — автоматически",
+    "es": "cómo instalar de forma permanente: boot (parámetro del kernel, funciona con Secure Boot) o service (debugfs al arrancar); por defecto: automático",
+    "de": "wie dauerhaft installiert wird: boot (Kernelparameter, funktioniert mit Secure Boot) oder service (debugfs beim Start); Standard: automatisch",
+    "fr": "méthode d'installation permanente : boot (paramètre du noyau, fonctionne avec Secure Boot) ou service (debugfs au démarrage) ; par défaut : automatique"
+  },
+  "how to switch: kde, x11, sway, hyprland, edid (default: your session)": {
+    "ru": "через что переключать: kde, x11, sway, hyprland, edid (по умолчанию — твоя сессия)",
+    "es": "cómo cambiar: kde, x11, sway, hyprland, edid (por defecto: tu sesión)",
+    "de": "wie umgeschaltet wird: kde, x11, sway, hyprland, edid (Standard: deine Sitzung)",
+    "fr": "comment changer : kde, x11, sway, hyprland, edid (par défaut : votre session)"
+  },
+  "initramfs: %s, kernel parameters: %s": {
+    "ru": "initramfs: %s, параметры ядра: %s",
+    "es": "initramfs: %s, parámetros del kernel: %s",
+    "de": "initramfs: %s, Kernelparameter: %s",
+    "fr": "initramfs : %s, paramètres du noyau : %s"
+  },
+  "install it permanently with a boot service (the boot loader was not recognised)": {
+    "ru": "установить навсегда через сервис загрузки (загрузчик не распознан)",
+    "es": "instalarlo de forma permanente con un servicio de arranque (no se reconoció el gestor de arranque)",
+    "de": "dauerhaft über einen Startdienst installieren (der Bootloader wurde nicht erkannt)",
+    "fr": "l'installer définitivement avec un service de démarrage (le chargeur d'amorçage n'a pas été reconnu)"
+  },
+  "install it permanently: %s": {
+    "ru": "установить навсегда: %s",
+    "es": "instalarlo de forma permanente: %s",
+    "de": "dauerhaft installieren: %s",
+    "fr": "l'installer définitivement : %s"
+  },
+  "load the EDID until reboot and ask you to check the modes": {
+    "ru": "подложить EDID до перезагрузки и попросить проверить режимы",
+    "es": "cargar el EDID hasta reiniciar y pedirte que compruebes los modos",
+    "de": "das EDID bis zum Neustart laden und dich bitten, die Modi zu prüfen",
+    "fr": "charger l'EDID jusqu'au redémarrage et vous demander de vérifier les modes"
+  },
+  "look at any mode, with automatic undo": {
+    "ru": "посмотреть любой режим с автооткатом",
+    "es": "ver cualquier modo, con deshacer automático",
+    "de": "jeden Modus ansehen, mit automatischem Rückgängig",
+    "fr": "voir n'importe quel mode, avec annulation automatique"
+  },
+  "make sure the graphics driver can load these files at boot (include them in the initramfs if it loads from there): %s": {
+    "ru": "сделай так, чтобы видеодрайвер мог прочитать эти файлы при загрузке (добавь их в initramfs, если он грузится оттуда): %s",
+    "es": "asegúrate de que el controlador gráfico pueda cargar estos archivos al arrancar (inclúyelos en el initramfs si se carga desde allí): %s",
+    "de": "sorge dafür, dass der Grafiktreiber diese Dateien beim Start laden kann (nimm sie ins initramfs auf, falls er von dort lädt): %s",
+    "fr": "faites en sorte que le pilote graphique puisse charger ces fichiers au démarrage (incluez-les dans l'initramfs s'il se charge depuis celui-ci) : %s"
+  },
+  "no": {
+    "ru": "нет",
+    "es": "no",
+    "de": "nein",
+    "fr": "non"
+  },
+  "no output chosen; name it: crtctl setup CONNECTOR": {
+    "ru": "выход не выбран; укажи его: crtctl setup КОННЕКТОР",
+    "es": "no se eligió ninguna salida; indícala: crtctl setup CONECTOR",
+    "de": "kein Ausgang gewählt; gib ihn an: crtctl setup ANSCHLUSS",
+    "fr": "aucune sortie choisie ; indiquez-la : crtctl setup CONNECTEUR"
+  },
+  "no profile chosen; run again with --profile ID or --hmax/--vmax": {
+    "ru": "профиль не выбран; запусти снова с --profile ID или --hmax/--vmax",
+    "es": "no se eligió ningún perfil; vuelve a ejecutar con --profile ID o --hmax/--vmax",
+    "de": "kein Profil gewählt; erneut mit --profile ID oder --hmax/--vmax starten",
+    "fr": "aucun profil choisi ; relancez avec --profile ID ou --hmax/--vmax"
+  },
+  "not possible here (debugfs is closed, usually because of Secure Boot); the modes appear after the reboot": {
+    "ru": "здесь невозможна (debugfs закрыт, обычно из-за Secure Boot); режимы появятся после перезагрузки",
+    "es": "no es posible aquí (debugfs está cerrado, normalmente por Secure Boot); los modos aparecerán tras reiniciar",
+    "de": "hier nicht möglich (debugfs ist gesperrt, meist wegen Secure Boot); die Modi erscheinen nach dem Neustart",
+    "fr": "impossible ici (debugfs est fermé, généralement à cause de Secure Boot) ; les modes apparaîtront après le redémarrage"
+  },
+  "offer to keep the DisplayPort link at the adapter's maximum": {
+    "ru": "предложить держать канал DisplayPort на максимуме переходника",
+    "es": "ofrecer mantener el enlace DisplayPort al máximo del adaptador",
+    "de": "anbieten, die DisplayPort-Verbindung auf dem Maximum des Adapters zu halten",
+    "fr": "proposer de maintenir le lien DisplayPort au maximum de l'adaptateur"
+  },
+  "only show what would be done; changes nothing and needs no root": {
+    "ru": "только показать, что будет сделано; ничего не меняет и не требует root",
+    "es": "solo mostrar lo que se haría; no cambia nada y no necesita root",
+    "de": "nur zeigen, was getan würde; ändert nichts und braucht kein root",
+    "fr": "afficher seulement ce qui serait fait ; ne modifie rien et ne nécessite pas root"
+  },
+  "plug in the CRT and run this: detects everything and sets it up step by step": {
+    "ru": "подключи CRT и запусти: сам всё определит и настроит по шагам",
+    "es": "conecta el CRT y ejecuta esto: lo detecta todo y lo configura paso a paso",
+    "de": "CRT anschließen und starten: erkennt alles und richtet es Schritt für Schritt ein",
+    "fr": "branchez le CRT et lancez ceci : détecte tout et configure pas à pas"
+  },
+  "remove drm.edid_firmware from the kernel parameters": {
+    "ru": "убери drm.edid_firmware из параметров ядра",
+    "es": "quita drm.edid_firmware de los parámetros del kernel",
+    "de": "entferne drm.edid_firmware aus den Kernelparametern",
+    "fr": "retirez drm.edid_firmware des paramètres du noyau"
+  },
+  "run crtctl try without sudo: it talks to your desktop session (or use --via edid with sudo)": {
+    "ru": "запускай crtctl try без sudo: он работает с твоей сессией (или --via edid через sudo)",
+    "es": "ejecuta crtctl try sin sudo: se comunica con tu sesión de escritorio (o usa --via edid con sudo)",
+    "de": "starte crtctl try ohne sudo: es spricht mit deiner Desktop-Sitzung (oder nutze --via edid mit sudo)",
+    "fr": "lancez crtctl try sans sudo : il communique avec votre session (ou utilisez --via edid avec sudo)"
+  },
+  "seconds to keep the mode before going back, unless you press Enter": {
+    "ru": "сколько секунд держать режим до возврата, если не нажать Enter",
+    "es": "segundos que se mantiene el modo antes de volver, salvo que pulses Intro",
+    "de": "Sekunden, die der Modus bleibt, bevor zurückgeschaltet wird, außer du drückst Enter",
+    "fr": "secondes pendant lesquelles le mode reste avant le retour, sauf si vous appuyez sur Entrée"
+  },
+  "show any resolution and refresh rate right now, with automatic undo": {
+    "ru": "сразу показать любое разрешение и частоту с автооткатом",
+    "es": "mostrar ahora cualquier resolución y frecuencia, con deshacer automático",
+    "de": "jede Auflösung und Bildwiederholrate sofort zeigen, mit automatischem Rückgängig",
+    "fr": "afficher immédiatement n'importe quelle résolution et fréquence, avec annulation automatique"
+  },
+  "single-link TMDS: drivers allow at most 165 MHz towards a VGA converter": {
+    "ru": "одноканальный TMDS: драйверы дают переходнику на VGA не больше 165 МГц",
+    "es": "TMDS de enlace simple: los controladores permiten como máximo 165 MHz hacia un convertidor VGA",
+    "de": "Single-Link-TMDS: Treiber erlauben zu einem VGA-Wandler höchstens 165 MHz",
+    "fr": "TMDS simple lien : les pilotes autorisent au plus 165 MHz vers un convertisseur VGA"
+  },
+  "skip the check before installing": {
+    "ru": "пропустить проверку перед установкой",
+    "es": "omitir la comprobación antes de instalar",
+    "de": "die Prüfung vor der Installation überspringen",
+    "fr": "passer la vérification avant l'installation"
+  },
+  "skip the check before installing (debugfs is closed)": {
+    "ru": "пропустить проверку перед установкой (debugfs закрыт)",
+    "es": "omitir la comprobación antes de instalar (debugfs está cerrado)",
+    "de": "die Prüfung vor der Installation überspringen (debugfs ist gesperrt)",
+    "fr": "passer la vérification avant l'installation (debugfs est fermé)"
+  },
+  "skipped (--no-test)": {
+    "ru": "пропущено (--no-test)",
+    "es": "omitido (--no-test)",
+    "de": "übersprungen (--no-test)",
+    "fr": "ignoré (--no-test)"
+  },
+  "sway does not show output %s": {
+    "ru": "sway не видит выход %s",
+    "es": "sway no muestra la salida %s",
+    "de": "sway zeigt den Ausgang %s nicht",
+    "fr": "sway n'affiche pas la sortie %s"
+  },
+  "the X server refused the mode (%v). With the NVIDIA driver add Option \"ModeValidation\" \"AllowNonEdidModes\" to xorg.conf": {
+    "ru": "X-сервер отклонил режим (%v). С драйвером NVIDIA добавь Option \"ModeValidation\" \"AllowNonEdidModes\" в xorg.conf",
+    "es": "el servidor X rechazó el modo (%v). Con el controlador NVIDIA añade Option \"ModeValidation\" \"AllowNonEdidModes\" a xorg.conf",
+    "de": "der X-Server hat den Modus abgelehnt (%v). Mit dem NVIDIA-Treiber Option \"ModeValidation\" \"AllowNonEdidModes\" in xorg.conf eintragen",
+    "fr": "le serveur X a refusé le mode (%v). Avec le pilote NVIDIA, ajoutez Option \"ModeValidation\" \"AllowNonEdidModes\" à xorg.conf"
+  },
+  "the horizontal frequency is required": {
+    "ru": "строчная частота обязательна",
+    "es": "la frecuencia horizontal es obligatoria",
+    "de": "die Horizontalfrequenz ist erforderlich",
+    "fr": "la fréquence horizontale est obligatoire"
+  },
+  "the kernel parameters were not updated as expected (%s); check the boot loader configuration": {
+    "ru": "параметры ядра обновились не так, как ожидалось (%s); проверь настройки загрузчика",
+    "es": "los parámetros del kernel no se actualizaron como se esperaba (%s); revisa la configuración del gestor de arranque",
+    "de": "die Kernelparameter wurden nicht wie erwartet aktualisiert (%s); prüfe die Bootloader-Konfiguration",
+    "fr": "les paramètres du noyau n'ont pas été mis à jour comme prévu (%s) ; vérifiez la configuration du chargeur d'amorçage"
+  },
+  "the mode is outside the limits; add --force if you are sure": {
+    "ru": "режим вне пределов; добавь --force, если уверен",
+    "es": "el modo está fuera de los límites; añade --force si estás seguro",
+    "de": "der Modus liegt außerhalb der Grenzen; füge --force hinzu, wenn du sicher bist",
+    "fr": "le mode est hors limites ; ajoutez --force si vous êtes sûr"
+  },
+  "the modeline timings are not in increasing order: %q": {
+    "ru": "тайминги в modeline идут не по возрастанию: %q",
+    "es": "los tiempos del modeline no están en orden creciente: %q",
+    "de": "die Timings der Modeline sind nicht aufsteigend: %q",
+    "fr": "les timings de la modeline ne sont pas croissants : %q"
+  },
+  "the monitor does not tell its limits; run without --dry-run to choose a profile, or add --profile ID": {
+    "ru": "монитор не сообщает свои пределы; запусти без --dry-run, чтобы выбрать профиль, или добавь --profile ID",
+    "es": "el monitor no informa de sus límites; ejecuta sin --dry-run para elegir un perfil, o añade --profile ID",
+    "de": "der Monitor nennt seine Grenzen nicht; starte ohne --dry-run, um ein Profil zu wählen, oder füge --profile ID hinzu",
+    "fr": "le moniteur n'indique pas ses limites ; lancez sans --dry-run pour choisir un profil, ou ajoutez --profile ID"
+  },
+  "this command needs root, and sudo was not found: run it as root": {
+    "ru": "этой команде нужен root, а sudo не найден: запусти её от root",
+    "es": "este comando necesita root y no se encontró sudo: ejecútalo como root",
+    "de": "dieser Befehl braucht root, und sudo wurde nicht gefunden: als root ausführen",
+    "fr": "cette commande nécessite root, et sudo est introuvable : lancez-la en root"
+  },
+  "this desktop cannot switch to custom modes by itself; try it through a temporary EDID: sudo crtctl try %s %s --via edid": {
+    "ru": "этот рабочий стол сам не умеет включать свои режимы; попробуй через временный EDID: sudo crtctl try %s %s --via edid",
+    "es": "este escritorio no puede activar modos personalizados por sí mismo; pruébalo con un EDID temporal: sudo crtctl try %s %s --via edid",
+    "de": "dieser Desktop kann eigene Modi nicht selbst aktivieren; versuche es über ein temporäres EDID: sudo crtctl try %s %s --via edid",
+    "fr": "ce bureau ne sait pas activer seul des modes personnalisés ; essayez via un EDID temporaire : sudo crtctl try %s %s --via edid"
+  },
+  "this system does not use systemd; to keep the link forced, run this at every boot (for example from rc.local): echo \"%s\" > %s": {
+    "ru": "система без systemd; чтобы канал оставался зафиксированным, выполняй при каждой загрузке (например, из rc.local): echo \"%s\" > %s",
+    "es": "este sistema no usa systemd; para mantener el enlace forzado, ejecuta esto en cada arranque (por ejemplo desde rc.local): echo \"%s\" > %s",
+    "de": "dieses System nutzt kein systemd; damit die Verbindung festgelegt bleibt, führe dies bei jedem Start aus (z. B. aus rc.local): echo \"%s\" > %s",
+    "fr": "ce système n'utilise pas systemd ; pour garder le lien forcé, lancez ceci à chaque démarrage (par exemple depuis rc.local) : echo \"%s\" > %s"
+  },
+  "timing formula: auto (DMT, otherwise CVT), cvt, gtf, dmt": {
+    "ru": "формула таймингов: auto (DMT, иначе CVT), cvt, gtf, dmt",
+    "es": "fórmula de tiempos: auto (DMT; si no, CVT), cvt, gtf, dmt",
+    "de": "Timing-Formel: auto (DMT, sonst CVT), cvt, gtf, dmt",
+    "fr": "formule de timing : auto (DMT, sinon CVT), cvt, gtf, dmt"
+  },
+  "unknown": {
+    "ru": "неизвестно",
+    "es": "desconocido",
+    "de": "unbekannt",
+    "fr": "inconnu"
+  },
+  "unknown install method %q (boot, service)": {
+    "ru": "неизвестный способ установки %q (boot, service)",
+    "es": "método de instalación desconocido %q (boot, service)",
+    "de": "unbekannte Installationsmethode %q (boot, service)",
+    "fr": "méthode d'installation inconnue %q (boot, service)"
+  },
+  "unknown method %q: kde, x11, sway, hyprland, edid": {
+    "ru": "неизвестный способ %q: kde, x11, sway, hyprland, edid",
+    "es": "método desconocido %q: kde, x11, sway, hyprland, edid",
+    "de": "unbekannte Methode %q: kde, x11, sway, hyprland, edid",
+    "fr": "méthode inconnue %q : kde, x11, sway, hyprland, edid"
+  },
+  "unknown under sudo": {
+    "ru": "неизвестна под sudo",
+    "es": "desconocida con sudo",
+    "de": "unter sudo unbekannt",
+    "fr": "inconnue sous sudo"
+  },
+  "updated %s": {
+    "ru": "обновлён %s",
+    "es": "actualizado %s",
+    "de": "%s aktualisiert",
+    "fr": "%s mis à jour"
+  },
+  "would create profile %s from the monitor's EDID": {
+    "ru": "будет создан профиль %s по EDID монитора",
+    "es": "se crearía el perfil %s a partir del EDID del monitor",
+    "de": "würde das Profil %s aus dem EDID des Monitors erstellen",
+    "fr": "le profil %s serait créé à partir de l'EDID du moniteur"
+  },
+  "xrandr does not show an output for %s": {
+    "ru": "xrandr не показывает выход для %s",
+    "es": "xrandr no muestra ninguna salida para %s",
+    "de": "xrandr zeigt keinen Ausgang für %s",
+    "fr": "xrandr n'affiche aucune sortie pour %s"
+  },
+  "yes": {
+    "ru": "да",
+    "es": "sí",
+    "de": "ja",
+    "fr": "oui"
+  }
+}

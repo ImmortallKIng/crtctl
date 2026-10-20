@@ -1,0 +1,21 @@
+{
+  "id": "generic-vga-31k",
+  "name": "Plain VGA monitor (31.5 kHz only)",
+  "name_l10n": {
+    "ru": "Обычный VGA-монитор (только 31.5 кГц)",
+    "es": "Monitor VGA básico (solo 31,5 kHz)",
+    "de": "Einfacher VGA-Monitor (nur 31,5 kHz)",
+    "fr": "Moniteur VGA simple (31,5 kHz uniquement)"
+  },
+  "hmin_khz": 31,
+  "hmax_khz": 32,
+  "vmin_hz": 50,
+  "vmax_hz": 75,
+  "notes": "The oldest VGA monitors: only 640x480 and 720x400. Check against your monitor datasheet.",
+  "notes_l10n": {
+    "ru": "Самые старые VGA-мониторы: только 640x480 и 720x400. Сверь с паспортом своего монитора.",
+    "es": "Los monitores VGA más antiguos: solo 640x480 y 720x400. Compruébalo con la hoja de datos de tu monitor.",
+    "de": "Die ältesten VGA-Monitore: nur 640x480 und 720x400. Mit dem Datenblatt deines Monitors abgleichen.",
+    "fr": "Les plus anciens moniteurs VGA : 640x480 et 720x400 seulement. À vérifier avec la fiche technique de votre moniteur."
+  }
+}

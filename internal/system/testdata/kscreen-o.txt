@@ -1,0 +1,55 @@
+[01;32mOutput: [0;0m1 HDMI-A-1 9109e6da-05eb-4f65-9374-82659f9ce111
+	[01;31mdisabled[0;0m
+	[01;32mconnected[0;0m
+	[01;31mpriority 2[0;0m
+	[01;33mHDMI[0;0m
+	[01;33mreplication source:[0;0m0
+	[01;34mModes: [0;0m 1:1280x720@60.00!  2:4096x2160@60.00  3:4096x2160@59.94  4:4096x2160@50.00  5:4096x2160@30.00  6:4096x2160@29.97  7:4096x2160@25.00  8:4096x2160@24.00  9:4096x2160@23.98  10:3840x2160@60.00  11:3840x2160@59.94  12:3840x2160@50.00  13:3840x2160@30.00  14:3840x2160@29.97  15:3840x2160@25.00  16:3840x2160@24.00  17:3840x2160@23.98  18:1920x1080@60.00  19:1920x1080@59.94  20:1920x1080@50.00  21:1600x1200@60.00  22:1680x1050@59.88  23:1400x1050@59.95  24:1280x1024@75.03  25:1280x1024@60.02  26:1440x900@59.90  27:1280x960@60.00  28:1366x768@59.79  29:1360x768@60.01  30:1280x800@59.91  31:1280x768@59.87  32:1280x720@60.00  33:1280x720@59.94  34:1280x720@50.00  35:1024x768@75.03  36:1024x768@70.07  37:1024x768@60.00  38:800x600@60.32  39:720x576@50.00  40:720x576@50.00  41:720x480@60.00  42:720x480@60.00  43:720x480@59.94  44:720x480@59.94  45:720x480@59.94  46:640x480@60.00  47:640x480@59.94  48:2560x1600@59.99  49:1920x1200@59.88  50:3200x1800@59.96  51:2880x1620@59.96  52:[01;32m2560x1440@59.96*[0;0m  53:1600x900@59.95  54:1368x768@59.88  55:768x576@49.81  56:960x720@49.74  57:1024x768@49.98 
+[01;33m	Custom modes:[0;0m
+		0: 768x576@49.81
+		1: 960x720@49.74
+		2: 1024x768@49.98
+[01;33m	Geometry: [0;0m-2560,0 2560x1440
+[01;33m	Scale: [0;0m1
+[01;33m	Rotation: [0;0m1
+[01;33m	Overscan: [0;0m0
+[01;33m	Vrr: [0;0mincapable
+[01;33m	RgbRange: [0;0mAutomatic
+[01;33m	HDR: [0;0mincapable
+[01;33m	Wide Color Gamut: [0;0mincapable
+[01;33m	ICC profile: [0;0mnone
+[01;33m	Color profile source: [0;0msRGB
+[01;33m	Color power preference: [0;0mprefer efficiency and performance
+[01;33m	Brightness control: [0;0msupported, set to 100% and dimming to 100%
+[01;33m	Color resolution: [0;0mautomatic (10), range: [8; 16] bits per color
+[01;33m	Allow EDR: [0;0munsupported
+[01;33m	Sharpness control: [0;0munsupported
+[01;33m	Automatic brightness: [0;0munsupported
+[01;33m	Auto Rotate Policy: [0;0mincapable
+[01;33m	Adaptive backlight modulation: [0;0munsupported
+[01;32mOutput: [0;0m2 DP-2 43f3f177-6937-471a-84f6-2aa148a6b0d7
+	[01;32menabled[0;0m
+	[01;32mconnected[0;0m
+	[01;32mpriority 1[0;0m
+	[01;33mDisplayPort[0;0m
+	[01;33mreplication source:[0;0m0
+	[01;34mModes: [0;0m 58:[01;32m1280x1024@85.02*[0;0m!  59:1600x1200@64.92  60:1600x1200@60.00  61:1280x1024@86.89  62:1280x1024@75.03  63:1280x1024@60.02  64:1280x960@89.91  65:1280x960@85.00  66:1152x864@99.87  67:1024x768@109.82  68:1024x768@85.00  69:1024x768@75.03  70:1024x768@60.00  71:800x600@139.84  72:800x600@85.06  73:800x600@75.00  74:800x600@60.32  75:640x480@85.01  76:640x480@75.00  77:640x480@60.00  78:640x480@59.94  79:720x400@70.08  80:1024x768@86.81  81:1280x800@59.81  82:1280x800@86.68  83:1280x720@59.85  84:1280x720@86.66 
+[01;33m	Custom modes:[0;0m None
+[01;33m	Geometry: [0;0m0,0 1280x1024
+[01;33m	Scale: [0;0m1
+[01;33m	Rotation: [0;0m1
+[01;33m	Overscan: [0;0m0
+[01;33m	Vrr: [0;0mincapable
+[01;33m	RgbRange: [0;0mAutomatic
+[01;33m	HDR: [0;0mincapable
+[01;33m	Wide Color Gamut: [0;0mincapable
+[01;33m	ICC profile: [0;0mnone
+[01;33m	Color profile source: [0;0msRGB
+[01;33m	Color power preference: [0;0mprefer efficiency and performance
+[01;33m	Brightness control: [0;0msupported, set to 100% and dimming to 100%
+[01;33m	Color resolution: [0;0mautomatic (10), range: [8; 16] bits per color
+[01;33m	Allow EDR: [0;0munsupported
+[01;33m	Sharpness control: [0;0munsupported
+[01;33m	Automatic brightness: [0;0munsupported
+[01;33m	Auto Rotate Policy: [0;0mincapable
+[01;33m	Adaptive backlight modulation: [0;0munsupported
